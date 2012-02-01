@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<title>Enzyme Viewer</title>
+<script src="js-unzip.js"></script>
+<script src="js-inflate.js"></script>
+<script src="jquery.js"></script>
+<script src="surfacedata.js"></script>
+<script src="chainsurface.js"></script>
+<script src="ply.js"></script>
+<script src="events.js"></script>
+
+<script src="GL.js"></script>
+<script src="GLSL_Shader.js"></script>
+<script src="Debug.js"></script>
+<script src="Helper.js"></script>
+<script src="glMatrix.js"></script>
+<script src="ModelLoader.js"></script>
+
+<script>
+	String.prototype.startsWith = function(str) 
+	{return (this.match("^"+str)==str)}
+
+	String.prototype.endsWith = function(str) 
+	{return (this.match(str+"$")==str)}	
+	
+	/******************************************************/
+	/* Attach windows loaded event listener
+	/******************************************************/
+	window.addEventListener("load", WindowLoaded, false);
+	
+	/******************************************************/
+	/* Global Variables
+	/******************************************************/
+	var Loading = true;
+	var gl = null;
+	var prevTime;
+	var CurrentShader = {};
+	var Time = 0;
+	var Surface;
+	var Selected;
+	
+	/******************************************************/
+	/* WindowLoaded
+	/*
+	/* This function is attached to the Window Loaded event
+	/* and is where we initialize our variables and then 
+	/* start the game loop
+	/******************************************************/
+	function WindowLoaded()
+	{
+		var canvas = document.getElementById("View");
+		gl = InitializeWebGL(canvas);
+		if(!gl)
+			return;
+		
+		// Attach event listeners
+		//window.addEventListener("onmousemove", OnMouseMove, false);
+		
+		Surface = new surfacedata("2487/decal-2487/", "decal-2487.xml", SurfaceLoaded);
+		
+		// Load the shaders
+		gl.loadShaders(["Enzyme"], "../WebGL/GLSL/"); 
+		CurrentShader = gl.getShader("Enzyme");
+
+		// Set initial time
+		var curDate = new Date().getTime();
+		prevTime = curDate;
+		
+		// Start the gameloop
+		Loop();
+		checkGLError();
+	}
+	
+	function SurfaceLoaded()
+	{
+		var list = document.getElementById("SurfaceData");
+		
+		for(var i = 0; i < Surface.chainsurfaces.length; i++)
+		{
+			var cs = Surface.chainsurfaces[i];
+			var new_cs = document.createElement('li');
+			new_cs.innerHTML = "<h2> ChainSurface </h2>";
+			var new_ul = document.createElement('ul');
+			if(cs.orig_surfacefile != null)
+			{
+				var new_file = document.createElement('li');
+				new_file.innerText = "Original: " + cs.orig_surfacefilename;
+				new_file.setAttribute("onclick", "Selected = Surface.chainsurfaces["+i+"].orig_surfacefile;");
+				new_file.setAttribute("style", "cursor:pointer;color:blue;");
+				new_ul.appendChild(new_file);
+			}
+			
+			if(cs.abstract_surfacefile != null)
+			{
+				var new_file = document.createElement('li');
+				new_file.innerText = "Abstract: " + cs.abstract_surfacefilename;
+				new_file.setAttribute("onclick", "Selected = Surface.chainsurfaces["+i+"].abstract_surfacefile;");
+				new_file.setAttribute("style", "cursor:pointer;color:blue;");
+				new_ul.appendChild(new_file);
+			}
+	
+			new_cs.appendChild(new_ul);
+			list.appendChild(new_cs);
+		}
+	}
+	
+	/******************************************************/
+	/* Loop
+	/*
+	/* This function is called every Frame and then updates
+	/* all the game objects and then draws them. It then
+	/* sets a timer so the function will call itself in 
+	/* another 60th of a second
+	/******************************************************/
+	function Loop()
+	{
+		Timer = setTimeout("Loop()", 1/30 * 1000);
+		var curTime = new Date().getTime();
+		var DeltaMiliSec = curTime - prevTime;
+		prevTime = curTime;
+		
+		Update(DeltaMiliSec);
+		Draw();
+		checkGLError();
+	}
+
+	/******************************************************/
+	/* Update
+	/*
+	/* Update movement
+	/******************************************************/
+	function Update(DeltaMiliSec) 
+	{
+	  	Time += DeltaMiliSec;
+	}
+	
+	/******************************************************/
+	/* Draw
+	/*
+	/* Draw the world.
+	/******************************************************/
+	var Light0_Enabled = true;
+	var Up = [0,1,0];
+	var CameraPos = [70, 0, 70];
+	var LookAt = [0,0,0];
+	function Draw()
+	{
+		gl.useProgram(CurrentShader.Program);
+		
+		gl.clearColor(0.0, 0.0, 0.0, 1.0);
+		//gl.clearDepth(1);
+		
+		gl.enable(gl.DEPTH_TEST);
+		gl.depthFunc(gl.LESS);
+		
+		// MWA - dont know why it isnt resizing correctly
+		gl.canvas.width = gl.canvas.offsetWidth;
+		gl.canvas.height = gl.canvas.offsetHeight;
+		gl.viewportWidth  = gl.canvas.offsetWidth;
+		gl.viewportHeight = gl.canvas.offsetHeight;
+		
+		gl.viewport(0, 0, gl.viewportWidth, gl.viewportHeight);
+		gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+		
+		gl.uniform1f(CurrentShader.Program.Time_Uniform, Time);
+		gl.uniform1i(CurrentShader.Program.Light0_Enabled_Uniform, Light0_Enabled);
+		if (Light0_Enabled) 
+		{
+			gl.uniform3fv(CurrentShader.Program.Light0_Position_Uniform, [CameraPos[0], CameraPos[1] + 100, CameraPos[2]]);
+			gl.uniform3fv(CurrentShader.Program.Light0_Color_Uniform, [1.0, 1.0, 1.0]);
+		}
+		
+		mat4.perspective(45, gl.viewportWidth / gl.viewportHeight, 2.0, 2000.0, gl.pMatrix);
+		
+		gl.uniform3fv(CurrentShader.Program.Camera_Position_Uniform, CameraPos);
+		mat4.lookAt(CameraPos, LookAt, Up, gl.vMatrix);	
+		mat4.identity(gl.mvMatrix);
+		setMatrixUniforms();
+		
+		if(Selected != null)
+			Selected.draw(CurrentShader.Program);
+	}	
+</script>
+
+</head>
+
+<body>
+	<canvas id="View" onmousemove="MouseMoved();" 
+		onmousedown="mouseDown = true;"
+		onmouseup="mouseDown = false;"
+		style="background-color:black; width:500px;height:600px; display: inline-block;"></canvas>
+	<div id="Selector" style="display:inline-block; vertical-align: top;">
+		<h1>Surface Data</h1>
+		<ul id="SurfaceData">
+		</ul>
+	</div>
+</body>
+
+</html>
