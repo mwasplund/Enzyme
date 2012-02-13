@@ -61,7 +61,7 @@
 		Surface = new surfacedata("2487/decal-2487/", "decal-2487.xml", SurfaceLoaded);
 		
 		// Load the shaders
-		gl.loadShaders(["Enzyme"], "../WebGL/GLSL/"); 
+		gl.loadShaders(["Enzyme"], ""); 
 		CurrentShader = gl.getShader("Enzyme");
 
 		// Set initial time
@@ -187,7 +187,7 @@
 </head>
 
 <body>
-	<canvas id="View" onmousemove="MouseMoved();" 
+	<canvas id="View" onmousemove="MouseMoved();" onmousewheel="MouseWheel();"
 		onmousedown="mouseDown = true;"
 		onmouseup="mouseDown = false;"
 		style="background-color:black; width:500px;height:600px; display: inline-block;"></canvas>

@@ -20,3 +20,19 @@ function MouseMoved(e)
     mousePos[0] = e.clientX;
     mousePos[1] = e.clientY;
 }
+
+function MouseWheel(e)
+{
+  e = e ? e : window.event;
+  var wheelData = e.detail ? e.detail * -1 : e.wheelDelta / 40;
+  //do something
+  
+  var distance = vec3.length(CameraPos);
+  if(wheelData > 0)
+  	distance *= 0.9;
+  else
+  	distance *= 1.1;
+
+  vec3.normalize(CameraPos);
+  vec3.scale(CameraPos, distance);
+}
