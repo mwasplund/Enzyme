@@ -10,6 +10,7 @@
 <script src="chainsurface.js"></script>
 <script src="ply.js"></script>
 <script src="events.js"></script>
+<script src="DataView.js"></script>
 
 <script src="GL.js"></script>
 <script src="GLSL_Shader.js"></script>
@@ -187,7 +188,7 @@
 </head>
 
 <body>
-	<canvas id="View" onmousemove="MouseMoved();" onmousewheel="MouseWheel();"
+	<canvas id="View" onmousemove="MouseMoved(event);" onmousewheel="MouseWheel(event);"
 		onmousedown="mouseDown = true;"
 		onmouseup="mouseDown = false;"
 		style="background-color:black; width:500px;height:600px; display: inline-block;"></canvas>
