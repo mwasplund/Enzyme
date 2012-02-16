@@ -14,51 +14,83 @@ function GLSL_Shader(i_ShaderName)
 function LoadShader(i_ShaderName, i_VertexShader, i_FragmentShader)
 {
   var Shader = new GLSL_Shader(i_ShaderName);
+      
+    //////////////////////////////////////
+	// Get the VertexShader
+	//////////////////////////////////////
+	var vs_xhr = new XMLHttpRequest();
+	vs_xhr.onreadystatechange = function () 
+	{
+		if (vs_xhr.readyState == vs_xhr.DONE) 
+		{
+			if ((vs_xhr.status == 200 || vs_xhr.status == 0) && vs_xhr.response) // MWA - for some reason local tests return 0 on ready 
+			{
+				var Data = vs_xhr.response;
+				//Debug.Trace(Data);
+				
+				gl.shaderSource(Shader.VertexShader, Data);
+				gl.compileShader(Shader.VertexShader);
+				if (gl.getShaderParameter(Shader.VertexShader, gl.COMPILE_STATUS)) 
+					Shader.VertexShader_Loaded = true;
+				else
+					Debug.Error(gl.getShaderInfoLog(Shader.VertexShader));
 
-  // Load the Vertex Shader
-  $.get(i_VertexShader)
-    .success(function(Data)
-    {
-      gl.shaderSource(Shader.VertexShader, Data);
-      gl.compileShader(Shader.VertexShader);
-      if (gl.getShaderParameter(Shader.VertexShader, gl.COMPILE_STATUS)) 
-        Shader.VertexShader_Loaded = true;
-      else
-        alert(gl.getShaderInfoLog(Shader.VertexShader));
-      
-      if(Shader.VertexShader_Loaded && Shader.FragmentShader_Loaded)
-      {
-        GLSL_AttachShaderProgram(Shader);
-        Shader.Loaded = true;
-      }
-    })
-    .error(function() {
-        Debug.Error("ERROR: Failed to load " + i_VertexShader);
-    }
-  );
+				if(Shader.VertexShader_Loaded && Shader.FragmentShader_Loaded)
+				{
+					GLSL_AttachShaderProgram(Shader);
+					Shader.Loaded = true;
+				}
+			} 
+			else 
+			{
+				Debug.Error("ERROR: Failed to load " + i_VertexShader);
+			}
+		}
+	}
+	
+	// Open the request for the provided url
+	vs_xhr.open("GET", i_VertexShader, true);
+	vs_xhr.send();
     
-  $.get(i_FragmentShader)
-    .success(function(Data)
-    {
-      gl.shaderSource(Shader.FragmentShader, Data);
-      gl.compileShader(Shader.FragmentShader);
-      if (gl.getShaderParameter(Shader.FragmentShader, gl.COMPILE_STATUS)) 
-        Shader.FragmentShader_Loaded = true;
-      else
-        alert(gl.getShaderInfoLog(Shader.FragmentShader));
-      
-      if(Shader.VertexShader_Loaded && Shader.FragmentShader_Loaded)
-      {
-        GLSL_AttachShaderProgram(Shader);
-        Shader.Loaded = true;
-      }
-    })
-    .error(function() {
-        Debug.Error("ERROR: Failed to load " + i_FragmentShader);
-    }
-  );
+    //////////////////////////////////////
+	// Get the Fragment Shader
+	//////////////////////////////////////
+	var fs_xhr = new XMLHttpRequest();
+	fs_xhr.onreadystatechange = function () 
+	{
+		if (fs_xhr.readyState == fs_xhr.DONE) 
+		{
+			if ((fs_xhr.status == 200 || fs_xhr.status == 0) && fs_xhr.response) // MWA - for some reason local tests return 0 on ready 
+			{
+				var Data = fs_xhr.response;
+				//Debug.Trace(Data);
+				
+				gl.shaderSource(Shader.FragmentShader, Data);
+				gl.compileShader(Shader.FragmentShader);
+				if (gl.getShaderParameter(Shader.FragmentShader, gl.COMPILE_STATUS)) 
+					Shader.FragmentShader_Loaded = true;
+				else
+					Debug.Error(gl.getShaderInfoLog(Shader.FragmentShader));
+
+				if(Shader.VertexShader_Loaded && Shader.FragmentShader_Loaded)
+				{
+					GLSL_AttachShaderProgram(Shader);
+					Shader.Loaded = true;
+				}
+			} 
+			else 
+			{
+				Debug.Error("ERROR: Failed to load " + i_FragmentShader);
+			}
+		}
+	}
+	
+	// Open the request for the provided url
+	fs_xhr.open("GET", i_FragmentShader, true);
+	fs_xhr.send();
   
-  return Shader;
+	return Shader;
+
 }
 
 function GLSL_AttachShaderProgram(i_Shader)

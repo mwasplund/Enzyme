@@ -48,7 +48,7 @@ ply.file = function(i_Path, i_Filename, i_AmbientOcclusion, i_DecalLists)
 		}
 			
 		this.vertices = [];
-		while(this.file.index < this.file.length && this.vertices.length / 3 < this.size)
+		while(this.vertices.length / 3 < this.size)
 			this.vertices.push(this.file.nextFloat32());
 			
 		var indicesLength = this.file.nextInt32()
@@ -117,8 +117,8 @@ ply.file = function(i_Path, i_Filename, i_AmbientOcclusion, i_DecalLists)
 				}
 				else
 				{
-					mesh.UV.push(0);
-					mesh.UV.push(0);
+					mesh.UV.push(-999999);
+					mesh.UV.push(-999999);
 				}
 				
 				mesh.AmbientOcclusion.push(this.ambientocclusion[this.indices[i]]);
@@ -199,6 +199,23 @@ ply.Mesh = function()
 /******************************************************/
 ply.FileContainer = function(i_File)
 {
+	if(typeof DataView != "undefined")
+	{
+		return new ply.TypedArrays_FileContainer(i_File);
+	}
+	else if(typeof ArrayBuffer != "undefined")
+	{
+		return new ply.TypedArrays_FileContainer(i_File);
+	}
+	else
+	{
+		Debug.Error("DataView Objects are not supported by your browser... sorry.");
+		throw -1;
+	}
+}
+
+ply.DataView_FileContainer = function(i_File)
+{
 	this.reader  = new DataView(i_File);
 	this.length = this.reader.byteLength;
 	this.index = 0;
@@ -258,6 +275,86 @@ ply.FileContainer = function(i_File)
 		this.index += 4;
 		return f;
 	}
+}
+
+ply.TypedArrays_FileContainer = function(i_File)
+{
+	this.buffer  = i_File;
+	this.int8View = new Int8Array(this.buffer); 
+	this.int32View = null; 
+	this.float32View = null;
+	this.headerIndex = 0; // byte offset
+	this.dataIndex = 0;
+	
+	this.init32Views = function()
+	{
+		try{
+		// Split off the header data so we can create a word aligned arrays
+     		var sub = this.int8View.subarray(this.headerIndex);
+     		this.int32View = new Int32Array(sub);
+         	this.float32View = new Float32Array(sub);
+		}
+		catch(e)
+		{
+			Debug.Error(e.message);
+			throw 2;
+		}
+	}
+	
+	/******************************************************/
+	/* nextLabel.
+	/*
+	/* return the next label
+	/******************************************************/
+	this.nextLabel = function()
+	{
+		var l = "";
+		var c = String.fromCharCode(this.nextInt8());
+		while(this.headerIndex < this.int8View.length && c != "\n")
+		{
+			l += c;
+			c = String.fromCharCode(this.nextInt8());
+		}
+			
+		// MWA - hack. we have to know the bytes offset before we can initialize the 32 bit arrays (they have to 
+		// be properly alligned). so wait until we see the end header
+		if(l == "end_header")
+			this.init32Views();
+		
+		return l;
+	}
+	
+	/******************************************************/
+	/* nextInt32
+	/*
+	/* calulates and returns the next four bytes as a little
+	/* endian 32 bit signed integer.
+	/******************************************************/
+	this.nextInt32 = function()
+	{
+		return this.int32View[this.dataIndex++];
+	}
 
 	
+	/******************************************************/
+	/* nextInt8.
+	/*
+	/* return the next byte as an integer representation
+	/******************************************************/
+	this.nextInt8 = function()
+	{
+		return this.int8View[this.headerIndex++];
+	}
+
+
+	/******************************************************/
+	/* nextFloat32
+	/*
+	/* calulates and returns the next four bytes as a little
+	/* endian 32 bit double 
+	/******************************************************/
+	this.nextFloat32 = function()
+	{
+		return this.float32View[this.dataIndex++];
+	}
 }
