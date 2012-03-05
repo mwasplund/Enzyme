@@ -4,8 +4,11 @@ ply.file = function(i_Path, i_Filename, i_AmbientOcclusion, i_DecalLists)
 	this.path =  i_Path;
 	this.filename = i_Filename;
 	this.ambientocclusion = i_AmbientOcclusion;
-	this.decallists = i_DecalLists;
-	
+	if(i_DecalLists != null)
+		this.decallists = i_DecalLists;
+	else
+		this.decallists = [];
+		
 	var xhr = new XMLHttpRequest();
 	var file = this;
 	file.response = null;

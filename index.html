@@ -3,6 +3,8 @@
 
 <head>
 <title>Enzyme Viewer</title>
+<link href="master.css" rel="stylesheet" type="text/css">
+
 <script src="js-unzip.js"></script>
 <script src="js-inflate.js"></script>
 <script src="jquery.js"></script>
@@ -57,7 +59,8 @@
 			return;
 		
 		// Attach event listeners
-		//window.addEventListener("onmousemove", OnMouseMove, false);
+		window.addEventListener("resize", OnResize, false);
+		OnResize();
 		
 		Surface = new surfacedata("2487/decal-2487/", "decal-2487.xml", SurfaceLoaded);
 		
@@ -74,6 +77,16 @@
 		checkGLError();
 	}
 	
+	function OnResize()
+	{
+		// Make sure the canvas height is correct
+		var height =  window.innerHeight;
+		var display = $("#header").css("display");
+		if(display != "none")
+			height -= $("#header").outerHeight(true);
+		$("#content").height(height);
+	}
+	
 	function SurfaceLoaded()
 	{
 		var list = document.getElementById("SurfaceData");
@@ -82,7 +95,7 @@
 		{
 			var cs = Surface.chainsurfaces[i];
 			var new_cs = document.createElement('li');
-			new_cs.innerHTML = "<h2> ChainSurface </h2>";
+			new_cs.innerHTML = "<h4> ChainSurface </h4>";
 			var new_ul = document.createElement('ul');
 			if(cs.orig_surfacefile != null)
 			{
@@ -185,17 +198,32 @@
 	}	
 </script>
 
+
+
 </head>
 
 <body>
-	<canvas id="View" onmousemove="MouseMoved(event);" onmousewheel="MouseWheel(event);"
-		onmousedown="mouseDown = true;"
-		onmouseup="mouseDown = false;"
-		style="background-color:black; width:500px;height:600px; display: inline-block;"></canvas>
-	<div id="Selector" style="display:inline-block; vertical-align: top;">
-		<h1>Surface Data</h1>
-		<ul id="SurfaceData">
-		</ul>
+	<div id="wrapper">
+		<header id="header">
+			<h1>Graphical Abstracted Protein Explorer (GRAPE)</h1>
+			<h2>UW Bacter Institute and UW Graphics Group</h2>
+		</header>
+		<div id="content">
+			<div id="mainview" onmouseout="MouseOut(event);" onmouseover="MouseOver(event);">
+				<canvas id="View" onmousemove="MouseMoved(event);" onmousewheel="MouseWheel(event);"
+					onmousedown="mouseDown = true;" onmouseup="mouseDown = false;">
+				</canvas>
+				<div id="viewcontrols">
+					<div class="viewcontrol" id="expand" onclick="EnterFullscreen();"></div >
+					<div class="viewcontrol" id="collapsed" onclick="ExitFullscreen();"></div >
+				</div>
+			</div>
+			<div id="Selector" style="display:inline-block; vertical-align: top;">
+				<h3>Surface Data</h3>
+				<ul id="SurfaceData">
+				</ul>
+			</div>
+		</div>
 	</div>
 </body>
 

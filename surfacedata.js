@@ -76,7 +76,7 @@
 						cs.abstract_surfacefile = new ply.file(this.path, cs.abstract_surfacefilename, cs.abstract_ambient_occlusion, cs.decallists);
 					
 					if(cs.orig_surfacefilename != "")
-						cs.orig_surfacefile = new ply.file(this.path, cs.orig_surfacefilename, cs.orig_ambient_occlusion, cs.decallists);
+						cs.orig_surfacefile = new ply.file(this.path, cs.orig_surfacefilename, cs.orig_ambient_occlusion);
 					
 					this.chainsurfaces.push(cs);
 				}

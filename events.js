@@ -19,6 +19,9 @@ function MouseMoved(e)
 	// Update mouse pos
     mousePos[0] = e.clientX;
     mousePos[1] = e.clientY;
+    
+    // Update view contols
+    ShowViewContols();
 }
 
 function MouseWheel(e)
@@ -35,4 +38,77 @@ function MouseWheel(e)
 
   vec3.normalize(CameraPos);
   vec3.scale(CameraPos, distance);
+  
+  // Update view contols
+  ShowViewContols();
+}
+
+
+var ViewContolsVisible = false;
+var ViewContolsTimer = null;
+function ShowViewContols()
+{
+	if(!ViewContolsVisible)
+	{
+		ViewContolsVisible = true;
+		$("#viewcontrols").stop();
+		$("#viewcontrols").animate({bottom:'0px'});
+	}
+	
+	// Set timer to hide contols
+	if(ViewContolsTimer != null)
+		clearTimeout(ViewContolsTimer);
+		
+	ViewContolsTimer = setTimeout("HideViewContols()", 10 * 1000);
+
+}
+
+function HideViewContols()
+{
+	if(ViewContolsVisible)
+	{
+		ViewContolsVisible = false;
+		$("#viewcontrols").stop();
+		$("#viewcontrols").animate({bottom:'-50px'});
+	}
+	
+	// Set timer to hide contols
+	if(ViewContolsTimer != null)
+		clearTimeout(ViewContolsTimer);
+		
+	ViewContolsTimer = null;
+}
+
+
+function MouseOver(e)
+{
+	ShowViewContols();
+}
+
+function MouseOut(e)
+{
+	// Unselect canvas
+	mouseDown = false;
+	
+	HideViewContols();
+}
+
+function EnterFullscreen()
+{
+	$("#expand").hide();
+	$("#collapsed").show();
+	
+	$("#header").hide();
+	$("#mainview").width("100%");
+	OnResize();
+}
+
+function ExitFullscreen()
+{
+	$("#expand").show();
+	$("#collapsed").hide();
+
+	$("#header").show();
+	$("#mainview").width("50%");
+	OnResize();
 }
