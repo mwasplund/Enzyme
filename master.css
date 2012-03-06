@@ -86,11 +86,11 @@ div.viewcontrol
 
 div#expand
 {
-	background-image:url('content/images/appbar.arrow.expand.png');
+	background-image:url('content/images/appbar.arrow.expand.border.png');
 }
 
 div#collapsed
 {
-	background-image:url('content/images/appbar.arrow.collapsed.png');
+	background-image:url('content/images/appbar.arrow.collapsed.border.png');
 	display:none;
 }
