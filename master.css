@@ -52,6 +52,7 @@ div#mainview
 	width:50%;
 	display:inline-block;
 	position:relative;
+	cursor:crosshair;
 }
 
 canvas#View
@@ -97,8 +98,8 @@ div#collapsed
 
 div.toggle
 {
-	height:50px;
-	width:200px;
+	height:30px;
+	width:150px;
 	cursor:pointer;
 }
 
