@@ -143,7 +143,8 @@ ply.file = function(i_Path, i_Filename, i_AmbientOcclusion, i_DecalLists)
 		setMatrixUniforms(i_DecalShaderProgram);
 		setmvMatrixUniform(i_DecalShaderProgram, mat4.identity());
 		gl.enable(gl.POLYGON_OFFSET_FILL);
-		gl.polygonOffset(-1.0, -1.0);
+		var offset = -1.0;
+		
 		
 		if(StickersVisible)
 		{
@@ -153,7 +154,11 @@ ply.file = function(i_Path, i_Filename, i_AmbientOcclusion, i_DecalLists)
 				{
 					var sanded = this.decallists[i];
 					for(var k = 0; k < sanded.length; k++)
+					{
+						gl.polygonOffset(offset, offset);
 						sanded[k].draw(i_DecalShaderProgram);
+						offset -= 1.0;
+					}
 				}
 			}
 		}
