@@ -94,3 +94,20 @@ div#collapsed
 	background-image:url('content/images/appbar.arrow.collapsed.border.png');
 	display:none;
 }
+
+div.toggle
+{
+	height:50px;
+	width:200px;
+	cursor:pointer;
+}
+
+div.visible
+{
+	background-color:#009000;
+}
+
+div.invisible
+{
+	background-color:#900000;
+}

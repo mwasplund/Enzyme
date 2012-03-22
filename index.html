@@ -24,6 +24,23 @@
 <script src="ModelLoader.js"></script>
 
 <script>
+	var StickersVisible = true;
+	function ToggleStickersVisible()
+	{
+		if(StickersVisible)
+		{
+			$("#ToggleStickers").removeClass("visible");
+			$("#ToggleStickers").addClass("invisible");
+			StickersVisible = false;
+		}
+		else
+		{
+			$("#ToggleStickers").removeClass("invisible");
+			$("#ToggleStickers").addClass("visible");
+			StickersVisible = true;
+		}
+	}
+
 	String.prototype.startsWith = function(str) 
 	{return (this.match("^"+str)==str)}
 
@@ -41,7 +58,8 @@
 	var Loading = true;
 	var gl = null;
 	var prevTime;
-	var CurrentShader = {};
+	var EnzymeShader = {};
+	var DecalShader = {};
 	var Time = 0;
 	var Surface;
 	var Selected;
@@ -67,8 +85,9 @@
 		Surface = new surfacedata("2487/decal-2487/", "decal-2487.xml", SurfaceLoaded);
 		
 		// Load the shaders
-		gl.loadShaders(["Enzyme"], ""); 
-		CurrentShader = gl.getShader("Enzyme");
+		gl.loadShaders(["Enzyme", "Decal"], ""); 
+		EnzymeShader = gl.getShader("Enzyme");
+		DecalShader = gl.getShader("Decal");
 
 		// Set initial time
 		var curDate = new Date().getTime();
@@ -163,8 +182,6 @@
 	var LookAt = [0,0,0];
 	function Draw()
 	{
-		gl.useProgram(CurrentShader.Program);
-		
 		gl.clearColor(0.0, 0.0, 0.0, 1.0);
 		//gl.clearDepth(1);
 		
@@ -180,23 +197,13 @@
 		gl.viewport(0, 0, gl.viewportWidth, gl.viewportHeight);
 		gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
 		
-		gl.uniform1f(CurrentShader.Program.Time_Uniform, Time);
-		gl.uniform1i(CurrentShader.Program.Light0_Enabled_Uniform, Light0_Enabled);
-		if (Light0_Enabled) 
-		{
-			gl.uniform3fv(CurrentShader.Program.Light0_Position_Uniform, [CameraPos[0], CameraPos[1] + 100, CameraPos[2]]);
-			gl.uniform3fv(CurrentShader.Program.Light0_Color_Uniform, [1.0, 1.0, 1.0]);
-		}
-		
 		mat4.perspective(45, gl.viewportWidth / gl.viewportHeight, 2.0, 2000.0, gl.pMatrix);
 		
-		gl.uniform3fv(CurrentShader.Program.Camera_Position_Uniform, CameraPos);
 		mat4.lookAt(CameraPos, LookAt, Up, gl.vMatrix);	
 		mat4.identity(gl.mvMatrix);
-		setMatrixUniforms();
 		
 		if(Selected != null)
-			Selected.draw(CurrentShader.Program);
+			Selected.draw(EnzymeShader.Program, DecalShader.Program);
 	}	
 </script>
 
@@ -221,6 +228,7 @@
 				</div>
 			</div>
 			<div id="Selector" style="display:inline-block; vertical-align: top;">
+				<div class="toggle, visible" id="ToggleStickers" onclick="ToggleStickersVisible();">Stickers</div>
 				<h3>Surface Data</h3>
 				<ul id="SurfaceData">
 				</ul>

@@ -117,7 +117,8 @@ function GLSL_AttachShaderProgram(i_Shader)
     gl.enableVertexAttribArray(i_Shader.Program.ambientOcclusionAttribute);
 
 	i_Shader.Program.Decal_Uniform   = gl.getUniformLocation(i_Shader.Program, "uDecal");
-
+	i_Shader.Program.Decal2_Uniform   = gl.getUniformLocation(i_Shader.Program, "uDecal2");
+	
     i_Shader.Program.pMatrixUniform  = gl.getUniformLocation(i_Shader.Program, "uPMatrix");
     i_Shader.Program.mvMatrixUniform = gl.getUniformLocation(i_Shader.Program, "uMVMatrix");
     i_Shader.Program.nMatrixUniform  = gl.getUniformLocation(i_Shader.Program, "uNMatrix");

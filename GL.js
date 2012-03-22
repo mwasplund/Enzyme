@@ -51,10 +51,11 @@ function InitializeWebGL(i_Canvas)
   
   gl.clearColor(ClearColor[0], ClearColor[1], ClearColor[2] , 1.0);
   gl.enable(gl.DEPTH_TEST);
-  gl.enable(gl.POLYGON_OFFSET_FILL);
+  
   gl.depthFunc(gl.LESS);
-  //gl.enable(gl.BLEND);
-  gl.blendFunc(gl.SRC_ALPHA, gl.ONE); 
+  gl.enable(gl.BLEND);
+  gl.blendFunc (gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
+  //gl.blendFunc(gl.SRC_ALPHA, gl.ONE); 
 
   // Attach the Model View and Projection Matricies to the GL Reference for easy access
   gl.mvMatrix = mat4.create();
@@ -159,15 +160,13 @@ function GL_GetShader(i_ShaderName)
 /******************************************************/
 function setMatrixUniforms(program) 
 {
-	var program = program || CurrentShader.Program;
   gl.uniformMatrix4fv(program.pMatrixUniform, false, gl.pMatrix);
   gl.uniformMatrix4fv(program.vMatrixUniform, false, gl.vMatrix);
-
 }
 
-function setmvMatrixUniform(i_mvMatrix)
+function setmvMatrixUniform(program, i_mvMatrix)
 {
-	gl.uniformMatrix4fv(CurrentShader.Program.mvMatrixUniform, false, i_mvMatrix);
+	gl.uniformMatrix4fv(program.mvMatrixUniform, false, i_mvMatrix);
 }
 
 /******************************************************/

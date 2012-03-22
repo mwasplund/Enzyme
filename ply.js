@@ -69,7 +69,7 @@ ply.file = function(i_Path, i_Filename, i_AmbientOcclusion, i_DecalLists)
 			decallist.type = raw_decallist.type;
 			
 			for(var k = 0; k < raw_decallist.length; k++)
-				decallist.push(new ply_decal(raw_decallist[k], this.vertices, this.path));
+				decallist.push(new ply_decal(raw_decallist[k], this.vertices, this.indices, this.path));
 			
 			// MWA - test
 			for(var k = 0; k < decallist.length; k++)
@@ -115,42 +115,51 @@ ply.file = function(i_Path, i_Filename, i_AmbientOcclusion, i_DecalLists)
 		}
 	}
 	
-	file.draw = function(i_ShaderProgram)
+	file.draw = function(i_EnzymeShaderProgram, i_DecalShaderProgram)
 	{
-		setmvMatrixUniform(mat4.identity());
-		gl.uniform1i(i_ShaderProgram.Decal_Uniform, false);
+		gl.useProgram(i_EnzymeShaderProgram);
+		setMatrixUniforms(i_EnzymeShaderProgram);
+		setmvMatrixUniform(i_EnzymeShaderProgram, mat4.identity());
+
+		
 		for(var i = 0; i < this.meshes.length; i++)
 		{
 			var mesh = this.meshes[i];
 			
 			gl.bindBuffer(gl.ARRAY_BUFFER, mesh.AmbientOcclusionBuffer);
-			gl.vertexAttribPointer(i_ShaderProgram.ambientOcclusionAttribute, mesh.AmbientOcclusionBuffer.itemSize, gl.FLOAT, false, 0, 0);
+			gl.vertexAttribPointer(i_EnzymeShaderProgram.ambientOcclusionAttribute, mesh.AmbientOcclusionBuffer.itemSize, gl.FLOAT, false, 0, 0);
 		
 			//gl.bindBuffer(gl.ARRAY_BUFFER, mesh.UVBuffer);
-			//gl.vertexAttribPointer(i_ShaderProgram.textureCoordAttribute, mesh.UVBuffer.itemSize, gl.FLOAT, false, 0, 0);
+			//gl.vertexAttribPointer(i_EnzymeShaderProgram.textureCoordAttribute, mesh.UVBuffer.itemSize, gl.FLOAT, false, 0, 0);
 		
 			gl.bindBuffer(gl.ARRAY_BUFFER, mesh.VertexBuffer);
-			gl.vertexAttribPointer(i_ShaderProgram.vertexPositionAttribute, mesh.VertexBuffer.itemSize, gl.FLOAT, false, 0, 0);
+			gl.vertexAttribPointer(i_EnzymeShaderProgram.vertexPositionAttribute, mesh.VertexBuffer.itemSize, gl.FLOAT, false, 0, 0);
 			gl.drawArrays(gl.TRIANGLE_STRIP, 0, mesh.VertexBuffer.numItems);
 		}
 		
+		
 		// Draw the decals
-		gl.uniform1i(i_ShaderProgram.Decal_Uniform, true);
+		gl.useProgram(i_DecalShaderProgram);
+		setMatrixUniforms(i_DecalShaderProgram);
+		setmvMatrixUniform(i_DecalShaderProgram, mat4.identity());
 		gl.enable(gl.POLYGON_OFFSET_FILL);
-		gl.polygonOffset(-10.0, -10.0);
+		gl.polygonOffset(-1.0, -1.0);
 		
-		/*for(var i = 0; i < this.decallists.length; i++)
+		if(StickersVisible)
 		{
-			if(this.decallists[i].type == "sanded")
+			for(var i = 0; i < this.decallists.length; i++)
 			{
-				var sanded = this.decallists[i];
-				if(sanded.length > 0)
-					sanded[0].draw(i_ShaderProgram);
+				if(this.decallists[i].type == "sanded")
+				{
+					var sanded = this.decallists[i];
+					for(var k = 0; k < sanded.length; k++)
+						sanded[k].draw(i_DecalShaderProgram);
+				}
 			}
-		}*/
+		}
 		
-		if(this.test_decal != null)
-			this.test_decal.draw(i_ShaderProgram);
+		//if(this.test_decal != null)
+		//	this.test_decal.draw(i_DecalShaderProgram);
 			
 		gl.disable(gl.POLYGON_OFFSET_FILL);
 	}
