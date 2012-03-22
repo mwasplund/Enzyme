@@ -5,9 +5,9 @@ ply.file = function(i_Path, i_Filename, i_AmbientOcclusion, i_DecalLists)
 	this.filename = i_Filename;
 	this.ambientocclusion = i_AmbientOcclusion;
 	if(i_DecalLists != null)
-		this.decallists = i_DecalLists;
+		this.raw_decallists = i_DecalLists;
 	else
-		this.decallists = [];
+		this.raw_decallists = [];
 		
 	var xhr = new XMLHttpRequest();
 	var file = this;
@@ -60,52 +60,25 @@ ply.file = function(i_Path, i_Filename, i_AmbientOcclusion, i_DecalLists)
 			this.indices.push(this.file.nextInt32());
 		
 		// Consturct the textures
-		this.UVs = [];
-		for(var i = 0; i < this.decallists.length; i++)
+		this.decallists = [];
+		this.test_decal = null;
+		for(var i = 0; i < this.raw_decallists.length; i++)
 		{
-			var decallist = this.decallists[i];
+			var raw_decallist = this.raw_decallists[i];
+			var decallist = [];
+			decallist.type = raw_decallist.type;
+			
+			for(var k = 0; k < raw_decallist.length; k++)
+				decallist.push(new ply_decal(raw_decallist[k], this.vertices, this.path));
+			
+			// MWA - test
 			for(var k = 0; k < decallist.length; k++)
-			{
-				var decal = decallist[k];
-				var UV = new Array(this.size * 2);
-				for(var l = 0; l < UV.length; l++)
-					UV[l] = 0;
-					
-				for(var l = 0; l < decal.length; l++)
-				{
-					UV[decal[l].vertnum * 2 + 0] = decal[l].tx;
-					UV[decal[l].vertnum * 2 + 1] = decal[l].ty;
-				}
-				this.UVs.push(UV);
-				
-				// MWA test
-				if(decal.texfilename == "013.png")
-					this.UV = UV;
-			}
+				if(decallist[k].texfilename == "013.png")
+					this.test_decal = decallist[k]
+			
+			this.decallists.push(decallist);
 		}
-		
-		//013.png
-		this.Texture = gl.createTexture();
-		this.Texture.image = new Image();
-		var Texture = this.Texture;
-		this.Texture.image.onload = function()
-		{
-			gl.bindTexture(gl.TEXTURE_2D, Texture);
- 			gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
- 			gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, Texture.image);
- 			//gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.NEAREST);
- 			// gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.NEAREST);
- 			checkGLError();
- 			gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
- 			gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR_MIPMAP_NEAREST);
- 			gl.generateMipmap(gl.TEXTURE_2D);
- 			checkGLError();
- 			gl.bindTexture(gl.TEXTURE_2D, null);
- 			Debug.Trace("Image Loaded: " + Texture.image.src);
- 			checkGLError();		
- 		}
-  		this.Texture.image.src = this.path + "013.png";
-  		
+
   		this.meshes = [];
 		var i = 0;
 		for(var i = 0; i < this.indices.length; i++)
@@ -113,17 +86,6 @@ ply.file = function(i_Path, i_Filename, i_AmbientOcclusion, i_DecalLists)
 			var mesh = new ply.Mesh();
 			while(i < this.indices.length && this.indices[i] > 0)
 			{
-				if(this.UV != null)
-				{
-					mesh.UV.push(this.UV[this.indices[i]*2+0]);
-					mesh.UV.push(this.UV[this.indices[i]*2+1]);
-				}
-				else
-				{
-					mesh.UV.push(-999999);
-					mesh.UV.push(-999999);
-				}
-				
 				mesh.AmbientOcclusion.push(this.ambientocclusion[this.indices[i]]);
 			
 				mesh.TriangleStrip.push(this.vertices[this.indices[i]*3+0]);
@@ -144,13 +106,7 @@ ply.file = function(i_Path, i_Filename, i_AmbientOcclusion, i_DecalLists)
 			gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(mesh.TriangleStrip), gl.STATIC_DRAW);
 			mesh.VertexBuffer.itemSize = 3;
 			mesh.VertexBuffer.numItems = mesh.TriangleStrip.length/3;
-		
-			mesh.UVBuffer = gl.createBuffer();
-			gl.bindBuffer(gl.ARRAY_BUFFER, mesh.UVBuffer);
-			gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(mesh.UV), gl.STATIC_DRAW);
-			mesh.UVBuffer.itemSize = 2;
-			mesh.UVBuffer.numItems = mesh.UV.length/2;
-		
+
 			mesh.AmbientOcclusionBuffer = gl.createBuffer();
 			gl.bindBuffer(gl.ARRAY_BUFFER, mesh.AmbientOcclusionBuffer);
 			gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(mesh.AmbientOcclusion), gl.STATIC_DRAW);
@@ -162,11 +118,7 @@ ply.file = function(i_Path, i_Filename, i_AmbientOcclusion, i_DecalLists)
 	file.draw = function(i_ShaderProgram)
 	{
 		setmvMatrixUniform(mat4.identity());
-		
-		gl.activeTexture(gl.TEXTURE0);
-		gl.bindTexture(gl.TEXTURE_2D, this.Texture);
-		gl.uniform1i(i_ShaderProgram.DiffuseColorTexture_Uniform, 0);
-		
+		gl.uniform1i(i_ShaderProgram.Decal_Uniform, false);
 		for(var i = 0; i < this.meshes.length; i++)
 		{
 			var mesh = this.meshes[i];
@@ -174,13 +126,33 @@ ply.file = function(i_Path, i_Filename, i_AmbientOcclusion, i_DecalLists)
 			gl.bindBuffer(gl.ARRAY_BUFFER, mesh.AmbientOcclusionBuffer);
 			gl.vertexAttribPointer(i_ShaderProgram.ambientOcclusionAttribute, mesh.AmbientOcclusionBuffer.itemSize, gl.FLOAT, false, 0, 0);
 		
-			gl.bindBuffer(gl.ARRAY_BUFFER, mesh.UVBuffer);
-			gl.vertexAttribPointer(i_ShaderProgram.textureCoordAttribute, mesh.UVBuffer.itemSize, gl.FLOAT, false, 0, 0);
+			//gl.bindBuffer(gl.ARRAY_BUFFER, mesh.UVBuffer);
+			//gl.vertexAttribPointer(i_ShaderProgram.textureCoordAttribute, mesh.UVBuffer.itemSize, gl.FLOAT, false, 0, 0);
 		
 			gl.bindBuffer(gl.ARRAY_BUFFER, mesh.VertexBuffer);
 			gl.vertexAttribPointer(i_ShaderProgram.vertexPositionAttribute, mesh.VertexBuffer.itemSize, gl.FLOAT, false, 0, 0);
 			gl.drawArrays(gl.TRIANGLE_STRIP, 0, mesh.VertexBuffer.numItems);
 		}
+		
+		// Draw the decals
+		gl.uniform1i(i_ShaderProgram.Decal_Uniform, true);
+		gl.enable(gl.POLYGON_OFFSET_FILL);
+		gl.polygonOffset(-10.0, -10.0);
+		
+		/*for(var i = 0; i < this.decallists.length; i++)
+		{
+			if(this.decallists[i].type == "sanded")
+			{
+				var sanded = this.decallists[i];
+				if(sanded.length > 0)
+					sanded[0].draw(i_ShaderProgram);
+			}
+		}*/
+		
+		if(this.test_decal != null)
+			this.test_decal.draw(i_ShaderProgram);
+			
+		gl.disable(gl.POLYGON_OFFSET_FILL);
 	}
 	
 	return file;
@@ -190,7 +162,6 @@ ply.Mesh = function()
 {
 	this.TriangleStrip = [];
 	this.AmbientOcclusion = [];
-	this.UV = [];
 }
 
 /******************************************************/

@@ -51,6 +51,7 @@ function InitializeWebGL(i_Canvas)
   
   gl.clearColor(ClearColor[0], ClearColor[1], ClearColor[2] , 1.0);
   gl.enable(gl.DEPTH_TEST);
+  gl.enable(gl.POLYGON_OFFSET_FILL);
   gl.depthFunc(gl.LESS);
   //gl.enable(gl.BLEND);
   gl.blendFunc(gl.SRC_ALPHA, gl.ONE); 
