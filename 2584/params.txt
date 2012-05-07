@@ -1,0 +1,20 @@
+
+DATE: Thu Sep 22 01:15:39 CDT 2011
+
+ GRAPE Run Parameters
+---------------------------------------------------------
+          JOB_ID: 2584 
+        Job_Name:  
+   PDB file name: 1E7K_b_r.pdb
+ PDB file source: uploaded from user's computer
+---------------------------------------------------------
+
+
+ PDB Structure Information
+--------------------------
+ 
+ TITLE: (No title information found in PDB file.)
+ 
+ CHAIN INFO:
+            Chain A: does not have an associated MOL_ID record in PDB file header.
+ 

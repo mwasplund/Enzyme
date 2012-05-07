@@ -1,0 +1,637 @@
+Finding vertex to triangle maps... Done.
+Finding across-edge maps... Done.
+Building triangle strips... Done.
+  11408 strips (Avg. length 6.6)
+Computing bounding box... Done.
+  x = -18.961 .. 31.386, y = -42.797 .. 39.668, z = -24.501 .. 37.708
+Computing bounding sphere... Done.
+  center = (6.5576, -3.79307, 4.26129), radius = 45.6654
+Computing point areas... Done.
+Computing curvatures... Done.
+Computing dcurv... Done.
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+
+Warning: Missing either "hbondwhatif" or "usage" functions in hbondwhatif.py!
+This extension will not be included.
+
+Error parsing line: invalid literal for int() with base 10: 'A'
+<REMARK   Accelrys Discovery Studio PDB file>
+Error parsing line: invalid literal for int() with base 10: 'C'
+<REMARK   Created:  Fri Jun 24 12:59:55 Eastern Daylight Time 2011>
+Error parsing line: invalid literal for int() with base 10: ''
+<CRYST1  255.771  255.771  206.795  90.00  90.00 120.00 R32>
+Warning: The 'energy' print keyword is deprecated.
+         Use elecEnergy for electrostatics energy calcs.
+
+Finding vertex neighbors... Done.
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex to triangle maps... Done.
+Computing normals... Done.
+Computing curvatures... Done.
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Computing normals... Done.
+Finding vertex to triangle maps... Done.
+Finding across-edge maps... Done.
+Building triangle strips... Done.
+  8851 strips (Avg. length 7.4)
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex to triangle maps... Done.
+Computing normals... Done.
+Computing curvatures... Done.
+Computing normals... Done.
+Finding vertex to triangle maps... Done.
+Finding across-edge maps... Done.
+Building triangle strips... Done.
+  7124 strips (Avg. length 7.4)
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex to triangle maps... Done.
+Computing normals... Done.
+Computing curvatures... Done.
+Computing normals... Done.
+Finding vertex to triangle maps... Done.
+Finding across-edge maps... Done.
+Building triangle strips... Done.
+  5826 strips (Avg. length 7.6)
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Computing normals... Done.
+Computing curvatures... Done.
+Computing dcurv... Done.
+Computing bounding box... Done.
+  x = -17.7671 .. 28.3939, y = -40.7278 .. 37.9126, z = -21.8976 .. 34.8057
+Computing bounding sphere... Done.
+  center = (6.43569, -2.3146, 2.32124), radius = 44.1799
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Finding vertex to triangle maps... Done.
+Finding across-edge maps... Done.
+Building triangle strips... Done.
+  11525 strips (Avg. length 6.5)
+Computing bounding box... Done.
+  x = -31.802 .. 20.419, y = -43.976 .. 40.126, z = -36.461 .. 23.476
+Computing bounding sphere... Done.
+  center = (-7.49671, -3.52412, -4.19454), radius = 46.2102
+Computing point areas... Done.
+Computing curvatures... Done.
+Computing dcurv... Done.
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Finding vertex neighbors... Done.
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex to triangle maps... Done.
+Computing normals... Done.
+Computing curvatures... Done.
+Computing normals... Done.
+Finding vertex to triangle maps... Done.
+Finding across-edge maps... Done.
+Building triangle strips... Done.
+  9027 strips (Avg. length 7.4)
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex to triangle maps... Done.
+Computing normals... Done.
+Computing curvatures... Done.
+Computing normals... Done.
+Finding vertex to triangle maps... Done.
+Finding across-edge maps... Done.
+Building triangle strips... Done.
+  7267 strips (Avg. length 7.4)
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex to triangle maps... Done.
+Computing normals... Done.
+Computing curvatures... Done.
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Computing normals... Done.
+Finding vertex to triangle maps... Done.
+Finding across-edge maps... Done.
+Building triangle strips... Done.
+  5727 strips (Avg. length 7.6)
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Computing normals... Done.
+Computing curvatures... Done.
+Computing dcurv... Done.
+Computing bounding box... Done.
+  x = -28.6847 .. 19.5375, y = -42.7209 .. 37.9807, z = -33.9637 .. 22.068
+Computing bounding sphere... Done.
+  center = (-4.97547, -3.11865, -1.41463), radius = 44.4191
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Writing /Storage/bacterjobs/2550/decal-2550_00_0_A.face_abstracted.ply... Done.
+Writing /Storage/bacterjobs/2550/decal-2550_00_0_A.face.ply... Done.
+Writing /Storage/bacterjobs/2550/decal-2550_01_328_B.face_abstracted.ply... Done.
+Writing /Storage/bacterjobs/2550/decal-2550_01_328_B.face.ply... Done.

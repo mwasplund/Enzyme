@@ -1,0 +1,20 @@
+
+DATE: Tue May 24 04:38:59 CDT 2011
+
+ GRAPE Run Parameters
+---------------------------------------------------------
+          JOB_ID: 2523 
+        Job_Name:  
+   PDB file name: hA14_14TM.pdb
+ PDB file source: uploaded from user's computer
+---------------------------------------------------------
+
+
+ PDB Structure Information
+--------------------------
+ 
+ TITLE: (No title information found in PDB file.)
+ 
+ CHAIN INFO:
+            Chain  : does not have an associated MOL_ID record in PDB file header.
+ 

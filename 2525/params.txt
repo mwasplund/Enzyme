@@ -1,0 +1,43 @@
+
+DATE: Sun May 29 20:03:28 CDT 2011
+
+ GRAPE Run Parameters
+---------------------------------------------------------
+          JOB_ID: 2525 
+        Job_Name:  
+   PDB file name: 1IGT.pdb
+ PDB file source: uploaded from user's computer
+---------------------------------------------------------
+
+
+ PDB Structure Information
+--------------------------
+ 
+ TITLE: STRUCTURE OF IMMUNOGLOBULIN
+ 
+ CHAIN INFO:
+            Chain A: has MOLECULE name: IGG2A INTACT ANTIBODY - MAB231
+            Chain B: has MOLECULE name: IGG2A INTACT ANTIBODY - MAB231
+            Chain C: has MOLECULE name: IGG2A INTACT ANTIBODY - MAB231
+            Chain D: has MOLECULE name: IGG2A INTACT ANTIBODY - MAB231
+            HetAtm NAG-B475: has MOLECULE name: N-ACETYL-D-GLUCOSAMINE
+            HetAtm FUL-B476: has MOLECULE name: BETA-L-FUCOSE
+            HetAtm NAG-B477: has MOLECULE name: N-ACETYL-D-GLUCOSAMINE
+            HetAtm BMA-B478: has MOLECULE name: BETA-D-MANNOSE
+            HetAtm MAN-B479: has MOLECULE name: ALPHA-D-MANNOSE
+            HetAtm NAG-B480: has MOLECULE name: N-ACETYL-D-GLUCOSAMINE
+            HetAtm GAL-B481: has MOLECULE name: BETA-D-GALACTOSE
+            HetAtm MAN-B482: has MOLECULE name: ALPHA-D-MANNOSE
+            HetAtm NAG-B483: has MOLECULE name: N-ACETYL-D-GLUCOSAMINE
+            HetAtm NAG-D475: has MOLECULE name: N-ACETYL-D-GLUCOSAMINE
+            HetAtm FUC-D476: has MOLECULE name: ALPHA-L-FUCOSE
+            HetAtm NAG-D477: has MOLECULE name: N-ACETYL-D-GLUCOSAMINE
+            HetAtm BMA-D478: has MOLECULE name: BETA-D-MANNOSE
+            HetAtm MAN-D479: has MOLECULE name: ALPHA-D-MANNOSE
+            HetAtm NAG-D480: has MOLECULE name: N-ACETYL-D-GLUCOSAMINE
+            HetAtm GAL-D481: has MOLECULE name: BETA-D-GALACTOSE
+            HetAtm MAN-D482: has MOLECULE name: ALPHA-D-MANNOSE
+            HetAtm NAG-D483: has MOLECULE name: N-ACETYL-D-GLUCOSAMINE
+ 
+ 
+  error: problem running MolSurfAbstract

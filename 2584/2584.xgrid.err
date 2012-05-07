@@ -1,0 +1,100 @@
+Finding vertex to triangle maps... Done.
+Finding across-edge maps... Done.
+Building triangle strips... Done.
+  5119 strips (Avg. length 6.5)
+Computing bounding box... Done.
+  x = -19.748 .. 18.055, y = -19.251 .. 22.576, z = -21.445 .. 23.23
+Computing bounding sphere... Done.
+  center = (-0.109999, -0.925385, 0.153047), radius = 23.971
+Computing point areas... Done.
+Computing curvatures... Done.
+Computing dcurv... Done.
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: The 'energy' print keyword is deprecated.
+         Use elecEnergy for electrostatics energy calcs.
+
+Finding vertex neighbors... Done.
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex to triangle maps... Done.
+Computing normals... Done.
+Computing curvatures... Done.
+Computing normals... Done.
+Finding vertex to triangle maps... Done.
+Finding across-edge maps... Done.
+Building triangle strips... Done.
+  3964 strips (Avg. length 7.5)
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex to triangle maps... Done.
+Computing normals... Done.
+Computing curvatures... Done.
+Computing normals... Done.
+Finding vertex to triangle maps... Done.
+Finding across-edge maps... Done.
+Building triangle strips... Done.
+  3041 strips (Avg. length 7.7)
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex to triangle maps... Done.
+Computing normals... Done.
+Computing curvatures... Done.
+Computing normals... Done.
+Finding vertex to triangle maps... Done.
+Finding across-edge maps... Done.
+Building triangle strips... Done.
+  2509 strips (Avg. length 7.4)
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Computing normals... Done.
+Computing curvatures... Done.
+Computing dcurv... Done.
+Computing bounding box... Done.
+  x = -15.9729 .. 17.2583, y = -15.9926 .. 17.3148, z = -18.0731 .. 20.5752
+Computing bounding sphere... Done.
+  center = (-0.377579, 1.80193, 1.40238), radius = 20.1999
+Writing /Storage/bacterjobs/2584/decal-2584_00_0_A.face_abstracted.ply... Done.
+Writing /Storage/bacterjobs/2584/decal-2584_00_0_A.face.ply... Done.

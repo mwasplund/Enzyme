@@ -1,0 +1,22 @@
+
+DATE: Fri Jun 24 18:10:25 CDT 2011
+
+ GRAPE Run Parameters
+---------------------------------------------------------
+          JOB_ID: 2553 
+        Job_Name: 1BL0 
+   PDB file name: 1BL0.pdb
+ PDB file source: uploaded from PDB
+---------------------------------------------------------
+
+
+ PDB Structure Information
+--------------------------
+ 
+ TITLE: MULTIPLE ANTIBIOTIC RESISTANCE PROTEIN (MARA)/DNA COMPLEX
+ 
+ CHAIN INFO:
+            Chain B: has MOLECULE name: DNA (5'-D(*GP*GP*GP*GP*AP*TP*TP*TP*AP*GP*CP*AP*AP*AP*AP*CP*GP*TP*GP*GP*CP*AP* TP*C)-3')
+            Chain C: has MOLECULE name: DNA (5'-D(*CP*CP*GP*AP*TP*GP*CP*CP*AP*CP*GP*TP*TP*TP*TP*GP*CP*TP*AP*AP*AP*TP* CP*C)-3') with SYNONYM name of: MARA
+            Chain A: has MOLECULE name: PROTEIN (MULTIPLE ANTIBIOTIC RESISTANCE PROTEIN)
+ 

@@ -1,0 +1,6 @@
+/Storage/bacterjobs/2491/2491.cache exists? 0
+Building mesh files (.face and .vert) for file: "/Storage/bacterjobs/2491/2491.pdb"
+Error loading molecular structure
+Attempt to read unknown-type file.
+baseDir: /Storage/bacterjobs/2491
+baseFilename: 2491

@@ -1,0 +1,21 @@
+
+DATE: Thu Mar 24 16:00:32 CDT 2011
+
+ GRAPE Run Parameters
+---------------------------------------------------------
+          JOB_ID: 2489 
+        Job_Name: 1BSL 
+   PDB file name: 1BSL.pdb
+ PDB file source: uploaded from PDB
+---------------------------------------------------------
+
+
+ PDB Structure Information
+--------------------------
+ 
+ TITLE: STRUCTURE OF ALKANAL MONOOXYGENASE BETA CHAIN
+ 
+ CHAIN INFO:
+            Chain A: has MOLECULE name: BACTERIAL LUCIFERASE
+            Chain B: has MOLECULE name: BACTERIAL LUCIFERASE
+ 

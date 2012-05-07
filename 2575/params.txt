@@ -1,0 +1,41 @@
+
+DATE: Sat Jul 16 18:48:02 CDT 2011
+
+ GRAPE Run Parameters
+---------------------------------------------------------
+          JOB_ID: 2575 
+        Job_Name:  
+   PDB file name: 1KYO.pdb
+ PDB file source: uploaded from user's computer
+---------------------------------------------------------
+
+
+ PDB Structure Information
+--------------------------
+ 
+ TITLE: (No title information found in PDB file.)
+ 
+ CHAIN INFO:
+            Chain A: does not have an associated MOL_ID record in PDB file header.
+            Chain B: does not have an associated MOL_ID record in PDB file header.
+            Chain C: does not have an associated MOL_ID record in PDB file header.
+            Chain D: does not have an associated MOL_ID record in PDB file header.
+            Chain E: does not have an associated MOL_ID record in PDB file header.
+            Chain F: does not have an associated MOL_ID record in PDB file header.
+            Chain G: does not have an associated MOL_ID record in PDB file header.
+            Chain H: does not have an associated MOL_ID record in PDB file header.
+            Chain I: does not have an associated MOL_ID record in PDB file header.
+            Chain J: does not have an associated MOL_ID record in PDB file header.
+            Chain K: does not have an associated MOL_ID record in PDB file header.
+            Chain L: does not have an associated MOL_ID record in PDB file header.
+            Chain M: does not have an associated MOL_ID record in PDB file header.
+            Chain N: does not have an associated MOL_ID record in PDB file header.
+            Chain O: does not have an associated MOL_ID record in PDB file header.
+            Chain P: does not have an associated MOL_ID record in PDB file header.
+            Chain Q: does not have an associated MOL_ID record in PDB file header.
+            Chain R: does not have an associated MOL_ID record in PDB file header.
+            Chain S: does not have an associated MOL_ID record in PDB file header.
+            Chain T: does not have an associated MOL_ID record in PDB file header.
+            Chain U: does not have an associated MOL_ID record in PDB file header.
+            Chain V: does not have an associated MOL_ID record in PDB file header.
+ 

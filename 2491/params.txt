@@ -1,0 +1,28 @@
+
+DATE: Sat Apr  2 08:13:03 CDT 2011
+
+ GRAPE Run Parameters
+---------------------------------------------------------
+          JOB_ID: 2491 
+        Job_Name:  
+   PDB file name: s10-01.pdb
+ PDB file source: uploaded from user's computer
+---------------------------------------------------------
+
+
+ PDB Structure Information
+--------------------------
+ 
+ TITLE: (No title information found in PDB file.)
+ 
+ CHAIN INFO:
+            Chain  : does not have an associated MOL_ID record in PDB file header.
+            Chain A: does not have an associated MOL_ID record in PDB file header.
+            Chain B: does not have an associated MOL_ID record in PDB file header.
+            Chain C: does not have an associated MOL_ID record in PDB file header.
+            Chain D: does not have an associated MOL_ID record in PDB file header.
+            Chain E: does not have an associated MOL_ID record in PDB file header.
+            Chain F: does not have an associated MOL_ID record in PDB file header.
+ 
+ 
+  error: problem running MolSurfAbstract

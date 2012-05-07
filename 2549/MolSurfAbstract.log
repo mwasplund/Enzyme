@@ -1,0 +1,2382 @@
+/Storage/bacterjobs/2549/2549.cache exists? 0
+Building mesh files (.face and .vert) for file: "/Storage/bacterjobs/2549/2549.pdb"
+ PDB file /Storage/bacterjobs/2549/2549.pdb has been read in.
+NUM CHAINS: 2
+A: 563
+B: 464
+Now with 2 chains.
+baseDir: /Storage/bacterjobs/2549
+baseFilename: 2549
+Building atom type table!
+chain 0 of 2: '/Storage/bacterjobs/2549/2549_00_0_A.xyzr'
+chain 1 of 2: '/Storage/bacterjobs/2549/2549_01_319_B.xyzr'
+MSMS 2.6.1 started on octo.mitchell-lab.internal
+Copyright M.F. Sanner (1994)
+Compilation flags -O3 -DVERBOSE -DTIMING -DFUNCPROTO -force_cpusubtype_ALL
+INPUT  /Storage/bacterjobs/2549/2549_00_0_A.xyzr 2437 spheres 0 collision only, radii  1.400 to  2.150
+PARAM  Probe_radius  1.500 density  3.000 hdensity  3.000
+REDUCED SURFACE ...
+    0 free vertex (vertices) found
+    RS component 0 identified 657 656 655
+    RS component 1 identified 19 424 415
+    RS component 2 identified 32 2371 146
+    RS component 3 identified 39 316 687
+    RS component 4 identified 40 312 315
+    RS component 5 identified 65 586 584
+    RS component 6 identified 78 234 244
+    RS component 7 identified 161 2347 2378
+    RS component 8 identified 221 231 308
+    RS component 9 identified 433 687 712
+    RS component 10 identified 766 770 771
+    RS component 11 identified 1008 1958 1011
+    RS component 12 identified 1220 1479 1293
+    RS component 13 identified 1467 1496 1327
+    RS component 14 identified 1954 1982 1819
+    RS component 15 identified 2302 2301 2319
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2890     4335          0       1337      55
+         1          14       21          0      -1328      668.5
+         2          10       15          0         -2      4.5
+         3           6        9          0         -2      3.5
+         4           8       12          0          1      2.5
+         5          26       39          0          8      3.5
+         6           6        9          0         -9      7
+         7          20       30          0          7      2.5
+         8          10       15          0         -5      6
+         9           6        9          0         -2      3.5
+        10          16       24          0          5      2.5
+        11          10       15          0         -3      5
+        12           8       12          0         -1      3.5
+        13          26       39          0          8      3.5
+        14           4        6          0        -10      7
+        15           8       12          0          2      2
+    Time Reduced Surface real: 1.46 user: 1.46 sys: 0.01
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.05 user: 0.04 sys: 0.00
+ordonne_arete: warning hole in a reentrant face 2241
+        Time Singularities real: 0.02 user: 0.02 sys: 0.00
+    Component   1
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component   2
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component   3
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component   4
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component   5
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component   6
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component   7
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component   8
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component   9
+        Time Surface real: 0.00 user: 0.01 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component  10
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component  11
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component  12
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component  13
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component  14
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component  15
+        Time Surface real: 0.01 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     8926  18078    279    9148      474   1   1    4
+         1       50    102      6      54       12   0   0    0
+         2       35     69      3      36        6   0   0    0
+         3       21     39      1      20        2   0   0    0
+         4       28     54      2      28        4   0   0    0
+         5       85    171      5      88       10   0   0    0
+         6       24     48      4      26        8   0   0    0
+         7       66    132      4      68        8   0   0    0
+         8       35     69      3      36        6   0   0    0
+         9       21     39      1      20        2   0   0    0
+        10       53    105      3      54        6   0   0    0
+        11       37     75      5      40       10   0   0    0
+        12       29     57      3      30        6   0   0    0
+        13       84    168      4      86        8   0   0    0
+        14       16     30      2      16        4   0   0    0
+        15       28     54      2      28        4   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.500    3995.018  5018.891  3969.278 12983.186 14821.252
+      1       1.500      49.847     7.136     0.649    57.631     2.550
+      2       1.500      46.047     7.027     0.535    53.610     1.850
+      3       1.500      31.661     1.564     0.039    33.264     0.134
+      4       1.500      29.684     0.403     0.005    30.092     0.019
+      5       1.500      64.753    23.323     3.523    91.598    13.270
+      6       1.500      28.979     0.195     0.000    29.174     0.001
+      7       1.500      51.064    10.605     1.318    62.987     4.816
+      8       1.500      32.696     1.916     0.072    34.685     0.251
+      9       1.500      29.085     0.471     0.002    29.558     0.007
+     10       1.500      49.626     9.474     1.152    60.253     4.134
+     11       1.500      43.371     4.365     0.415    48.150     1.589
+     12       1.500      39.001     4.744     0.357    44.102     1.237
+     13       1.500      62.723    16.401     2.279    81.403     8.176
+     14       1.500      28.525     0.097     0.000    28.622     0.001
+     15       1.500      30.898     0.886     0.015    31.800     0.060
+TRIANGULATION...
+    Component 0
+    component#, vertices,  edges,  faces, genus, density
+        0          36746  110256   73504    4     2.830
+        Time Triangulation real: 0.32 user: 0.31 sys: 0.01
+    Component 1
+    component#, vertices,  edges,  faces, genus, density
+        1            197     585     390    0     3.418
+        Time Triangulation real: 0.01 user: 0.00 sys: 0.00
+    Component 2
+    component#, vertices,  edges,  faces, genus, density
+        2            174     516     344    0     3.246
+        Time Triangulation real: 0.00 user: 0.00 sys: 0.00
+    Component 3
+    component#, vertices,  edges,  faces, genus, density
+        3            121     357     238    0     3.638
+        Time Triangulation real: 0.00 user: 0.01 sys: 0.00
+    Component 4
+    component#, vertices,  edges,  faces, genus, density
+        4            122     360     240    0     4.054
+        Time Triangulation real: 0.01 user: 0.00 sys: 0.00
+    Component 5
+    component#, vertices,  edges,  faces, genus, density
+        5            323     963     642    0     3.526
+        Time Triangulation real: 0.00 user: 0.00 sys: 0.00
+    Component 6
+    component#, vertices,  edges,  faces, genus, density
+        6            105     309     206    0     3.599
+        Time Triangulation real: 0.00 user: 0.01 sys: 0.00
+    Component 7
+    component#, vertices,  edges,  faces, genus, density
+        7            235     699     466    0     3.731
+        Time Triangulation real: 0.00 user: 0.00 sys: 0.00
+    Component 8
+    component#, vertices,  edges,  faces, genus, density
+        8            140     414     276    0     4.036
+        Time Triangulation real: 0.01 user: 0.00 sys: 0.00
+    Component 9
+    component#, vertices,  edges,  faces, genus, density
+        9            115     339     226    0     3.891
+        Time Triangulation real: 0.00 user: 0.01 sys: 0.00
+    Component 10
+    component#, vertices,  edges,  faces, genus, density
+       10            216     642     428    0     3.585
+        Time Triangulation real: 0.00 user: 0.00 sys: 0.00
+    Component 11
+    component#, vertices,  edges,  faces, genus, density
+       11            171     507     338    0     3.551
+        Time Triangulation real: 0.01 user: 0.00 sys: 0.00
+    Component 12
+    component#, vertices,  edges,  faces, genus, density
+       12            152     450     300    0     3.447
+        Time Triangulation real: 0.00 user: 0.00 sys: 0.00
+    Component 13
+    component#, vertices,  edges,  faces, genus, density
+       13            319     951     634    0     3.919
+        Time Triangulation real: 0.00 user: 0.00 sys: 0.00
+    Component 14
+    component#, vertices,  edges,  faces, genus, density
+       14             98     288     192    0     3.424
+        Time Triangulation real: 0.00 user: 0.00 sys: 0.00
+    Component 15
+    component#, vertices,  edges,  faces, genus, density
+       15            123     363     242    0     3.868
+        Time Triangulation real: 0.01 user: 0.00 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.50    38501.090  12753.640
+       1      1.50      -36.128     55.796
+       2      1.50      -32.692     51.910
+       3      1.50      -16.667     31.941
+       4      1.50      -14.323     28.851
+       5      1.50      -71.076     89.370
+       6      1.50      -13.672     27.963
+       7      1.50      -41.873     61.037
+       8      1.50      -17.764     33.346
+       9      1.50      -13.935     28.325
+      10      1.50      -39.534     58.442
+      11      1.50      -28.566     46.576
+      12      1.50      -25.384     42.616
+      13      1.50      -59.040     79.258
+      14      1.50      -13.298     27.441
+      15      1.50      -15.527     30.472
+    Total ses_volume: 38061.613
+MSMS terminated normally
+Total Time real: 2.45 user: 2.40 sys: 0.05
+MSMS 2.6.1 started on octo.mitchell-lab.internal
+Copyright M.F. Sanner (1994)
+Compilation flags -O3 -DVERBOSE -DTIMING -DFUNCPROTO -force_cpusubtype_ALL
+INPUT  /Storage/bacterjobs/2549/2549_01_319_B.xyzr 2438 spheres 0 collision only, radii  1.400 to  2.150
+PARAM  Probe_radius  1.500 density  3.000 hdensity  3.000
+REDUCED SURFACE ...
+    0 free vertex (vertices) found
+    RS component 0 identified 851 849 850
+    RS component 1 identified 19 15 148
+    RS component 2 identified 32 2369 2405
+    RS component 3 identified 39 687 712
+    RS component 4 identified 65 85 84
+    RS component 5 identified 161 2379 824
+    RS component 6 identified 284 602 285
+    RS component 7 identified 348 377 354
+    RS component 8 identified 482 511 477
+    RS component 9 identified 525 602 600
+    RS component 10 identified 638 712 449
+    RS component 11 identified 766 1147 1051
+    RS component 12 identified 780 782 808
+    RS component 13 identified 1008 1982 1819
+    RS component 14 identified 1065 978 959
+    RS component 15 identified 1220 1811 1479
+    RS component 16 identified 1496 1500 1503
+    RS component 17 identified 1954 2049 2263
+    RS component 18 identified 2017 2047 1981
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2986     4479          0       1359      68
+         1          12       18          0      -1351      679.5
+         2          12       18          0          0      4
+         3           8       12          0         -2      4
+         4          14       21          0          3      3
+         5          14       21          0          0      4.5
+         6           8       12          0         -3      4.5
+         7          10       15          0          1      3
+         8           4        6          0         -3      3.5
+         9           8       12          0          2      2
+        10           4        6          0         -2      3
+        11          12       18          0          4      2
+        12          12       18          0          0      4
+        13           6        9          0         -3      4
+        14           8       12          0          1      2.5
+        15          14       21          0          3      3
+        16          16       24          0          1      4.5
+        17           6        9          0         -5      5
+        18           4        6          0         -1      2.5
+    Time Reduced Surface real: 1.41 user: 1.41 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.05 user: 0.05 sys: 0.01
+        Time Singularities real: 0.01 user: 0.01 sys: 0.00
+    Component   1
+        Time Surface real: 0.01 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component   2
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component   3
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component   4
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component   5
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component   6
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component   7
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component   8
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component   9
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component  10
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component  11
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component  12
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component  13
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component  14
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component  15
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component  16
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component  17
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    Component  18
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     9193  18609    244    9412      456   0   2    4
+         1       41     81      3      42        6   0   0    0
+         2       42     84      4      44        8   0   0    0
+         3       29     57      3      30        6   0   0    0
+         4       46     90      2      46        4   0   0    0
+         5       49     99      5      52       10   0   0    0
+         6       29     57      3      30        6   0   0    0
+         7       35     69      3      36        6   0   0    0
+         8       17     33      3      18        6   0   0    0
+         9       30     60      4      32        8   0   0    0
+        10       15     27      1      14        2   0   0    0
+        11       40     78      2      40        4   0   0    0
+        12       39     75      1      38        2   0   0    0
+        13       21     39      1      20        2   0   0    0
+        14       29     57      3      30        6   0   0    0
+        15       45     87      1      44        2   0   0    0
+        16       52    102      2      52        4   0   0    0
+        17       22     42      2      22        4   0   0    0
+        18       16     30      2      16        4   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.500    4092.095  5141.287  4023.250 13256.633 15053.551
+      1       1.500      47.879     8.057     0.777    56.712     3.070
+      2       1.500      55.174    13.083     1.589    69.845     5.488
+      3       1.500      33.504     2.267     0.087    35.858     0.302
+      4       1.500      45.158     9.006     0.883    55.048     3.153
+      5       1.500      47.907     6.526     0.617    55.050     2.234
+      6       1.500      33.767     2.730     0.101    36.599     0.332
+      7       1.500      38.675     4.429     0.331    43.435     1.246
+      8       1.500      30.096     0.308     0.005    30.409     0.017
+      9       1.500      32.179     1.307     0.034    33.519     0.121
+     10       1.500      31.465     1.147     0.021    32.633     0.068
+     11       1.500      40.529     5.641     0.445    46.614     1.544
+     12       1.500      38.476     5.499     0.346    44.320     1.218
+     13       1.500      33.490     2.003     0.073    35.567     0.273
+     14       1.500      37.605     2.410     0.098    40.114     0.377
+     15       1.500      44.679    10.630     1.120    56.429     3.883
+     16       1.500      38.233     5.493     0.368    44.095     1.353
+     17       1.500      34.569     2.467     0.110    37.147     0.381
+     18       1.500      30.440     0.650     0.009    31.098     0.030
+TRIANGULATION...
+    Component 0
+    component#, vertices,  edges,  faces, genus, density
+        0          37757  113289   75526    4     2.848
+        Time Triangulation real: 0.32 user: 0.32 sys: 0.01
+    Component 1
+    component#, vertices,  edges,  faces, genus, density
+        1            195     579     386    0     3.438
+        Time Triangulation real: 0.01 user: 0.00 sys: 0.00
+    Component 2
+    component#, vertices,  edges,  faces, genus, density
+        2            220     654     436    0     3.150
+        Time Triangulation real: 0.00 user: 0.00 sys: 0.00
+    Component 3
+    component#, vertices,  edges,  faces, genus, density
+        3            122     360     240    0     3.402
+        Time Triangulation real: 0.00 user: 0.01 sys: 0.00
+    Component 4
+    component#, vertices,  edges,  faces, genus, density
+        4            197     585     390    0     3.579
+        Time Triangulation real: 0.00 user: 0.00 sys: 0.00
+    Component 5
+    component#, vertices,  edges,  faces, genus, density
+        5            198     588     392    0     3.597
+        Time Triangulation real: 0.01 user: 0.00 sys: 0.00
+    Component 6
+    component#, vertices,  edges,  faces, genus, density
+        6            135     399     266    0     3.689
+        Time Triangulation real: 0.01 user: 0.00 sys: 0.00
+    Component 7
+    component#, vertices,  edges,  faces, genus, density
+        7            160     474     316    0     3.684
+        Time Triangulation real: 0.00 user: 0.00 sys: 0.00
+    Component 8
+    component#, vertices,  edges,  faces, genus, density
+        8            100     294     196    0     3.289
+        Time Triangulation real: 0.00 user: 0.00 sys: 0.00
+    Component 9
+    component#, vertices,  edges,  faces, genus, density
+        9            121     357     238    0     3.610
+        Time Triangulation real: 0.00 user: 0.00 sys: 0.00
+    Component 10
+    component#, vertices,  edges,  faces, genus, density
+       10            109     321     214    0     3.340
+        Time Triangulation real: 0.00 user: 0.00 sys: 0.00
+    Component 11
+    component#, vertices,  edges,  faces, genus, density
+       11            181     537     358    0     3.883
+        Time Triangulation real: 0.01 user: 0.01 sys: 0.00
+    Component 12
+    component#, vertices,  edges,  faces, genus, density
+       12            169     501     334    0     3.813
+        Time Triangulation real: 0.00 user: 0.00 sys: 0.00
+    Component 13
+    component#, vertices,  edges,  faces, genus, density
+       13            126     372     248    0     3.543
+        Time Triangulation real: 0.00 user: 0.00 sys: 0.00
+    Component 14
+    component#, vertices,  edges,  faces, genus, density
+       14            139     411     274    0     3.465
+        Time Triangulation real: 0.01 user: 0.01 sys: 0.00
+    Component 15
+    component#, vertices,  edges,  faces, genus, density
+       15            200     594     396    0     3.544
+        Time Triangulation real: 0.00 user: 0.00 sys: 0.00
+    Component 16
+    component#, vertices,  edges,  faces, genus, density
+       16            186     552     368    0     4.218
+        Time Triangulation real: 0.00 user: 0.00 sys: 0.00
+    Component 17
+    component#, vertices,  edges,  faces, genus, density
+       17            134     396     264    0     3.607
+        Time Triangulation real: 0.00 user: 0.00 sys: 0.00
+    Component 18
+    component#, vertices,  edges,  faces, genus, density
+       18            105     309     206    0     3.376
+        Time Triangulation real: 0.00 user: 0.00 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.50    38563.512  13035.557
+       1      1.50      -36.042     54.954
+       2      1.50      -47.793     67.867
+       3      1.50      -18.479     34.331
+       4      1.50      -34.825     53.277
+       5      1.50      -33.992     53.286
+       6      1.50      -19.248     35.245
+       7      1.50      -24.818     41.865
+       8      1.50      -14.614     29.217
+       9      1.50      -16.822     32.172
+      10      1.50      -16.202     31.368
+      11      1.50      -27.554     45.139
+      12      1.50      -25.368     42.682
+      13      1.50      -18.416     34.187
+      14      1.50      -21.718     38.619
+      15      1.50      -36.661     54.729
+      16      1.50      -25.384     42.533
+      17      1.50      -19.701     35.832
+      18      1.50      -15.080     29.861
+    Total ses_volume: 38110.797
+MSMS terminated normally
+Total Time real: 2.44 user: 2.38 sys: 0.05
+36746 vertices 73504 faces
+197 vertices 390 faces
+216 vertices 428 faces
+171 vertices 338 faces
+152 vertices 300 faces
+319 vertices 634 faces
+98 vertices 192 faces
+123 vertices 242 faces
+174 vertices 344 faces
+121 vertices 238 faces
+122 vertices 240 faces
+323 vertices 642 faces
+105 vertices 206 faces
+235 vertices 466 faces
+140 vertices 276 faces
+115 vertices 226 faces
+37757 vertices 75526 faces
+195 vertices 386 faces
+109 vertices 214 faces
+181 vertices 358 faces
+169 vertices 334 faces
+126 vertices 248 faces
+139 vertices 274 faces
+200 vertices 396 faces
+186 vertices 368 faces
+134 vertices 264 faces
+105 vertices 206 faces
+220 vertices 436 faces
+122 vertices 240 faces
+197 vertices 390 faces
+198 vertices 392 faces
+135 vertices 266 faces
+160 vertices 316 faces
+100 vertices 196 faces
+121 vertices 238 faces
+ PDB file /Storage/bacterjobs/2549/2549.pdb has been read in.
+NUM CHAINS: 2
+A: 563
+B: 464
+Now with 2 chains.
+IN STRUCTURE: 2 CHAINS.
+0 = 'A':320
+1 = 'B':320
+Num Visibility Samples Built: 258
+BBOX SIZE: 46.473 x 71.932 x 59.152
+FEATURE SIZE: 0.678939
+Computing Visibility. GPU? 0  Finished? 0
+Computing visibility (CPU)... 36746 verts. 
+Sample: 20/258
+Sample: 40/258
+Sample: 60/258
+Sample: 80/258
+Sample: 100/258
+Sample: 120/258
+Sample: 140/258
+Sample: 160/258
+Sample: 180/258
+Sample: 200/258
+Sample: 220/258
+Sample: 240/258
+Finished computing visibility.
+Comps: 9480468   Ray-casts: 4727700
+0, 0 -> (0) 0
+
+--------------------------
+PDB2PQR - a Python-based structural conversion utility
+--------------------------
+Please cite your use of PDB2PQR as:
+  Dolinsky TJ, Nielsen JE, McCammon JA, Baker NA.
+  PDB2PQR: an automated pipeline for the setup, execution,
+  and analysis of Poisson-Boltzmann electrostatics calculations.
+  Nucleic Acids Research 32 W665-W667 (2004).
+
+/Storage/bacterjobs/2549/2549.pqr
+29
+
+
+----------------------------------------------------------------------
+	APBS -- Adaptive Poisson-Boltzmann Solver
+	Version 1.1.0
+	
+	Nathan A. Baker (baker@biochem.wustl.edu)
+	Dept. Biochemistry and Molecular Biophysics
+	Center for Computational Biology
+	Washington University in St. Louis
+	
+	Additional contributing authors listed in the code documentation.
+	
+	Copyright (c) 2002-2009, Washington University in St. Louis.
+	Portions Copyright (c) 2002-2009.  Nathan A. Baker
+	Portions Copyright (c) 1999-2002.  The Regents of the University of California.
+	Portions Copyright (c) 1995.  Michael Holst
+	
+	All rights reserved.
+	
+	Redistribution and use in source and binary forms, with or without
+	modification, are permitted provided that the following conditions are met: 
+	
+	* Redistributions of source code must retain the above copyright notice, this
+	list of conditions and the following disclaimer.  
+	
+	* Redistributions in binary form must reproduce the above copyright notice,
+	this list of conditions and the following disclaimer in the documentation
+	and/or other materials provided with the distribution.
+	
+	* Neither the name of Washington University in St. Louis nor the names of its
+	contributors may be used to endorse or promote products derived from this
+	software without specific prior written permission.
+	
+	THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+	"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+	LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+	A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+	CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+	EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+	PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+	PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+	LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+	NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+	SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+----------------------------------------------------------------------
+	APBS uses FETK (the Finite Element ToolKit) to solve the
+	Poisson-Boltzmann equation numerically.  FETK is a portable collection
+	of finite element modeling class libraries developed by the Michael Holst
+	research group and written in an object-oriented form of C.  FEtk is
+	designed to solve general coupled systems of nonlinear partial differential
+	equations using adaptive finite element methods, inexact Newton methods,
+	and algebraic multilevel methods.  More information about FEtk may be found
+	at <http://www.FEtk.ORG>.
+----------------------------------------------------------------------
+	APBS also uses Aqua to solve the Poisson-Boltzmann equation numerically.  
+	Aqua is a modified form of the Holst group PMG library <http://www.FEtk.ORG>
+	which has been modified by Patrice Koehl
+	<http://koehllab.genomecenter.ucdavis.edu/> for improved efficiency and
+	memory usage when solving the Poisson-Boltzmann equation.
+----------------------------------------------------------------------
+	Please cite your use of APBS as:
+
+	Baker NA, Sept D, Joseph S, Holst MJ, McCammon JA. Electrostatics of
+	nanosystems: application to microtubules and the ribosome. Proc.
+	Natl. Acad. Sci. USA 98, 10037-10041 2001.
+	
+
+This executable compiled on Mar  5 2009 at 14:58:47
+
+Parsing input file 2549.in...
+Parsed input file.
+Got paths for 1 molecules
+Reading PQR-format atom data from 2549.pqr.
+  10335 atoms
+  Centered at (1.719e+01, 2.279e+01, 4.376e+01)
+  Net charge -1.20e+01 e
+Preparing to run 2 PBE calculations.
+----------------------------------------
+CALCULATION #1: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  205.900 MB total, 205.900 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 97 x 97
+  Grid spacings: 1.385 x 1.316 x 1.573
+  Grid lengths: 88.657 x 126.370 x 150.970
+  Grid center: (17.187, 22.787, 43.761)
+  Multigrid levels: 4
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Single Debye-Huckel sphere boundary conditions
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Solving PDE (see io.mc* for details)...
+  Calculating energy (see io.mc* for details)...
+  Total electrostatic energy = 3.346464129895E+04 kJ/mol
+  Calculating forces...
+----------------------------------------
+CALCULATION #2: MULTIGRID
+  Setting up problem...
+  Vpbe_ctor:  Using max ion radius (0 A) for exclusion function
+  Debye length:  0 A
+  Current memory usage:  216.545 MB total, 248.987 MB high water
+  Using cubic spline charge discretization.
+  Grid dimensions: 65 x 97 x 97
+  Grid spacings: 1.127 x 0.983 x 1.133
+  Grid lengths: 72.151 x 94.335 x 108.806
+  Grid center: (17.187, 22.787, 43.761)
+  Multigrid levels: 4
+  Molecule ID: 1
+  Nonlinear traditional PBE
+  Boundary conditions from focusing
+  0 ion species (0.000 M ionic strength):
+  Solute dielectric: 2.000
+  Solvent dielectric: 78.540
+  Using "molecular" surface definition;harmonic average smoothing
+  Solvent probe radius: 1.400 A
+  Temperature:  298.150 K
+  Electrostatic energies will be calculated
+  Potential to be written to 2549.dx
+  Solving PDE (see io.mc* for details)...
+  Calculating energy (see io.mc* for details)...
+  Total electrostatic energy = 8.058819788608E+04 kJ/mol
+  Calculating forces...
+  Writing potential to 2549.dx
+----------------------------------------
+PRINT STATEMENTS
+print energy 2 - 1 end
+  Local net energy (PE 0) = -4.712355658713E+04 kJ/mol
+  Global net ELEC energy = -4.712355658713E+04 kJ/mol
+----------------------------------------
+CLEANING UP AND SHUTTING DOWN...
+Destroying force arrays.
+No energy arrays to destroy.
+Destroying multigrid structures.
+Destroying 1 molecules
+Final memory usage:  21.293 MB total, 248.987 MB high water
+
+
+Thanks for using APBS!
+
+DELTA:(1.12736,0.982656,1.1334)
+ORIGIN: (-18.8885,-24.381,-10.6425)
+DIMENSIONS:65 X 97 X 97
+611585 elements
+MEAN CHARGE: -2.92747  STDDEV: 19.9231
+Relaxing... avg. delta change: 1.66451
+MEAN CHARGE: -2.93445  STDDEV: 18.9764
+Relaxing... avg. delta change: 0.942001
+MEAN CHARGE: -2.93658  STDDEV: 18.3331
+Relaxing... avg. delta change: 0.710301
+MEAN CHARGE: -2.93683  STDDEV: 17.8218
+Relaxing... avg. delta change: 0.580043
+MEAN CHARGE: -2.93645  STDDEV: 17.393
+Relaxing... avg. delta change: 0.493674
+MEAN CHARGE: -2.93582  STDDEV: 17.0219
+Relaxing... avg. delta change: 0.430626
+MEAN CHARGE: -2.93506  STDDEV: 16.6938
+Relaxing... avg. delta change: 0.382536
+MEAN CHARGE: -2.93418  STDDEV: 16.3989
+Relaxing... avg. delta change: 0.344473
+MEAN CHARGE: -2.93324  STDDEV: 16.1306
+Relaxing... avg. delta change: 0.31337
+MEAN CHARGE: -2.9323  STDDEV: 15.8841
+Relaxing... avg. delta change: 0.287501
+MEAN CHARGE: -2.93133  STDDEV: 15.6558
+Relaxing... avg. delta change: 0.265712
+MEAN CHARGE: -2.93036  STDDEV: 15.4431
+Relaxing... avg. delta change: 0.247019
+MEAN CHARGE: -2.92942  STDDEV: 15.2439
+Relaxing... avg. delta change: 0.230788
+MEAN CHARGE: -2.92848  STDDEV: 15.0565
+Relaxing... avg. delta change: 0.216549
+MEAN CHARGE: -2.92758  STDDEV: 14.8794
+Relaxing... avg. delta change: 0.204025
+MEAN CHARGE: -2.92668  STDDEV: 14.7116
+Relaxing... avg. delta change: 0.192895
+MEAN CHARGE: -2.92581  STDDEV: 14.5521
+Relaxing... avg. delta change: 0.182948
+MEAN CHARGE: -2.92498  STDDEV: 14.4001
+Relaxing... avg. delta change: 0.17399
+MEAN CHARGE: -2.92417  STDDEV: 14.2549
+Relaxing... avg. delta change: 0.165907
+MEAN CHARGE: -2.92339  STDDEV: 14.1159
+Relaxing... avg. delta change: 0.158563
+MEAN CHARGE: -2.92264  STDDEV: 13.9827
+Relaxing... avg. delta change: 0.151884
+MEAN CHARGE: -2.92192  STDDEV: 13.8546
+Relaxing... avg. delta change: 0.145756
+MEAN CHARGE: -2.92125  STDDEV: 13.7315
+Relaxing... avg. delta change: 0.140107
+MEAN CHARGE: -2.92058  STDDEV: 13.6128
+Relaxing... avg. delta change: 0.134888
+MEAN CHARGE: -2.91994  STDDEV: 13.4983
+Relaxing... avg. delta change: 0.130052
+Building ligand binding sites...vertex: 1000/36746
+vertex: 2000/36746
+vertex: 3000/36746
+vertex: 4000/36746
+vertex: 5000/36746
+vertex: 6000/36746
+vertex: 7000/36746
+vertex: 8000/36746
+vertex: 9000/36746
+vertex: 10000/36746
+vertex: 11000/36746
+vertex: 12000/36746
+vertex: 13000/36746
+vertex: 14000/36746
+vertex: 15000/36746
+vertex: 16000/36746
+vertex: 17000/36746
+vertex: 18000/36746
+vertex: 19000/36746
+vertex: 20000/36746
+vertex: 21000/36746
+vertex: 22000/36746
+vertex: 23000/36746
+vertex: 24000/36746
+vertex: 25000/36746
+vertex: 26000/36746
+vertex: 27000/36746
+vertex: 28000/36746
+vertex: 29000/36746
+vertex: 30000/36746
+vertex: 31000/36746
+vertex: 32000/36746
+vertex: 33000/36746
+vertex: 34000/36746
+vertex: 35000/36746
+vertex: 36000/36746
+ done (added 281 regions).
+Computing Smooth Vertices with mu = 0.800000, lambda = 0.870000, ring = 3, levels = 1, iters = 8
+Time taken: 0.76 seconds.
+FOUND: 135 peaks and 127 bowls. 
+# GROUPS BEFORE: 262
+WHOOPS! GOT HERE???
+# GROUPS AFTER: 43
+Removing features... Error... vert 10378 is improperly formed!
+Error... vert 1485 is improperly formed!
+Error... vert 1518 is improperly formed!
+Error... vert 27634 is improperly formed!
+Error... vert 15834 is improperly formed!
+Error... vert 27634 is improperly formed!
+Error... vert 27643 is improperly formed!
+Error... vert 27837 is improperly formed!
+Error... vert 27642 is improperly formed!
+Error... vert 27642 is improperly formed!
+Error... vert 27642 is improperly formed!
+Error... vert 27642 is improperly formed!
+Error... vert 32688 is improperly formed!
+Error... vert 27642 is improperly formed!
+Error... vert 27647 is improperly formed!
+Error... vert 27642 is improperly formed!
+Error... vert 28175 is improperly formed!
+Error... vert 28175 is improperly formed!
+Error... vert 28175 is improperly formed!
+Error... vert 8916 is improperly formed!
+Error... vert 28214 is improperly formed!
+Error... vert 8915 is improperly formed!
+Error... vert 8917 is improperly formed!
+Error... vert 28215 is improperly formed!
+Error... vert 9144 is improperly formed!
+Error... vert 28157 is improperly formed!
+Error... vert 3407 is improperly formed!
+Error... vert 4566 is improperly formed!
+Error... vert 30728 is improperly formed!
+Error... vert 28197 is improperly formed!
+Error... vert 6196 is improperly formed!
+Error... vert 30728 is improperly formed!
+Error... vert 28197 is improperly formed!
+Error... vert 28197 is improperly formed!
+Error... vert 28201 is improperly formed!
+Error... vert 28197 is improperly formed!
+Error... vert 9137 is improperly formed!
+Error... vert 6196 is improperly formed!
+Error... vert 9137 is improperly formed!
+Error... vert 6196 is improperly formed!
+Error... vert 19418 is improperly formed!
+Error... vert 5305 is improperly formed!
+Error... vert 4263 is improperly formed!
+Error... vert 4260 is improperly formed!
+Error... vert 22052 is improperly formed!
+Error... vert 7063 is improperly formed!
+ERROR! VERTS SAME!
+Done.
+Computing Smooth Vertices with mu = 0.800000, lambda = 0.870000, ring = 3, levels = 1, iters = 8
+Time taken: 0.63 seconds.
+Computing Smooth Vertices with mu = 0.800000, lambda = 0.870000, ring = 3, levels = 1, iters = 8
+Time taken: 0.64 seconds.
+FOUND: 381 peaks and 399 bowls. 
+# GROUPS BEFORE: 780
+WHOOPS! GOT HERE???
+# GROUPS AFTER: 81
+Removing features... Error... vert 8329 is improperly formed!
+Error... vert 6116 is improperly formed!
+Error... vert 5622 is improperly formed!
+Error... vert 8329 is improperly formed!
+Error... vert 25765 is improperly formed!
+Error... vert 5612 is improperly formed!
+Error... vert 5612 is improperly formed!
+Error... vert 5612 is improperly formed!
+Error... vert 5622 is improperly formed!
+Error... vert 25765 is improperly formed!
+Error... vert 8329 is improperly formed!
+Error... vert 8329 is improperly formed!
+Error... vert 25765 is improperly formed!
+Error... vert 8329 is improperly formed!
+Error... vert 25765 is improperly formed!
+Error... vert 5622 is improperly formed!
+Error... vert 8329 is improperly formed!
+Error... vert 5622 is improperly formed!
+Error... vert 25765 is improperly formed!
+Error... vert 5612 is improperly formed!
+Error... vert 5622 is improperly formed!
+Error... vert 25765 is improperly formed!
+Error... vert 25765 is improperly formed!
+Error... vert 8329 is improperly formed!
+Error... vert 28574 is improperly formed!
+Error... vert 25777 is improperly formed!
+Error... vert 25778 is improperly formed!
+Error... vert 8158 is improperly formed!
+Error... vert 8158 is improperly formed!
+Error... vert 8157 is improperly formed!
+Error... vert 8157 is improperly formed!
+Error... vert 8157 is improperly formed!
+Error... vert 8157 is improperly formed!
+Error... vert 25751 is improperly formed!
+Error... vert 25778 is improperly formed!
+Error... vert 8157 is improperly formed!
+Error... vert 8157 is improperly formed!
+Error... vert 25778 is improperly formed!
+Error... vert 7970 is improperly formed!
+Error... vert 8157 is improperly formed!
+Error... vert 8157 is improperly formed!
+Error... vert 8336 is improperly formed!
+Error... vert 33053 is improperly formed!
+Error... vert 8157 is improperly formed!
+Error... vert 13396 is improperly formed!
+Error... vert 25754 is improperly formed!
+Error... vert 13396 is improperly formed!
+Error... vert 19007 is improperly formed!
+Error... vert 27986 is improperly formed!
+Error... vert 25345 is improperly formed!
+Error... vert 30416 is improperly formed!
+Error... vert 25343 is improperly formed!
+Error... vert 25346 is improperly formed!
+Error... vert 25343 is improperly formed!
+Error... vert 25343 is improperly formed!
+Error... vert 29598 is improperly formed!
+Error... vert 2685 is improperly formed!
+Error... vert 14523 is improperly formed!
+Error... vert 30408 is improperly formed!
+Error... vert 14523 is improperly formed!
+Error... vert 30408 is improperly formed!
+Error... vert 13656 is improperly formed!
+Error... vert 2682 is improperly formed!
+Error... vert 2682 is improperly formed!
+Error... vert 11808 is improperly formed!
+Error... vert 11772 is improperly formed!
+Error... vert 13869 is improperly formed!
+Done.
+Computing Smooth Vertices with mu = 0.800000, lambda = 0.870000, ring = 3, levels = 1, iters = 8
+Time taken: 0.48 seconds.
+Computing Smooth Vertices with mu = 0.800000, lambda = 0.870000, ring = 3, levels = 1, iters = 8
+Time taken: 0.49 seconds.
+FOUND: 253 peaks and 247 bowls. 
+# GROUPS BEFORE: 500
+WHOOPS! GOT HERE???
+# GROUPS AFTER: 65
+Removing features... Error... vert 9591 is improperly formed!
+Error... vert 9565 is improperly formed!
+Error... vert 9591 is improperly formed!
+Error... vert 9591 is improperly formed!
+Error... vert 11025 is improperly formed!
+Error... vert 11700 is improperly formed!
+Error... vert 1530 is improperly formed!
+Error... vert 23099 is improperly formed!
+Error... vert 20308 is improperly formed!
+Error... vert 20308 is improperly formed!
+Error... vert 20309 is improperly formed!
+Error... vert 20308 is improperly formed!
+Error... vert 2135 is improperly formed!
+Error... vert 10880 is improperly formed!
+Error... vert 20308 is improperly formed!
+Error... vert 20308 is improperly formed!
+Error... vert 2135 is improperly formed!
+Error... vert 6596 is improperly formed!
+Error... vert 6596 is improperly formed!
+Error... vert 14314 is improperly formed!
+Error... vert 15538 is improperly formed!
+Error... vert 6599 is improperly formed!
+Error... vert 4858 is improperly formed!
+Error... vert 4481 is improperly formed!
+Error... vert 20317 is improperly formed!
+Error... vert 4475 is improperly formed!
+Error... vert 4475 is improperly formed!
+Error... vert 4481 is improperly formed!
+Error... vert 20317 is improperly formed!
+Error... vert 16443 is improperly formed!
+Error... vert 6599 is improperly formed!
+Error... vert 6599 is improperly formed!
+Error... vert 6599 is improperly formed!
+Error... vert 6599 is improperly formed!
+Error... vert 6599 is improperly formed!
+Error... vert 6599 is improperly formed!
+Error... vert 6599 is improperly formed!
+Error... vert 6599 is improperly formed!
+Error... vert 20317 is improperly formed!
+Error... vert 6599 is improperly formed!
+Error... vert 4858 is improperly formed!
+Error... vert 6599 is improperly formed!
+Error... vert 6599 is improperly formed!
+Error... vert 6599 is improperly formed!
+Error... vert 6599 is improperly formed!
+Error... vert 6599 is improperly formed!
+Error... vert 6599 is improperly formed!
+Error... vert 20317 is improperly formed!
+Error... vert 6599 is improperly formed!
+Error... vert 6599 is improperly formed!
+Error... vert 6599 is improperly formed!
+Error... vert 6474 is improperly formed!
+Error... vert 20323 is improperly formed!
+Error... vert 20324 is improperly formed!
+Error... vert 20324 is improperly formed!
+Error... vert 6474 is improperly formed!
+Error... vert 6474 is improperly formed!
+Error... vert 19637 is improperly formed!
+Error... vert 20323 is improperly formed!
+Error... vert 19637 is improperly formed!
+Error... vert 19639 is improperly formed!
+Error... vert 6473 is improperly formed!
+Error... vert 6473 is improperly formed!
+Error... vert 6474 is improperly formed!
+Error... vert 19637 is improperly formed!
+Error... vert 19637 is improperly formed!
+Error... vert 19637 is improperly formed!
+Error... vert 6474 is improperly formed!
+Error... vert 19637 is improperly formed!
+Error... vert 19639 is improperly formed!
+Error... vert 6474 is improperly formed!
+Error... vert 19639 is improperly formed!
+Error... vert 19639 is improperly formed!
+Error... vert 19637 is improperly formed!
+Error... vert 6031 is improperly formed!
+Error... vert 2135 is improperly formed!
+Error... vert 20308 is improperly formed!
+Error... vert 10880 is improperly formed!
+Error... vert 20308 is improperly formed!
+Error... vert 20308 is improperly formed!
+Error... vert 20309 is improperly formed!
+Error... vert 2135 is improperly formed!
+Error... vert 20308 is improperly formed!
+Error... vert 20308 is improperly formed!
+Error... vert 2139 is improperly formed!
+Error... vert 20308 is improperly formed!
+Error... vert 20309 is improperly formed!
+Error... vert 20309 is improperly formed!
+Error... vert 10773 is improperly formed!
+Error... vert 10771 is improperly formed!
+Error... vert 4248 is improperly formed!
+ERROR! VERTS SAME!
+ERROR! VERTS SAME!
+Done.
+Computing Smooth Vertices with mu = 0.800000, lambda = 0.870000, ring = 3, levels = 1, iters = 8
+Time taken: 0.39 seconds.
+0  => (hbond)   NUMV: 9   CENTER: 839
+1  => (hbond)  DISABLED.
+2  => (hbond)   NUMV: 60   CENTER: 1692
+3  => (hbond)   NUMV: 42   CENTER: 1440
+4  => (hbond)  DISABLED.
+5  => (hbond)   NUMV: 21   CENTER: 2251
+6  => (hbond)   NUMV: 32   CENTER: 2249
+7  => (hbond)   NUMV: 50   CENTER: 1797
+8  => (hbond)  DISABLED.
+9  => (hbond)   NUMV: 31   CENTER: 1517
+10  => (hbond)   NUMV: 3   CENTER: 1787
+11  => (hbond)  DISABLED.
+12  => (hbond)   NUMV: 14   CENTER: 2020
+13  => (hbond)   NUMV: 60   CENTER: 2005
+14  => (hbond)   NUMV: 51   CENTER: 1766
+15  => (hbond)   NUMV: 17   CENTER: 1691
+16  => (hbond)   NUMV: 45   CENTER: 1691
+17  => (hbond)   NUMV: 51   CENTER: 1950
+18  => (hbond)  DISABLED.
+19  => (hbond)   NUMV: 3   CENTER: 1963
+20  => (hbond)   NUMV: 18   CENTER: 2213
+21  => (hbond)   NUMV: 8   CENTER: 1709
+22  => (hbond)  DISABLED.
+23  => (hbond)   NUMV: 38   CENTER: 1150
+24  => (hbond)   NUMV: 59   CENTER: 1447
+25  => (hbond)  DISABLED.
+26  => (hbond)   NUMV: 11   CENTER: 1216
+27  => (hbond)   NUMV: 42   CENTER: 1769
+28  => (hbond)  DISABLED.
+29  => (hbond)   NUMV: 22   CENTER: 1226
+30  => (hbond)   NUMV: 32   CENTER: 1790
+31  => (hbond)  DISABLED.
+32  => (hbond)   NUMV: 18   CENTER: 1525
+33  => (hbond)   NUMV: 15   CENTER: 1235
+34  => (hbond)   NUMV: 22   CENTER: 964
+35  => (hbond)   NUMV: 47   CENTER: 686
+36  => (hbond)  DISABLED.
+37  => (hbond)   NUMV: 43   CENTER: 331
+38  => (hbond)  DISABLED.
+39  => (hbond)   NUMV: 16   CENTER: 217
+40  => (hbond)   NUMV: 27   CENTER: 202
+41  => (hbond)   NUMV: 14   CENTER: 324
+42  => (hbond)   NUMV: 14   CENTER: 192
+43  => (hbond)   NUMV: 33   CENTER: 191
+44  => (hbond)   NUMV: 3   CENTER: 7050
+45  => (hbond)   NUMV: 12   CENTER: 669
+46  => (hbond)   NUMV: 19   CENTER: 1208
+47  => (hbond)   NUMV: 48   CENTER: 932
+48  => (hbond)   NUMV: 56   CENTER: 1480
+49  => (hbond)  DISABLED.
+50  => (hbond)   NUMV: 22   CENTER: 913
+51  => (hbond)   NUMV: 1   CENTER: 651
+52  => (hbond)   NUMV: 2   CENTER: 6559
+53  => (hbond)   NUMV: 1   CENTER: 6065
+54  => (hbond)   NUMV: 23   CENTER: 620
+55  => (hbond)   NUMV: 40   CENTER: 628
+56  => (hbond)   NUMV: 49   CENTER: 739
+57  => (hbond)  DISABLED.
+58  => (hbond)   NUMV: 38   CENTER: 233
+59  => (hbond)   NUMV: 37   CENTER: 243
+60  => (hbond)   NUMV: 34   CENTER: 527
+61  => (hbond)   NUMV: 2   CENTER: 7801
+62  => (hbond)  DISABLED.
+63  => (hbond)   NUMV: 17   CENTER: 1278
+64  => (hbond)   NUMV: 52   CENTER: 988
+65  => (hbond)  DISABLED.
+66  => (hbond)   NUMV: 23   CENTER: 723
+67  => (hbond)   NUMV: 6   CENTER: 520
+68  => (hbond)  DISABLED.
+69  => (hbond)   NUMV: 1   CENTER: 6238
+70  => (hbond)  DISABLED.
+71  => (hbond)   NUMV: 19   CENTER: 982
+72  => (hbond)   NUMV: 29   CENTER: 114
+73  => (hbond)  DISABLED.
+74  => (hbond)   NUMV: 41   CENTER: 104
+75  => (hbond)   NUMV: 48   CENTER: 105
+76  => (hbond)   NUMV: 4   CENTER: 5739
+77  => (hbond)   NUMV: 1   CENTER: 5264
+78  => (hbond)   NUMV: 67   CENTER: 18
+79  => (hbond)   NUMV: 55   CENTER: 96
+80  => (hbond)  DISABLED.
+81  => (hbond)   NUMV: 64   CENTER: 290
+82  => (hbond)  DISABLED.
+83  => (hbond)   NUMV: 28   CENTER: 409
+84  => (hbond)   NUMV: 46   CENTER: 415
+85  => (hbond)  DISABLED.
+86  => (hbond)   NUMV: 43   CENTER: 403
+87  => (hbond)   NUMV: 53   CENTER: 579
+88  => (hbond)   NUMV: 43   CENTER: 1327
+89  => (hbond)   NUMV: 18   CENTER: 1345
+90  => (hbond)  DISABLED.
+91  => (hbond)   NUMV: 50   CENTER: 1586
+92  => (hbond)   NUMV: 58   CENTER: 1819
+93  => (hbond)   NUMV: 46   CENTER: 1347
+94  => (hbond)  DISABLED.
+95  => (hbond)   NUMV: 9   CENTER: 2705
+96  => (hbond)   NUMV: 15   CENTER: 2945
+97  => (hbond)   NUMV: 23   CENTER: 3184
+98  => (hbond)   NUMV: 4   CENTER: 17045
+99  => (hbond)   NUMV: 18   CENTER: 2969
+100  => (hbond)   NUMV: 23   CENTER: 2960
+101  => (hbond)  DISABLED.
+102  => (hbond)   NUMV: 32   CENTER: 3413
+103  => (hbond)   NUMV: 36   CENTER: 3412
+104  => (hbond)  DISABLED.
+105  => (hbond)   NUMV: 26   CENTER: 3178
+106  => (hbond)   NUMV: 4   CENTER: 12113
+107  => (hbond)   NUMV: 1   CENTER: 11605
+108  => (hbond)   NUMV: 28   CENTER: 3172
+109  => (hbond)   NUMV: 9   CENTER: 11111
+110  => (hbond)   NUMV: 3   CENTER: 3264
+111  => (hbond)  DISABLED.
+112  => (hbond)   NUMV: 14   CENTER: 2338
+113  => (hbond)   NUMV: 34   CENTER: 2346
+114  => (hbond)  DISABLED.
+115  => (hbond)   NUMV: 44   CENTER: 2144
+116  => (hbond)   NUMV: 33   CENTER: 2153
+117  => (hbond)  DISABLED.
+118  => (hbond)   NUMV: 1   CENTER: 9599
+119  => (hbond)   NUMV: 1   CENTER: 1894
+120  => (hbond)   NUMV: 8   CENTER: 1637
+121  => (hbond)   NUMV: 11   CENTER: 1086
+122  => (hbond)   NUMV: 6   CENTER: 8476
+123  => (hbond)   NUMV: 4   CENTER: 1388
+124  => (hbond)   NUMV: 44   CENTER: 2161
+125  => (hbond)   NUMV: 20   CENTER: 1374
+126  => (hbond)  DISABLED.
+127  => (hbond)   NUMV: 5   CENTER: 2094
+128  => (hbond)   NUMV: 1   CENTER: 8943
+129  => (hbond)   NUMV: 37   CENTER: 2306
+130  => (hbond)   NUMV: 20   CENTER: 2302
+131  => (hbond)  DISABLED.
+132  => (hbond)   NUMV: 52   CENTER: 2823
+133  => (hbond)   NUMV: 1   CENTER: 3089
+134  => (hbond)   NUMV: 18   CENTER: 3894
+135  => (hbond)   NUMV: 8   CENTER: 3894
+136  => (hbond)  DISABLED.
+137  => (hbond)   NUMV: 13   CENTER: 4556
+138  => (hbond)  DISABLED.
+139  => (hbond)   NUMV: 1   CENTER: 4835
+140  => (hbond)  DISABLED.
+141  => (hbond)   NUMV: 53   CENTER: 4844
+142  => (hbond)   NUMV: 34   CENTER: 4558
+143  => (hbond)   NUMV: 1   CENTER: 3896
+144  => (hbond)   NUMV: 48   CENTER: 3581
+145  => (hbond)   NUMV: 49   CENTER: 3873
+146  => (hbond)   NUMV: 31   CENTER: 3860
+147  => (hbond)   NUMV: 60   CENTER: 3851
+148  => (hbond)   NUMV: 59   CENTER: 4154
+149  => (hbond)   NUMV: 55   CENTER: 3812
+150  => (hbond)   NUMV: 46   CENTER: 4135
+151  => (hbond)   NUMV: 28   CENTER: 2544
+152  => (hbond)   NUMV: 37   CENTER: 2813
+153  => (hbond)  DISABLED.
+154  => (hbond)   NUMV: 14   CENTER: 2803
+155  => (hbond)  DISABLED.
+156  => (hbond)   NUMV: 43   CENTER: 2524
+157  => (hbond)   NUMV: 36   CENTER: 2300
+158  => (hbond)   NUMV: 9   CENTER: 3289
+159  => (hbond)   NUMV: 1   CENTER: 11862
+160  => (hbond)   NUMV: 10   CENTER: 3540
+161  => (hbond)   NUMV: 1   CENTER: 11860
+162  => (hbond)  DISABLED.
+163  => (hbond)   NUMV: 51   CENTER: 3284
+164  => (hbond)   NUMV: 17   CENTER: 3286
+165  => (hbond)  DISABLED.
+166  => (hbond)   NUMV: 10   CENTER: 4930
+167  => (hbond)  DISABLED.
+168  => (hbond)   NUMV: 31   CENTER: 3798
+169  => (hbond)   NUMV: 37   CENTER: 3530
+170  => (hbond)   NUMV: 35   CENTER: 3805
+171  => (hbond)   NUMV: 51   CENTER: 4123
+172  => (hbond)   NUMV: 1   CENTER: 15713
+173  => (hbond)   NUMV: 26   CENTER: 5085
+174  => (hbond)   NUMV: 3   CENTER: 5113
+175  => (hbond)   NUMV: 5   CENTER: 5122
+176  => (hbond)  DISABLED.
+177  => (hbond)   NUMV: 32   CENTER: 4938
+178  => (hbond)   NUMV: 45   CENTER: 4747
+179  => (hbond)   NUMV: 52   CENTER: 5079
+180  => (hbond)   NUMV: 11   CENTER: 4735
+181  => (hbond)   NUMV: 6   CENTER: 15172
+182  => (hbond)   NUMV: 2   CENTER: 13508
+183  => (hbond)   NUMV: 1   CENTER: 14171
+184  => (hbond)  DISABLED.
+185  => (hbond)   NUMV: 17   CENTER: 4436
+186  => (hbond)   NUMV: 1   CENTER: 12287
+187  => (hbond)   NUMV: 44   CENTER: 4425
+188  => (hbond)   NUMV: 44   CENTER: 4433
+189  => (hbond)   NUMV: 16   CENTER: 3765
+190  => (hbond)  DISABLED.
+191  => (hbond)   NUMV: 1   CENTER: 4097
+192  => (hbond)   NUMV: 1   CENTER: 14144
+193  => (hbond)   NUMV: 37   CENTER: 4427
+194  => (hbond)   NUMV: 11   CENTER: 4699
+195  => (hbond)   NUMV: 39   CENTER: 4430
+196  => (hbond)   NUMV: 1   CENTER: 15369
+197  => (hbond)   NUMV: 29   CENTER: 4653
+198  => (hbond)   NUMV: 38   CENTER: 4407
+199  => (hbond)  DISABLED.
+200  => (hbond)   NUMV: 13   CENTER: 5070
+201  => (hbond)  DISABLED.
+202  => (hbond)   NUMV: 49   CENTER: 5076
+203  => (hbond)   NUMV: 45   CENTER: 4932
+204  => (hbond)   NUMV: 36   CENTER: 4876
+205  => (hbond)   NUMV: 18   CENTER: 4882
+206  => (hbond)   NUMV: 3   CENTER: 5043
+207  => (hbond)   NUMV: 24   CENTER: 4563
+208  => (hbond)   NUMV: 3   CENTER: 5005
+209  => (hbond)   NUMV: 4   CENTER: 5152
+210  => (hbond)   NUMV: 37   CENTER: 4859
+211  => (hbond)  DISABLED.
+212  => (hbond)   NUMV: 1   CENTER: 13153
+213  => (hbond)   NUMV: 1   CENTER: 15827
+214  => (hbond)  DISABLED.
+215  => (hbond)   NUMV: 43   CENTER: 2847
+216  => (hbond)   NUMV: 36   CENTER: 2843
+217  => (hbond)  DISABLED.
+218  => (hbond)   NUMV: 4   CENTER: 2354
+219  => (hbond)   NUMV: 1   CENTER: 2354
+220  => (hbond)  DISABLED.
+221  => (hbond)   NUMV: 53   CENTER: 3234
+222  => (hbond)   NUMV: 19   CENTER: 3248
+223  => (hbond)   NUMV: 28   CENTER: 3736
+224  => (hbond)   NUMV: 25   CENTER: 3452
+225  => (hbond)   NUMV: 54   CENTER: 3446
+226  => (hbond)   NUMV: 15   CENTER: 4299
+227  => (hbond)   NUMV: 7   CENTER: 4600
+228  => (hbond)   NUMV: 30   CENTER: 4294
+229  => (hbond)   NUMV: 37   CENTER: 3613
+230  => (hbond)   NUMV: 6   CENTER: 3610
+231  => (hbond)   NUMV: 14   CENTER: 3100
+232  => (hbond)   NUMV: 1   CENTER: 13218
+233  => (hbond)   NUMV: 4   CENTER: 13215
+234  => (hbond)   NUMV: 1   CENTER: 3644
+235  => (hbond)   NUMV: 7   CENTER: 3911
+236  => (hbond)   NUMV: 1   CENTER: 13866
+237  => (hbond)   NUMV: 25   CENTER: 3946
+238  => (hbond)   NUMV: 20   CENTER: 3659
+239  => (hbond)   NUMV: 30   CENTER: 2884
+240  => (hbond)  DISABLED.
+241  => (hbond)   NUMV: 3   CENTER: 4273
+242  => (hbond)   NUMV: 1   CENTER: 14518
+243  => (hbond)  DISABLED.
+244  => (hbond)   NUMV: 1   CENTER: 13309
+245  => (hbond)   NUMV: 16   CENTER: 3668
+246  => (hbond)   NUMV: 1   CENTER: 17119
+247  => (hbond)  DISABLED.
+248  => (hbond)   NUMV: 19   CENTER: 2718
+249  => (hbond)   NUMV: 33   CENTER: 2710
+250  => (hbond)  DISABLED.
+251  => (hbond)   NUMV: 1   CENTER: 11233
+252  => (hbond)   NUMV: 2   CENTER: 11236
+253  => (hbond)   NUMV: 47   CENTER: 2227
+254  => (hbond)   NUMV: 34   CENTER: 2227
+255  => (hbond)  DISABLED.
+256  => (hbond)   NUMV: 9   CENTER: 1075
+257  => (hbond)   NUMV: 12   CENTER: 786
+258  => (hbond)  DISABLED.
+259  => (hbond)   NUMV: 23   CENTER: 1920
+260  => (hbond)   NUMV: 34   CENTER: 1678
+261  => (hbond)   NUMV: 6   CENTER: 7949
+262  => (hbond)   NUMV: 1   CENTER: 10186
+263  => (hbond)  DISABLED.
+264  => (hbond)   NUMV: 16   CENTER: 788
+265  => (hbond)  DISABLED.
+266  => (hbond)   NUMV: 13   CENTER: 1106
+267  => (hbond)   NUMV: 39   CENTER: 1412
+268  => (hbond)  DISABLED.
+269  => (ligsite)
+chart#: 0  ->  center vert: 661  size: 389  num in chart: 708 of 708 left.
+270  => (ligsite)  DISABLED.
+271  => (ligsite)
+chart#: 0  ->  center vert: 1550  size: 227  num in chart: 392 of 392 left.
+272  => (ligsite)
+chart#: 0  ->  center vert: 16674  size: 79  num in chart: 125 of 125 left.
+273  => (ligsite)
+chart#: 0  ->  center vert: 19135  size: 373  num in chart: 673 of 1357 left.
+chart#: 1  ->  center vert: 11921  size: 197  num in chart: 327 of 684 left.
+chart#: 2  ->  center vert: 11445  size: 27  num in chart: 32 of 357 left.
+chart#: 3  ->  center vert: 3591  size: 11  num in chart: 10 of 325 left.
+chart#: 4  ->  center vert: 19532  size: 190  num in chart: 315 of 315 left.
+274  => (ligsite)
+708: 10189 -- 17.0906
+847: 10186 -- 19.01
+chart#: 0  ->  center vert: 10697  size: 601  num in chart: 1095 of 2269 left.
+107: 10186 -- 4.72782
+160: 10189 -- 6.45592
+chart#: 1  ->  center vert: 2959  size: 330  num in chart: 553 of 1174 left.
+chart#: 2  ->  center vert: 10300  size: 356  num in chart: 622 of 621 left.
+275  => (ligsite)
+chart#: 0  ->  center vert: 3580  size: 101  num in chart: 165 of 165 left.
+276  => (ligsite)
+chart#: 0  ->  center vert: 12950  size: 176  num in chart: 296 of 296 left.
+277  => (ligsite)
+chart#: 0  ->  center vert: 12679  size: 108  num in chart: 180 of 180 left.
+278  => (ligsite)
+chart#: 0  ->  center vert: 13955  size: 131  num in chart: 213 of 213 left.
+279  => (ligsite)
+chart#: 0  ->  center vert: 14448  size: 176  num in chart: 297 of 297 left.
+280  => (ligsite)
+chart#: 0  ->  center vert: 5164  size: 397  num in chart: 730 of 730 left.
+281  => (shadow)
+chart#: 0  ->  center vert: 10003  size: 782  num in chart: 1441 of 4502 left.
+chart#: 1  ->  center vert: 10511  size: 818  num in chart: 1504 of 3061 left.
+chart#: 2  ->  center vert: 8998  size: 431  num in chart: 755 of 1557 left.
+chart#: 3  ->  center vert: 10447  size: 464  num in chart: 800 of 802 left.
+chart#: 4  ->  center vert: 10968  size: 6  num in chart: 5 of 2 left.
+282  => (sanded)   NUMV: 13   CENTER: 198
+283  => (sanded)   NUMV: 5   CENTER: 7246
+284  => (sanded)   NUMV: 1   CENTER: 1329
+285  => (sanded)   NUMV: 4   CENTER: 1075
+286  => (sanded)   NUMV: 12   CENTER: 1442
+287  => (sanded)   NUMV: 1   CENTER: 9245
+288  => (sanded)   NUMV: 19   CENTER: 2133
+289  => (sanded)   NUMV: 22   CENTER: 2577
+290  => (sanded)   NUMV: 18   CENTER: 3207
+291  => (sanded)   NUMV: 1   CENTER: 11636
+292  => (sanded)   NUMV: 11   CENTER: 4273
+293  => (sanded)   NUMV: 25   CENTER: 5037
+294  => (sanded)   NUMV: 3   CENTER: 2094
+295  => (sanded)   NUMV: 5   CENTER: 2472
+296  => (sanded)   NUMV: 17   CENTER: 2280
+297  => (sanded)   NUMV: 8   CENTER: 3610
+298  => (sanded)   NUMV: 7   CENTER: 320
+299  => (sanded)   NUMV: 7   CENTER: 1396
+300  => (sanded)   NUMV: 1   CENTER: 8297
+301  => (sanded)   NUMV: 24   CENTER: 2028
+302  => (sanded)   NUMV: 33   CENTER: 2061
+303  => (sanded)   NUMV: 10   CENTER: 2277
+304  => (sanded)   NUMV: 1   CENTER: 11606
+305  => (sanded)   NUMV: 3   CENTER: 3809
+306  => (sanded)   NUMV: 14   CENTER: 3910
+307  => (sanded)   NUMV: 1   CENTER: 5264
+308  => (sanded)   NUMV: 1   CENTER: 6065
+309  => (sanded)   NUMV: 1   CENTER: 18078
+310  => (sanded)   NUMV: 2   CENTER: 7481
+311  => (sanded)   NUMV: 9   CENTER: 1423
+312  => (sanded)   NUMV: 2   CENTER: 8832
+313  => (sanded)   NUMV: 8   CENTER: 1637
+314  => (sanded)   NUMV: 1   CENTER: 10524
+315  => (sanded)   NUMV: 1   CENTER: 2735
+316  => (sanded)   NUMV: 4   CENTER: 2960
+317  => (sanded)   NUMV: 9   CENTER: 3082
+318  => (sanded)   NUMV: 1   CENTER: 12287
+319  => (sanded)   NUMV: 1   CENTER: 14132
+320  => (sanded)   NUMV: 1   CENTER: 14173
+321  => (sanded)   NUMV: 1   CENTER: 13866
+322  => (sanded)   NUMV: 1   CENTER: 4758
+323  => (sanded)   NUMV: 1   CENTER: 4835
+324  => (sanded)   NUMV: 10   CENTER: 5005
+325  => (sanded)   NUMV: 15   CENTER: 1
+326  => (sanded)   NUMV: 7   CENTER: 217
+327  => (sanded)   NUMV: 11   CENTER: 839
+328  => (sanded)   NUMV: 11   CENTER: 739
+329  => (sanded)   NUMV: 13   CENTER: 1317
+330  => (sanded)   NUMV: 18   CENTER: 1849
+331  => (sanded)   NUMV: 2   CENTER: 1894
+332  => (sanded)   NUMV: 8   CENTER: 1956
+333  => (sanded)   NUMV: 15   CENTER: 1963
+334  => (sanded)   NUMV: 17   CENTER: 2160
+335  => (sanded)   NUMV: 21   CENTER: 2703
+336  => (sanded)   NUMV: 13   CENTER: 2735
+337  => (sanded)   NUMV: 13   CENTER: 2957
+338  => (sanded)   NUMV: 3   CENTER: 11915
+339  => (sanded)   NUMV: 6   CENTER: 3288
+340  => (sanded)   NUMV: 13   CENTER: 3402
+341  => (sanded)   NUMV: 13   CENTER: 3181
+342  => (sanded)   NUMV: 12   CENTER: 3610
+343  => (sanded)   NUMV: 3   CENTER: 12012
+344  => (sanded)   NUMV: 14   CENTER: 3480
+345  => (sanded)   NUMV: 21   CENTER: 3533
+346  => (sanded)   NUMV: 13   CENTER: 3599
+347  => (sanded)   NUMV: 5   CENTER: 3668
+348  => (sanded)   NUMV: 16   CENTER: 3794
+349  => (sanded)   NUMV: 6   CENTER: 14209
+350  => (sanded)   NUMV: 10   CENTER: 4540
+351  => (sanded)   NUMV: 9   CENTER: 14802
+352  => (sanded)   NUMV: 30   CENTER: 4821
+353  => (sanded)   NUMV: 30   CENTER: 5044
+354  => (sanded)   NUMV: 16   CENTER: 650
+355  => (sanded)   NUMV: 8   CENTER: 313
+356  => (sanded)   NUMV: 17   CENTER: 520
+357  => (sanded)   NUMV: 6   CENTER: 669
+358  => (sanded)   NUMV: 5   CENTER: 1632
+359  => (sanded)   NUMV: 11   CENTER: 1538
+360  => (sanded)   NUMV: 7   CENTER: 1601
+361  => (sanded)   NUMV: 15   CENTER: 2030
+362  => (sanded)   NUMV: 16   CENTER: 2265
+363  => (sanded)   NUMV: 4   CENTER: 2093
+364  => (sanded)   NUMV: 5   CENTER: 2289
+365  => (sanded)   NUMV: 15   CENTER: 2638
+366  => (sanded)   NUMV: 19   CENTER: 2884
+367  => (sanded)   NUMV: 6   CENTER: 2939
+368  => (sanded)   NUMV: 11   CENTER: 3419
+369  => (sanded)   NUMV: 40   CENTER: 2971
+370  => (sanded)   NUMV: 21   CENTER: 3051
+371  => (sanded)   NUMV: 7   CENTER: 11629
+372  => (sanded)   NUMV: 13   CENTER: 3747
+373  => (sanded)   NUMV: 23   CENTER: 3795
+374  => (sanded)   NUMV: 18   CENTER: 4248
+375  => (sanded)   NUMV: 7   CENTER: 4041
+376  => (sanded)   NUMV: 14   CENTER: 4436
+377  => (sanded)   NUMV: 3   CENTER: 14508
+378  => (sanded)   NUMV: 16   CENTER: 4416
+379  => (sanded)  DISABLED.
+380  => (sanded)   NUMV: 19   CENTER: 407
+381  => (sanded)   NUMV: 13   CENTER: 857
+382  => (sanded)   NUMV: 9   CENTER: 1400
+383  => (sanded)   NUMV: 2   CENTER: 7954
+384  => (sanded)   NUMV: 14   CENTER: 2470
+385  => (sanded)   NUMV: 2   CENTER: 2662
+386  => (sanded)   NUMV: 6   CENTER: 2944
+387  => (sanded)   NUMV: 4   CENTER: 11675
+388  => (sanded)   NUMV: 12   CENTER: 4104
+389  => (sanded)   NUMV: 7   CENTER: 4559
+390  => (sanded)   NUMV: 11   CENTER: 277
+391  => (sanded)   NUMV: 15   CENTER: 497
+392  => (sanded)   NUMV: 8   CENTER: 1190
+393  => (sanded)   NUMV: 18   CENTER: 1569
+394  => (sanded)   NUMV: 9   CENTER: 1389
+395  => (sanded)   NUMV: 1   CENTER: 1891
+396  => (sanded)   NUMV: 2   CENTER: 8500
+397  => (sanded)   NUMV: 5   CENTER: 3320
+398  => (sanded)   NUMV: 6   CENTER: 12428
+399  => (sanded)   NUMV: 4   CENTER: 12288
+400  => (sanded)   NUMV: 1   CENTER: 3644
+401  => (sanded)   NUMV: 11   CENTER: 4149
+402  => (sanded)   NUMV: 9   CENTER: 4816
+403  => (sanded)   NUMV: 18   CENTER: 4224
+404  => (sanded)   NUMV: 16   CENTER: 4886
+405  => (sanded)   NUMV: 15   CENTER: 4845
+406  => (sanded)   NUMV: 12   CENTER: 230
+407  => (sanded)   NUMV: 7   CENTER: 350
+408  => (sanded)   NUMV: 7   CENTER: 449
+409  => (sanded)   NUMV: 11   CENTER: 6118
+410  => (sanded)   NUMV: 18   CENTER: 1329
+411  => (sanded)   NUMV: 30   CENTER: 1235
+412  => (sanded)   NUMV: 17   CENTER: 1380
+413  => (sanded)   NUMV: 5   CENTER: 1388
+414  => (sanded)   NUMV: 11   CENTER: 1391
+415  => (sanded)   NUMV: 26   CENTER: 1546
+416  => (sanded)   NUMV: 7   CENTER: 1575
+417  => (sanded)   NUMV: 11   CENTER: 1599
+418  => (sanded)   NUMV: 11   CENTER: 1637
+419  => (sanded)   NUMV: 15   CENTER: 9796
+420  => (sanded)   NUMV: 15   CENTER: 2354
+421  => (sanded)   NUMV: 8   CENTER: 2939
+422  => (sanded)   NUMV: 28   CENTER: 2944
+423  => (sanded)   NUMV: 17   CENTER: 2800
+424  => (sanded)   NUMV: 10   CENTER: 3070
+425  => (sanded)   NUMV: 25   CENTER: 2835
+426  => (sanded)   NUMV: 32   CENTER: 3311
+427  => (sanded)   NUMV: 15   CENTER: 3610
+428  => (sanded)   NUMV: 48   CENTER: 3346
+429  => (sanded)   NUMV: 10   CENTER: 4043
+430  => (sanded)   NUMV: 8   CENTER: 3675
+431  => (sanded)   NUMV: 9   CENTER: 3788
+432  => (sanded)   NUMV: 12   CENTER: 4275
+433  => (sanded)   NUMV: 15   CENTER: 4318
+434  => (sanded)   NUMV: 30   CENTER: 4745
+435  => (sanded)   NUMV: 9   CENTER: 5046
+436  => (sanded)   NUMV: 17   CENTER: 5110
+437  => (sanded)   NUMV: 11   CENTER: 294
+438  => (sanded)   NUMV: 10   CENTER: 999
+439  => (sanded)   NUMV: 10   CENTER: 745
+440  => (sanded)   NUMV: 14   CENTER: 1020
+441  => (sanded)   NUMV: 8   CENTER: 1216
+442  => (sanded)   NUMV: 4   CENTER: 1235
+443  => (sanded)   NUMV: 12   CENTER: 1425
+444  => (sanded)   NUMV: 10   CENTER: 1895
+445  => (sanded)   NUMV: 14   CENTER: 2112
+446  => (sanded)   NUMV: 6   CENTER: 2511
+447  => (sanded)   NUMV: 2   CENTER: 11137
+448  => (sanded)   NUMV: 6   CENTER: 2792
+449  => (sanded)   NUMV: 7   CENTER: 3481
+450  => (sanded)   NUMV: 11   CENTER: 3406
+451  => (sanded)   NUMV: 7   CENTER: 3431
+452  => (sanded)   NUMV: 10   CENTER: 3740
+453  => (sanded)   NUMV: 21   CENTER: 3895
+454  => (sanded)   NUMV: 14   CENTER: 4190
+455  => (sanded)   NUMV: 8   CENTER: 4699
+456  => (sanded)   NUMV: 7   CENTER: 4754
+457  => (sanded)   NUMV: 9   CENTER: 4600
+458  => (sanded)   NUMV: 17   CENTER: 1546
+459  => (sanded)   NUMV: 10   CENTER: 3100
+460  => (sanded)   NUMV: 14   CENTER: 4572
+461  => (sanded)   NUMV: 10   CENTER: 192
+462  => (sanded)   NUMV: 11   CENTER: 738
+463  => (sanded)   NUMV: 9   CENTER: 1787
+464  => (sanded)   NUMV: 5   CENTER: 3180
+465  => (sanded)   NUMV: 20   CENTER: 2959
+466  => (sanded)   NUMV: 12   CENTER: 3289
+467  => (sanded)   NUMV: 6   CENTER: 3133
+468  => (sanded)   NUMV: 11   CENTER: 3983
+469  => (sanded)   NUMV: 20   CENTER: 4328
+470  => (sanded)   NUMV: 15   CENTER: 5094
+BBOX SIZE: 43.4471 x 66.4326 x 52.8253
+FEATURE SIZE: 0.624409
+Computing Visibility. GPU? 0  Finished? 0
+Computing visibility (CPU)... 20154 verts. 
+Sample: 20/258
+Sample: 40/258
+Sample: 60/258
+Sample: 80/258
+Sample: 100/258
+Sample: 120/258
+Sample: 140/258
+Sample: 160/258
+Sample: 180/258
+Sample: 200/258
+Sample: 220/258
+Sample: 240/258
+Finished computing visibility.
+Comps: 5199732   Ray-casts: 2652950
+MEAN CHARGE: -2.98118  STDDEV: 12.8523
+Relaxing... avg. delta change: 0.558289
+MEAN CHARGE: -2.98272  STDDEV: 12.6542
+Relaxing... avg. delta change: 0.264683
+MEAN CHARGE: -2.98394  STDDEV: 12.5111
+Relaxing... avg. delta change: 0.203875
+MEAN CHARGE: -2.9849  STDDEV: 12.3863
+Relaxing... avg. delta change: 0.175266
+MEAN CHARGE: -2.98568  STDDEV: 12.2729
+Relaxing... avg. delta change: 0.157571
+MEAN CHARGE: -2.9864  STDDEV: 12.1679
+Relaxing... avg. delta change: 0.144918
+MEAN CHARGE: -2.98702  STDDEV: 12.0695
+Relaxing... avg. delta change: 0.135074
+MEAN CHARGE: -2.9876  STDDEV: 11.9766
+Relaxing... avg. delta change: 0.127064
+MEAN CHARGE: -2.98812  STDDEV: 11.8884
+Relaxing... avg. delta change: 0.120302
+MEAN CHARGE: -2.9886  STDDEV: 11.8043
+Relaxing... avg. delta change: 0.114419
+MEAN CHARGE: -2.98905  STDDEV: 11.7239
+Relaxing... avg. delta change: 0.109218
+MEAN CHARGE: -2.98947  STDDEV: 11.6467
+Relaxing... avg. delta change: 0.104563
+BBOX SIZE: 48.597 x 69.641 x 62.965
+FEATURE SIZE: 0.676301
+Computing Visibility. GPU? 0  Finished? 0
+Computing visibility (CPU)... 37757 verts. 
+Sample: 20/258
+Sample: 40/258
+Sample: 60/258
+Sample: 80/258
+Sample: 100/258
+Sample: 120/258
+Sample: 140/258
+Sample: 160/258
+Sample: 180/258
+Sample: 200/258
+Sample: 220/258
+Sample: 240/258
+Finished computing visibility.
+Comps: 9741306   Ray-casts: 4858062
+1, 0 -> (0) 0
+MEAN CHARGE: -4.08539  STDDEV: 16.2258
+Relaxing... avg. delta change: 1.34055
+MEAN CHARGE: -4.09255  STDDEV: 15.4716
+Relaxing... avg. delta change: 0.767956
+MEAN CHARGE: -4.09556  STDDEV: 14.9615
+Relaxing... avg. delta change: 0.584158
+MEAN CHARGE: -4.0966  STDDEV: 14.5573
+Relaxing... avg. delta change: 0.478645
+MEAN CHARGE: -4.09666  STDDEV: 14.2197
+Relaxing... avg. delta change: 0.407833
+MEAN CHARGE: -4.09622  STDDEV: 13.929
+Relaxing... avg. delta change: 0.356343
+MEAN CHARGE: -4.09564  STDDEV: 13.6733
+Relaxing... avg. delta change: 0.316802
+MEAN CHARGE: -4.09489  STDDEV: 13.4452
+Relaxing... avg. delta change: 0.285196
+MEAN CHARGE: -4.09412  STDDEV: 13.2392
+Relaxing... avg. delta change: 0.259248
+MEAN CHARGE: -4.09336  STDDEV: 13.0516
+Relaxing... avg. delta change: 0.237489
+MEAN CHARGE: -4.0926  STDDEV: 12.8793
+Relaxing... avg. delta change: 0.218899
+MEAN CHARGE: -4.0919  STDDEV: 12.7201
+Relaxing... avg. delta change: 0.20282
+MEAN CHARGE: -4.09121  STDDEV: 12.5723
+Relaxing... avg. delta change: 0.18879
+MEAN CHARGE: -4.09054  STDDEV: 12.4343
+Relaxing... avg. delta change: 0.176445
+MEAN CHARGE: -4.08992  STDDEV: 12.3051
+Relaxing... avg. delta change: 0.165532
+MEAN CHARGE: -4.08933  STDDEV: 12.1834
+Relaxing... avg. delta change: 0.155819
+MEAN CHARGE: -4.08876  STDDEV: 12.0687
+Relaxing... avg. delta change: 0.147123
+MEAN CHARGE: -4.08825  STDDEV: 11.9599
+Relaxing... avg. delta change: 0.139308
+MEAN CHARGE: -4.08772  STDDEV: 11.8567
+Relaxing... avg. delta change: 0.132241
+MEAN CHARGE: -4.08723  STDDEV: 11.7583
+Relaxing... avg. delta change: 0.125826
+MEAN CHARGE: -4.08674  STDDEV: 11.6645
+Relaxing... avg. delta change: 0.119982
+MEAN CHARGE: -4.08632  STDDEV: 11.5748
+Relaxing... avg. delta change: 0.114629
+MEAN CHARGE: -4.08585  STDDEV: 11.489
+Relaxing... avg. delta change: 0.109716
+Building ligand binding sites...vertex: 1000/37757
+vertex: 2000/37757
+vertex: 3000/37757
+vertex: 4000/37757
+vertex: 5000/37757
+vertex: 6000/37757
+vertex: 7000/37757
+vertex: 8000/37757
+vertex: 9000/37757
+vertex: 10000/37757
+vertex: 11000/37757
+vertex: 12000/37757
+vertex: 13000/37757
+vertex: 14000/37757
+vertex: 15000/37757
+vertex: 16000/37757
+vertex: 17000/37757
+vertex: 18000/37757
+vertex: 19000/37757
+vertex: 20000/37757
+vertex: 21000/37757
+vertex: 22000/37757
+vertex: 23000/37757
+vertex: 24000/37757
+vertex: 25000/37757
+vertex: 26000/37757
+vertex: 27000/37757
+vertex: 28000/37757
+vertex: 29000/37757
+vertex: 30000/37757
+vertex: 31000/37757
+vertex: 32000/37757
+vertex: 33000/37757
+vertex: 34000/37757
+vertex: 35000/37757
+vertex: 36000/37757
+vertex: 37000/37757
+ done (added 286 regions).
+Computing Smooth Vertices with mu = 0.800000, lambda = 0.870000, ring = 3, levels = 1, iters = 8
+Time taken: 0.75 seconds.
+FOUND: 178 peaks and 156 bowls. 
+# GROUPS BEFORE: 334
+WHOOPS! GOT HERE???
+# GROUPS AFTER: 64
+Removing features... Error... vert 11391 is improperly formed!
+Error... vert 13834 is improperly formed!
+Error... vert 2240 is improperly formed!
+Error... vert 3945 is improperly formed!
+Error... vert 3404 is improperly formed!
+Error... vert 5320 is improperly formed!
+Error... vert 4891 is improperly formed!
+Error... vert 4880 is improperly formed!
+Error... vert 4880 is improperly formed!
+Error... vert 4880 is improperly formed!
+Error... vert 6428 is improperly formed!
+Error... vert 7282 is improperly formed!
+Error... vert 28653 is improperly formed!
+Error... vert 2760 is improperly formed!
+Error... vert 29776 is improperly formed!
+Error... vert 15779 is improperly formed!
+Error... vert 30811 is improperly formed!
+Error... vert 9894 is improperly formed!
+Error... vert 128 is improperly formed!
+Error... vert 33538 is improperly formed!
+Error... vert 36139 is improperly formed!
+Error... vert 25243 is improperly formed!
+Error... vert 20429 is improperly formed!
+Error... vert 22105 is improperly formed!
+Error... vert 6528 is improperly formed!
+Done.
+Computing Smooth Vertices with mu = 0.800000, lambda = 0.870000, ring = 3, levels = 1, iters = 8
+Time taken: 0.63 seconds.
+Computing Smooth Vertices with mu = 0.800000, lambda = 0.870000, ring = 3, levels = 1, iters = 8
+Time taken: 0.63 seconds.
+FOUND: 368 peaks and 340 bowls. 
+# GROUPS BEFORE: 708
+WHOOPS! GOT HERE???
+# GROUPS AFTER: 76
+Removing features... Error... vert 314 is improperly formed!
+Error... vert 819 is improperly formed!
+Error... vert 9931 is improperly formed!
+Error... vert 1771 is improperly formed!
+Error... vert 3158 is improperly formed!
+Error... vert 25505 is improperly formed!
+Error... vert 22277 is improperly formed!
+Error... vert 4628 is improperly formed!
+Error... vert 5327 is improperly formed!
+Error... vert 8012 is improperly formed!
+Error... vert 24532 is improperly formed!
+Error... vert 30616 is improperly formed!
+Error... vert 30616 is improperly formed!
+Error... vert 25673 is improperly formed!
+Done.
+Computing Smooth Vertices with mu = 0.800000, lambda = 0.870000, ring = 3, levels = 1, iters = 8
+Time taken: 0.48 seconds.
+Computing Smooth Vertices with mu = 0.800000, lambda = 0.870000, ring = 3, levels = 1, iters = 8
+Time taken: 0.5 seconds.
+FOUND: 269 peaks and 156 bowls. 
+# GROUPS BEFORE: 425
+WHOOPS! GOT HERE???
+# GROUPS AFTER: 60
+Removing features... Error... vert 2289 is improperly formed!
+Error... vert 12370 is improperly formed!
+Error... vert 23624 is improperly formed!
+Error... vert 12447 is improperly formed!
+Error... vert 12447 is improperly formed!
+Error... vert 21403 is improperly formed!
+Error... vert 3302 is improperly formed!
+Error... vert 21401 is improperly formed!
+Error... vert 13658 is improperly formed!
+Error... vert 13655 is improperly formed!
+Error... vert 3530 is improperly formed!
+Error... vert 3530 is improperly formed!
+Error... vert 17635 is improperly formed!
+Error... vert 13655 is improperly formed!
+Error... vert 13655 is improperly formed!
+Error... vert 17617 is improperly formed!
+Error... vert 17634 is improperly formed!
+Error... vert 18109 is improperly formed!
+Error... vert 21403 is improperly formed!
+Error... vert 21401 is improperly formed!
+Error... vert 3302 is improperly formed!
+Error... vert 14452 is improperly formed!
+Error... vert 3302 is improperly formed!
+Error... vert 20180 is improperly formed!
+Error... vert 21403 is improperly formed!
+Error... vert 3302 is improperly formed!
+Error... vert 21403 is improperly formed!
+Error... vert 21403 is improperly formed!
+Error... vert 21403 is improperly formed!
+Error... vert 20180 is improperly formed!
+Error... vert 21403 is improperly formed!
+Error... vert 21403 is improperly formed!
+Error... vert 21403 is improperly formed!
+Error... vert 2730 is improperly formed!
+Error... vert 23674 is improperly formed!
+Error... vert 20180 is improperly formed!
+Error... vert 17756 is improperly formed!
+Error... vert 17756 is improperly formed!
+Error... vert 17756 is improperly formed!
+Error... vert 14850 is improperly formed!
+Error... vert 17767 is improperly formed!
+Error... vert 14803 is improperly formed!
+Error... vert 23952 is improperly formed!
+Error... vert 23953 is improperly formed!
+ERROR! VERTS SAME!
+Done.
+Computing Smooth Vertices with mu = 0.800000, lambda = 0.870000, ring = 3, levels = 1, iters = 8
+Time taken: 0.38 seconds.
+0  => (hbond)   NUMV: 1   CENTER: 10332
+1  => (hbond)  DISABLED.
+2  => (hbond)   NUMV: 55   CENTER: 2035
+3  => (hbond)   NUMV: 1   CENTER: 1306
+4  => (hbond)  DISABLED.
+5  => (hbond)   NUMV: 14   CENTER: 1227
+6  => (hbond)   NUMV: 20   CENTER: 934
+7  => (hbond)   NUMV: 32   CENTER: 2927
+8  => (hbond)  DISABLED.
+9  => (hbond)   NUMV: 25   CENTER: 2433
+10  => (hbond)   NUMV: 8   CENTER: 1946
+11  => (hbond)  DISABLED.
+12  => (hbond)   NUMV: 21   CENTER: 944
+13  => (hbond)   NUMV: 67   CENTER: 935
+14  => (hbond)   NUMV: 48   CENTER: 660
+15  => (hbond)   NUMV: 30   CENTER: 1013
+16  => (hbond)   NUMV: 65   CENTER: 998
+17  => (hbond)   NUMV: 38   CENTER: 1002
+18  => (hbond)  DISABLED.
+19  => (hbond)   NUMV: 7   CENTER: 1006
+20  => (hbond)   NUMV: 1   CENTER: 1006
+21  => (hbond)   NUMV: 25   CENTER: 981
+22  => (hbond)  DISABLED.
+23  => (hbond)   NUMV: 41   CENTER: 1284
+24  => (hbond)   NUMV: 1   CENTER: 7867
+25  => (hbond)  DISABLED.
+26  => (hbond)   NUMV: 1   CENTER: 16726
+27  => (hbond)   NUMV: 39   CENTER: 1237
+28  => (hbond)  DISABLED.
+29  => (hbond)   NUMV: 17   CENTER: 1952
+30  => (hbond)   NUMV: 28   CENTER: 1968
+31  => (hbond)  DISABLED.
+32  => (hbond)   NUMV: 42   CENTER: 2434
+33  => (hbond)  DISABLED.
+34  => (hbond)   NUMV: 13   CENTER: 4453
+35  => (hbond)   NUMV: 1   CENTER: 11269
+36  => (hbond)   NUMV: 13   CENTER: 4721
+37  => (hbond)   NUMV: 39   CENTER: 2459
+38  => (hbond)  DISABLED.
+39  => (hbond)   NUMV: 41   CENTER: 4733
+40  => (hbond)  DISABLED.
+41  => (hbond)   NUMV: 39   CENTER: 5118
+42  => (hbond)   NUMV: 19   CENTER: 5125
+43  => (hbond)   NUMV: 14   CENTER: 4978
+44  => (hbond)   NUMV: 10   CENTER: 4980
+45  => (hbond)   NUMV: 14   CENTER: 4983
+46  => (hbond)   NUMV: 1   CENTER: 2473
+47  => (hbond)   NUMV: 3   CENTER: 11345
+48  => (hbond)   NUMV: 5   CENTER: 2984
+49  => (hbond)   NUMV: 35   CENTER: 2482
+50  => (hbond)   NUMV: 1   CENTER: 10258
+51  => (hbond)   NUMV: 29   CENTER: 1596
+52  => (hbond)  DISABLED.
+53  => (hbond)   NUMV: 2   CENTER: 2498
+54  => (hbond)   NUMV: 1   CENTER: 16003
+55  => (hbond)   NUMV: 2   CENTER: 11397
+56  => (hbond)   NUMV: 1   CENTER: 14514
+57  => (hbond)   NUMV: 26   CENTER: 2540
+58  => (hbond)   NUMV: 34   CENTER: 2036
+59  => (hbond)   NUMV: 1   CENTER: 14136
+60  => (hbond)  DISABLED.
+61  => (hbond)   NUMV: 35   CENTER: 5023
+62  => (hbond)   NUMV: 39   CENTER: 5023
+63  => (hbond)   NUMV: 19   CENTER: 4652
+64  => (hbond)   NUMV: 43   CENTER: 2403
+65  => (hbond)  DISABLED.
+66  => (hbond)   NUMV: 27   CENTER: 2908
+67  => (hbond)   NUMV: 11   CENTER: 4424
+68  => (hbond)  DISABLED.
+69  => (hbond)   NUMV: 1   CENTER: 14829
+70  => (hbond)  DISABLED.
+71  => (hbond)   NUMV: 1   CENTER: 15558
+72  => (hbond)  DISABLED.
+73  => (hbond)   NUMV: 3   CENTER: 15569
+74  => (hbond)   NUMV: 34   CENTER: 5020
+75  => (hbond)  DISABLED.
+76  => (hbond)   NUMV: 5   CENTER: 15691
+77  => (hbond)   NUMV: 1   CENTER: 15832
+78  => (hbond)   NUMV: 63   CENTER: 3022
+79  => (hbond)   NUMV: 4   CENTER: 5008
+80  => (hbond)   NUMV: 40   CENTER: 5203
+81  => (hbond)   NUMV: 1   CENTER: 15807
+82  => (hbond)  DISABLED.
+83  => (hbond)   NUMV: 13   CENTER: 3017
+84  => (hbond)  DISABLED.
+85  => (hbond)   NUMV: 16   CENTER: 2547
+86  => (hbond)   NUMV: 4   CENTER: 2553
+87  => (hbond)  DISABLED.
+88  => (hbond)   NUMV: 58   CENTER: 3032
+89  => (hbond)   NUMV: 53   CENTER: 3040
+90  => (hbond)   NUMV: 20   CENTER: 1921
+91  => (hbond)   NUMV: 38   CENTER: 1926
+92  => (hbond)  DISABLED.
+93  => (hbond)   NUMV: 28   CENTER: 1555
+94  => (hbond)   NUMV: 45   CENTER: 1558
+95  => (hbond)   NUMV: 19   CENTER: 2871
+96  => (hbond)  DISABLED.
+97  => (hbond)   NUMV: 1   CENTER: 49
+98  => (hbond)   NUMV: 1   CENTER: 5222
+99  => (hbond)   NUMV: 27   CENTER: 110
+100  => (hbond)   NUMV: 10   CENTER: 5225
+101  => (hbond)   NUMV: 34   CENTER: 103
+102  => (hbond)   NUMV: 9   CENTER: 109
+103  => (hbond)  DISABLED.
+104  => (hbond)   NUMV: 55   CENTER: 147
+105  => (hbond)   NUMV: 40   CENTER: 252
+106  => (hbond)  DISABLED.
+107  => (hbond)   NUMV: 27   CENTER: 240
+108  => (hbond)   NUMV: 8   CENTER: 243
+109  => (hbond)   NUMV: 5   CENTER: 514
+110  => (hbond)   NUMV: 1   CENTER: 17967
+111  => (hbond)   NUMV: 1   CENTER: 6817
+112  => (hbond)   NUMV: 3   CENTER: 2826
+113  => (hbond)  DISABLED.
+114  => (hbond)   NUMV: 22   CENTER: 2126
+115  => (hbond)   NUMV: 6   CENTER: 2126
+116  => (hbond)  DISABLED.
+117  => (hbond)   NUMV: 26   CENTER: 763
+118  => (hbond)   NUMV: 14   CENTER: 509
+119  => (hbond)  DISABLED.
+120  => (hbond)   NUMV: 2   CENTER: 7987
+121  => (hbond)   NUMV: 16   CENTER: 1362
+122  => (hbond)   NUMV: 1   CENTER: 7303
+123  => (hbond)   NUMV: 19   CENTER: 2083
+124  => (hbond)   NUMV: 8   CENTER: 2087
+125  => (hbond)   NUMV: 43   CENTER: 2085
+126  => (hbond)   NUMV: 11   CENTER: 6238
+127  => (hbond)   NUMV: 30   CENTER: 3056
+128  => (hbond)  DISABLED.
+129  => (hbond)   NUMV: 26   CENTER: 2862
+130  => (hbond)   NUMV: 1   CENTER: 11074
+131  => (hbond)   NUMV: 33   CENTER: 3282
+132  => (hbond)   NUMV: 43   CENTER: 2384
+133  => (hbond)  DISABLED.
+134  => (hbond)   NUMV: 38   CENTER: 3704
+135  => (hbond)   NUMV: 1   CENTER: 12785
+136  => (hbond)   NUMV: 32   CENTER: 3145
+137  => (hbond)   NUMV: 10   CENTER: 2701
+138  => (hbond)  DISABLED.
+139  => (hbond)   NUMV: 29   CENTER: 2705
+140  => (hbond)  DISABLED.
+141  => (hbond)   NUMV: 1   CENTER: 12160
+142  => (hbond)  DISABLED.
+143  => (hbond)   NUMV: 56   CENTER: 2220
+144  => (hbond)   NUMV: 10   CENTER: 3399
+145  => (hbond)   NUMV: 12   CENTER: 2209
+146  => (hbond)   NUMV: 19   CENTER: 4174
+147  => (hbond)   NUMV: 38   CENTER: 4152
+148  => (hbond)   NUMV: 8   CENTER: 4271
+149  => (hbond)   NUMV: 51   CENTER: 4143
+150  => (hbond)   NUMV: 23   CENTER: 4269
+151  => (hbond)   NUMV: 29   CENTER: 4076
+152  => (hbond)   NUMV: 26   CENTER: 3890
+153  => (hbond)   NUMV: 31   CENTER: 3695
+154  => (hbond)   NUMV: 16   CENTER: 3702
+155  => (hbond)  DISABLED.
+156  => (hbond)   NUMV: 19   CENTER: 3493
+157  => (hbond)  DISABLED.
+158  => (hbond)   NUMV: 58   CENTER: 2838
+159  => (hbond)   NUMV: 27   CENTER: 2381
+160  => (hbond)   NUMV: 20   CENTER: 3683
+161  => (hbond)   NUMV: 19   CENTER: 3907
+162  => (hbond)   NUMV: 1   CENTER: 13116
+163  => (hbond)   NUMV: 1   CENTER: 12328
+164  => (hbond)  DISABLED.
+165  => (hbond)   NUMV: 28   CENTER: 3465
+166  => (hbond)   NUMV: 20   CENTER: 3474
+167  => (hbond)  DISABLED.
+168  => (hbond)   NUMV: 4   CENTER: 13005
+169  => (hbond)  DISABLED.
+170  => (hbond)   NUMV: 18   CENTER: 3460
+171  => (hbond)   NUMV: 46   CENTER: 3666
+172  => (hbond)   NUMV: 20   CENTER: 3676
+173  => (hbond)   NUMV: 46   CENTER: 3879
+174  => (hbond)   NUMV: 1   CENTER: 13335
+175  => (hbond)   NUMV: 29   CENTER: 3812
+176  => (hbond)   NUMV: 4   CENTER: 13972
+177  => (hbond)   NUMV: 1   CENTER: 13327
+178  => (hbond)  DISABLED.
+179  => (hbond)   NUMV: 31   CENTER: 3817
+180  => (hbond)   NUMV: 49   CENTER: 3599
+181  => (hbond)   NUMV: 34   CENTER: 3593
+182  => (hbond)   NUMV: 1   CENTER: 19474
+183  => (hbond)   NUMV: 10   CENTER: 3860
+184  => (hbond)   NUMV: 1   CENTER: 12256
+185  => (hbond)   NUMV: 1   CENTER: 19420
+186  => (hbond)  DISABLED.
+187  => (hbond)   NUMV: 3   CENTER: 9983
+188  => (hbond)   NUMV: 13   CENTER: 1527
+189  => (hbond)   NUMV: 42   CENTER: 2325
+190  => (hbond)   NUMV: 51   CENTER: 2328
+191  => (hbond)   NUMV: 1   CENTER: 9093
+192  => (hbond)  DISABLED.
+193  => (hbond)   NUMV: 5   CENTER: 2308
+194  => (hbond)   NUMV: 8   CENTER: 2780
+195  => (hbond)   NUMV: 17   CENTER: 3215
+196  => (hbond)   NUMV: 10   CENTER: 3434
+197  => (hbond)   NUMV: 3   CENTER: 2787
+198  => (hbond)   NUMV: 26   CENTER: 2747
+199  => (hbond)   NUMV: 2   CENTER: 2257
+200  => (hbond)   NUMV: 33   CENTER: 2765
+201  => (hbond)  DISABLED.
+202  => (hbond)   NUMV: 35   CENTER: 3178
+203  => (hbond)  DISABLED.
+204  => (hbond)   NUMV: 31   CENTER: 3595
+205  => (hbond)   NUMV: 25   CENTER: 3605
+206  => (hbond)   NUMV: 28   CENTER: 2236
+207  => (hbond)   NUMV: 27   CENTER: 2731
+208  => (hbond)   NUMV: 1   CENTER: 10788
+209  => (hbond)   NUMV: 27   CENTER: 2722
+210  => (hbond)   NUMV: 43   CENTER: 2728
+211  => (hbond)   NUMV: 5   CENTER: 3402
+212  => (hbond)   NUMV: 30   CENTER: 1816
+213  => (hbond)  DISABLED.
+214  => (hbond)   NUMV: 4   CENTER: 2206
+215  => (hbond)   NUMV: 1   CENTER: 11670
+216  => (hbond)   NUMV: 18   CENTER: 2208
+217  => (hbond)   NUMV: 29   CENTER: 3113
+218  => (hbond)   NUMV: 40   CENTER: 2660
+219  => (hbond)  DISABLED.
+220  => (hbond)   NUMV: 1   CENTER: 2640
+221  => (hbond)   NUMV: 1   CENTER: 2641
+222  => (hbond)  DISABLED.
+223  => (hbond)   NUMV: 10   CENTER: 1200
+224  => (hbond)   NUMV: 17   CENTER: 1205
+225  => (hbond)   NUMV: 9   CENTER: 1527
+226  => (hbond)   NUMV: 1   CENTER: 7636
+227  => (hbond)   NUMV: 1   CENTER: 6987
+228  => (hbond)   NUMV: 38   CENTER: 281
+229  => (hbond)   NUMV: 8   CENTER: 853
+230  => (hbond)  DISABLED.
+231  => (hbond)   NUMV: 9   CENTER: 596
+232  => (hbond)   NUMV: 36   CENTER: 827
+233  => (hbond)   NUMV: 33   CENTER: 595
+234  => (hbond)   NUMV: 1   CENTER: 18873
+235  => (hbond)   NUMV: 18   CENTER: 1784
+236  => (hbond)   NUMV: 39   CENTER: 2692
+237  => (hbond)   NUMV: 15   CENTER: 2684
+238  => (hbond)   NUMV: 1   CENTER: 15890
+239  => (hbond)   NUMV: 2   CENTER: 10698
+240  => (hbond)   NUMV: 1   CENTER: 16668
+241  => (hbond)   NUMV: 1   CENTER: 8139
+242  => (hbond)   NUMV: 1   CENTER: 8830
+243  => (hbond)   NUMV: 21   CENTER: 1103
+244  => (hbond)   NUMV: 38   CENTER: 1091
+245  => (hbond)  DISABLED.
+246  => (hbond)   NUMV: 25   CENTER: 1126
+247  => (hbond)   NUMV: 10   CENTER: 824
+248  => (hbond)  DISABLED.
+249  => (hbond)   NUMV: 7   CENTER: 7519
+250  => (hbond)   NUMV: 4   CENTER: 6842
+251  => (hbond)   NUMV: 40   CENTER: 138
+252  => (hbond)  DISABLED.
+253  => (hbond)   NUMV: 16   CENTER: 312
+254  => (hbond)   NUMV: 36   CENTER: 198
+255  => (hbond)  DISABLED.
+256  => (hbond)   NUMV: 10   CENTER: 659
+257  => (hbond)   NUMV: 1   CENTER: 305
+258  => (hbond)   NUMV: 6   CENTER: 931
+259  => (hbond)   NUMV: 66   CENTER: 663
+260  => (hbond)  DISABLED.
+261  => (hbond)   NUMV: 41   CENTER: 4601
+262  => (hbond)  DISABLED.
+263  => (hbond)   NUMV: 23   CENTER: 729
+264  => (hbond)   NUMV: 34   CENTER: 500
+265  => (hbond)   NUMV: 1   CENTER: 9520
+266  => (hbond)   NUMV: 17   CENTER: 2584
+267  => (hbond)  DISABLED.
+268  => (hbond)   NUMV: 30   CENTER: 3043
+269  => (hbond)  DISABLED.
+270  => (hbond)   NUMV: 28   CENTER: 1026
+271  => (hbond)   NUMV: 41   CENTER: 1326
+272  => (hbond)  DISABLED.
+273  => (ligsite)
+chart#: 0  ->  center vert: 208  size: 529  num in chart: 945 of 2097 left.
+chart#: 1  ->  center vert: 5490  size: 182  num in chart: 315 of 1152 left.
+chart#: 2  ->  center vert: 143  size: 197  num in chart: 338 of 837 left.
+chart#: 3  ->  center vert: 6188  size: 284  num in chart: 500 of 499 left.
+274  => (ligsite)
+chart#: 0  ->  center vert: 353  size: 151  num in chart: 241 of 241 left.
+275  => (ligsite)
+chart#: 0  ->  center vert: 16461  size: 79  num in chart: 121 of 121 left.
+276  => (ligsite)
+chart#: 0  ->  center vert: 6916  size: 131  num in chart: 221 of 221 left.
+277  => (ligsite)
+chart#: 0  ->  center vert: 1301  size: 184  num in chart: 307 of 307 left.
+278  => (ligsite)
+chart#: 0  ->  center vert: 16678  size: 146  num in chart: 244 of 244 left.
+279  => (ligsite)
+chart#: 0  ->  center vert: 9437  size: 172  num in chart: 298 of 298 left.
+280  => (ligsite)
+chart#: 0  ->  center vert: 17088  size: 417  num in chart: 746 of 1531 left.
+chart#: 1  ->  center vert: 11612  size: 442  num in chart: 786 of 785 left.
+281  => (ligsite)
+chart#: 0  ->  center vert: 14972  size: 454  num in chart: 837 of 837 left.
+282  => (ligsite)
+chart#: 0  ->  center vert: 17185  size: 160  num in chart: 268 of 268 left.
+283  => (ligsite)
+chart#: 0  ->  center vert: 13008  size: 106  num in chart: 166 of 166 left.
+284  => (ligsite)
+chart#: 0  ->  center vert: 13187  size: 327  num in chart: 600 of 600 left.
+285  => (ligsite)
+chart#: 0  ->  center vert: 5113  size: 200  num in chart: 351 of 351 left.
+286  => (shadow)
+chart#: 0  ->  center vert: 19043  size: 2326  num in chart: 4394 of 4541 left.
+chart#: 1  ->  center vert: 13622  size: 96  num in chart: 147 of 147 left.
+287  => (sanded)   NUMV: 2   CENTER: 5679
+288  => (sanded)   NUMV: 7   CENTER: 6057
+289  => (sanded)   NUMV: 6   CENTER: 6333
+290  => (sanded)   NUMV: 19   CENTER: 982
+291  => (sanded)   NUMV: 16   CENTER: 1225
+292  => (sanded)   NUMV: 3   CENTER: 1888
+293  => (sanded)   NUMV: 1   CENTER: 2077
+294  => (sanded)   NUMV: 30   CENTER: 1813
+295  => (sanded)   NUMV: 3   CENTER: 11066
+296  => (sanded)   NUMV: 4   CENTER: 2640
+297  => (sanded)   NUMV: 22   CENTER: 3403
+298  => (sanded)   NUMV: 6   CENTER: 3899
+299  => (sanded)   NUMV: 10   CENTER: 5154
+300  => (sanded)   NUMV: 20   CENTER: 919
+301  => (sanded)   NUMV: 16   CENTER: 1497
+302  => (sanded)   NUMV: 15   CENTER: 1064
+303  => (sanded)   NUMV: 15   CENTER: 2334
+304  => (sanded)   NUMV: 4   CENTER: 1936
+305  => (sanded)   NUMV: 24   CENTER: 2473
+306  => (sanded)   NUMV: 6   CENTER: 3097
+307  => (sanded)   NUMV: 12   CENTER: 3104
+308  => (sanded)   NUMV: 19   CENTER: 3455
+309  => (sanded)   NUMV: 4   CENTER: 515
+310  => (sanded)   NUMV: 5   CENTER: 1899
+311  => (sanded)   NUMV: 15   CENTER: 62
+312  => (sanded)   NUMV: 1   CENTER: 352
+313  => (sanded)   NUMV: 16   CENTER: 2034
+314  => (sanded)   NUMV: 3   CENTER: 9381
+315  => (sanded)   NUMV: 1   CENTER: 2868
+316  => (sanded)   NUMV: 15   CENTER: 4770
+317  => (sanded)   NUMV: 1   CENTER: 15841
+318  => (sanded)   NUMV: 1   CENTER: 5222
+319  => (sanded)   NUMV: 1   CENTER: 49
+320  => (sanded)   NUMV: 2   CENTER: 305
+321  => (sanded)   NUMV: 2   CENTER: 7233
+322  => (sanded)   NUMV: 1   CENTER: 18277
+323  => (sanded)   NUMV: 4   CENTER: 6842
+324  => (sanded)   NUMV: 1   CENTER: 6987
+325  => (sanded)   NUMV: 7   CENTER: 1284
+326  => (sanded)   NUMV: 4   CENTER: 1321
+327  => (sanded)   NUMV: 1   CENTER: 18465
+328  => (sanded)   NUMV: 1   CENTER: 7303
+329  => (sanded)   NUMV: 7   CENTER: 1302
+330  => (sanded)   NUMV: 8   CENTER: 1771
+331  => (sanded)   NUMV: 9   CENTER: 1946
+332  => (sanded)   NUMV: 18   CENTER: 1979
+333  => (sanded)   NUMV: 1   CENTER: 1748
+334  => (sanded)   NUMV: 11   CENTER: 2307
+335  => (sanded)   NUMV: 10   CENTER: 2481
+336  => (sanded)   NUMV: 11   CENTER: 2257
+337  => (sanded)   NUMV: 10   CENTER: 2822
+338  => (sanded)   NUMV: 13   CENTER: 2984
+339  => (sanded)   NUMV: 2   CENTER: 2498
+340  => (sanded)   NUMV: 1   CENTER: 16003
+341  => (sanded)   NUMV: 1   CENTER: 3016
+342  => (sanded)   NUMV: 2   CENTER: 12085
+343  => (sanded)   NUMV: 15   CENTER: 3168
+344  => (sanded)   NUMV: 3   CENTER: 12637
+345  => (sanded)   NUMV: 7   CENTER: 3725
+346  => (sanded)   NUMV: 1   CENTER: 12160
+347  => (sanded)   NUMV: 1   CENTER: 15189
+348  => (sanded)   NUMV: 6   CENTER: 4931
+349  => (sanded)   NUMV: 5   CENTER: 5008
+350  => (sanded)   NUMV: 1   CENTER: 15832
+351  => (sanded)   NUMV: 7   CENTER: 0
+352  => (sanded)   NUMV: 17   CENTER: 201
+353  => (sanded)   NUMV: 11   CENTER: 223
+354  => (sanded)   NUMV: 16   CENTER: 514
+355  => (sanded)   NUMV: 22   CENTER: 799
+356  => (sanded)   NUMV: 20   CENTER: 619
+357  => (sanded)   NUMV: 11   CENTER: 480
+358  => (sanded)   NUMV: 41   CENTER: 351
+359  => (sanded)   NUMV: 5   CENTER: 1354
+360  => (sanded)   NUMV: 5   CENTER: 9114
+361  => (sanded)   NUMV: 26   CENTER: 931
+362  => (sanded)   NUMV: 1   CENTER: 1887
+363  => (sanded)   NUMV: 16   CENTER: 1357
+364  => (sanded)   NUMV: 13   CENTER: 1412
+365  => (sanded)   NUMV: 21   CENTER: 1787
+366  => (sanded)   NUMV: 15   CENTER: 1936
+367  => (sanded)   NUMV: 20   CENTER: 2005
+368  => (sanded)   NUMV: 11   CENTER: 2800
+369  => (sanded)   NUMV: 28   CENTER: 2583
+370  => (sanded)   NUMV: 4   CENTER: 3136
+371  => (sanded)   NUMV: 12   CENTER: 3481
+372  => (sanded)   NUMV: 9   CENTER: 3385
+373  => (sanded)   NUMV: 1   CENTER: 4355
+374  => (sanded)   NUMV: 5   CENTER: 11074
+375  => (sanded)   NUMV: 8   CENTER: 4932
+376  => (sanded)   NUMV: 14   CENTER: 4792
+377  => (sanded)   NUMV: 13   CENTER: 5187
+378  => (sanded)   NUMV: 7   CENTER: 6135
+379  => (sanded)   NUMV: 2   CENTER: 6770
+380  => (sanded)   NUMV: 10   CENTER: 636
+381  => (sanded)   NUMV: 5   CENTER: 1222
+382  => (sanded)   NUMV: 10   CENTER: 1225
+383  => (sanded)   NUMV: 15   CENTER: 1118
+384  => (sanded)   NUMV: 2   CENTER: 10331
+385  => (sanded)   NUMV: 6   CENTER: 1918
+386  => (sanded)   NUMV: 7   CENTER: 9178
+387  => (sanded)   NUMV: 16   CENTER: 2087
+388  => (sanded)   NUMV: 6   CENTER: 2516
+389  => (sanded)   NUMV: 13   CENTER: 3347
+390  => (sanded)   NUMV: 13   CENTER: 3454
+391  => (sanded)   NUMV: 28   CENTER: 3159
+392  => (sanded)   NUMV: 5   CENTER: 12217
+393  => (sanded)   NUMV: 7   CENTER: 3443
+394  => (sanded)   NUMV: 7   CENTER: 3679
+395  => (sanded)   NUMV: 10   CENTER: 3694
+396  => (sanded)   NUMV: 8   CENTER: 4318
+397  => (sanded)   NUMV: 13   CENTER: 4812
+398  => (sanded)   NUMV: 2   CENTER: 4643
+399  => (sanded)   NUMV: 8   CENTER: 4902
+400  => (sanded)   NUMV: 16   CENTER: 5006
+401  => (sanded)   NUMV: 21   CENTER: 5199
+402  => (sanded)   NUMV: 15   CENTER: 2126
+403  => (sanded)   NUMV: 14   CENTER: 1129
+404  => (sanded)   NUMV: 13   CENTER: 471
+405  => (sanded)   NUMV: 8   CENTER: 787
+406  => (sanded)   NUMV: 13   CENTER: 628
+407  => (sanded)   NUMV: 11   CENTER: 1365
+408  => (sanded)   NUMV: 3   CENTER: 8564
+409  => (sanded)   NUMV: 9   CENTER: 1804
+410  => (sanded)   NUMV: 9   CENTER: 3834
+411  => (sanded)   NUMV: 14   CENTER: 7
+412  => (sanded)   NUMV: 12   CENTER: 241
+413  => (sanded)   NUMV: 17   CENTER: 875
+414  => (sanded)   NUMV: 9   CENTER: 1151
+415  => (sanded)   NUMV: 4   CENTER: 860
+416  => (sanded)   NUMV: 14   CENTER: 1048
+417  => (sanded)   NUMV: 4   CENTER: 10695
+418  => (sanded)   NUMV: 20   CENTER: 1761
+419  => (sanded)   NUMV: 11   CENTER: 2235
+420  => (sanded)   NUMV: 7   CENTER: 10408
+421  => (sanded)   NUMV: 15   CENTER: 2934
+422  => (sanded)   NUMV: 12   CENTER: 3181
+423  => (sanded)   NUMV: 4   CENTER: 3901
+424  => (sanded)   NUMV: 13   CENTER: 4015
+425  => (sanded)   NUMV: 15   CENTER: 4047
+426  => (sanded)   NUMV: 5   CENTER: 5211
+427  => (sanded)   NUMV: 26   CENTER: 6
+428  => (sanded)   NUMV: 17   CENTER: 125
+429  => (sanded)   NUMV: 11   CENTER: 552
+430  => (sanded)   NUMV: 10   CENTER: 926
+431  => (sanded)   NUMV: 9   CENTER: 1026
+432  => (sanded)   NUMV: 9   CENTER: 1354
+433  => (sanded)   NUMV: 17   CENTER: 1050
+434  => (sanded)   NUMV: 10   CENTER: 1440
+435  => (sanded)   NUMV: 12   CENTER: 1204
+436  => (sanded)   NUMV: 9   CENTER: 1230
+437  => (sanded)   NUMV: 16   CENTER: 1308
+438  => (sanded)   NUMV: 10   CENTER: 1887
+439  => (sanded)   NUMV: 13   CENTER: 1541
+440  => (sanded)   NUMV: 55   CENTER: 1414
+441  => (sanded)   NUMV: 12   CENTER: 1920
+442  => (sanded)   NUMV: 29   CENTER: 1770
+443  => (sanded)   NUMV: 11   CENTER: 3299
+444  => (sanded)   NUMV: 16   CENTER: 2945
+445  => (sanded)   NUMV: 11   CENTER: 2998
+446  => (sanded)   NUMV: 24   CENTER: 2532
+447  => (sanded)   NUMV: 20   CENTER: 1784
+448  => (sanded)   NUMV: 19   CENTER: 3135
+449  => (sanded)   NUMV: 6   CENTER: 3548
+450  => (sanded)   NUMV: 20   CENTER: 3392
+451  => (sanded)   NUMV: 11   CENTER: 3590
+452  => (sanded)   NUMV: 10   CENTER: 3646
+453  => (sanded)   NUMV: 13   CENTER: 4022
+454  => (sanded)   NUMV: 1   CENTER: 19815
+455  => (sanded)   NUMV: 35   CENTER: 2346
+456  => (sanded)   NUMV: 8   CENTER: 4517
+457  => (sanded)   NUMV: 11   CENTER: 4693
+458  => (sanded)   NUMV: 21   CENTER: 4980
+459  => (sanded)   NUMV: 12   CENTER: 5078
+460  => (sanded)   NUMV: 15   CENTER: 7
+461  => (sanded)   NUMV: 10   CENTER: 229
+462  => (sanded)   NUMV: 7   CENTER: 639
+463  => (sanded)   NUMV: 8   CENTER: 980
+464  => (sanded)   NUMV: 15   CENTER: 1609
+465  => (sanded)   NUMV: 10   CENTER: 1568
+466  => (sanded)   NUMV: 10   CENTER: 1710
+467  => (sanded)   NUMV: 7   CENTER: 3018
+468  => (sanded)   NUMV: 11   CENTER: 2636
+469  => (sanded)   NUMV: 11   CENTER: 3204
+470  => (sanded)   NUMV: 8   CENTER: 3270
+471  => (sanded)   NUMV: 10   CENTER: 3441
+472  => (sanded)   NUMV: 12   CENTER: 4097
+473  => (sanded)   NUMV: 10   CENTER: 4271
+474  => (sanded)   NUMV: 15   CENTER: 4644
+475  => (sanded)   NUMV: 13   CENTER: 4726
+476  => (sanded)   NUMV: 11   CENTER: 4881
+477  => (sanded)   NUMV: 9   CENTER: 4906
+478  => (sanded)   NUMV: 6   CENTER: 7753
+479  => (sanded)   NUMV: 8   CENTER: 1312
+480  => (sanded)   NUMV: 24   CENTER: 2780
+481  => (sanded)   NUMV: 10   CENTER: 2703
+482  => (sanded)   NUMV: 12   CENTER: 868
+483  => (sanded)   NUMV: 7   CENTER: 7329
+484  => (sanded)   NUMV: 12   CENTER: 869
+485  => (sanded)   NUMV: 9   CENTER: 3917
+486  => (sanded)   NUMV: 9   CENTER: 11225
+BBOX SIZE: 42.1894 x 64.8005 x 55.8546
+FEATURE SIZE: 0.627546
+Computing Visibility. GPU? 0  Finished? 0
+Computing visibility (CPU)... 20096 verts. 
+Sample: 20/258
+Sample: 40/258
+Sample: 60/258
+Sample: 80/258
+Sample: 100/258
+Sample: 120/258
+Sample: 140/258
+Sample: 160/258
+Sample: 180/258
+Sample: 200/258
+Sample: 220/258
+Sample: 240/258
+Finished computing visibility.
+Comps: 5184768   Ray-casts: 2643293
+MEAN CHARGE: -4.80647  STDDEV: 10.2778
+Relaxing... avg. delta change: 0.437944
+MEAN CHARGE: -4.80702  STDDEV: 10.1183
+Relaxing... avg. delta change: 0.21497
+MEAN CHARGE: -4.80691  STDDEV: 10.0021
+Relaxing... avg. delta change: 0.167938
+MEAN CHARGE: -4.80659  STDDEV: 9.90143
+Relaxing... avg. delta change: 0.144396
+MEAN CHARGE: -4.80621  STDDEV: 9.81037
+Relaxing... avg. delta change: 0.129049
+MEAN CHARGE: -4.80579  STDDEV: 9.72626
+Relaxing... avg. delta change: 0.118032
+MEAN CHARGE: -4.8054  STDDEV: 9.64762
+Relaxing... avg. delta change: 0.109453
+MEAN CHARGE: -4.80496  STDDEV: 9.57356
+Relaxing... avg. delta change: 0.102439
+MEAN CHARGE: -4.80459  STDDEV: 9.5035
+Relaxing... avg. delta change: 0.0964997
+MEAN CHARGE: -4.80418  STDDEV: 9.43694
+Relaxing... avg. delta change: 0.0913111
+MEAN CHARGE: -4.80381  STDDEV: 9.37351
+Relaxing... avg. delta change: 0.0867261
+Writing image: /Storage/bacterjobs/2549/000.png
+Writing image: /Storage/bacterjobs/2549/001.png
+Writing image: /Storage/bacterjobs/2549/002.png
+Writing image: /Storage/bacterjobs/2549/003.png
+Writing image: /Storage/bacterjobs/2549/004.png
+Writing image: /Storage/bacterjobs/2549/005.png
+Writing image: /Storage/bacterjobs/2549/006.png
+Writing image: /Storage/bacterjobs/2549/007.png
+Writing image: /Storage/bacterjobs/2549/008.png
+Writing image: /Storage/bacterjobs/2549/009.png
+Writing image: /Storage/bacterjobs/2549/010.png
+Writing image: /Storage/bacterjobs/2549/011.png
+Writing image: /Storage/bacterjobs/2549/012.png
+Writing image: /Storage/bacterjobs/2549/013.png
+Writing image: /Storage/bacterjobs/2549/014.png
+Writing image: /Storage/bacterjobs/2549/015.png
+Writing image: /Storage/bacterjobs/2549/016.png
+Writing image: /Storage/bacterjobs/2549/017.png
+Writing image: /Storage/bacterjobs/2549/018.png
+Writing image: /Storage/bacterjobs/2549/019.png
+Writing image: /Storage/bacterjobs/2549/020.png
+Writing image: /Storage/bacterjobs/2549/021.png
+Writing image: /Storage/bacterjobs/2549/022.png
+Writing image: /Storage/bacterjobs/2549/023.png
+Writing image: /Storage/bacterjobs/2549/024.png
+Writing image: /Storage/bacterjobs/2549/025.png
+Writing image: /Storage/bacterjobs/2549/026.png
+Writing image: /Storage/bacterjobs/2549/027.png
+Writing image: /Storage/bacterjobs/2549/028.png
+Writing image: /Storage/bacterjobs/2549/029.png
+Writing image: /Storage/bacterjobs/2549/030.png
+Writing image: /Storage/bacterjobs/2549/031.png
+Writing image: /Storage/bacterjobs/2549/032.png
+Writing image: /Storage/bacterjobs/2549/033.png
+Writing image: /Storage/bacterjobs/2549/034.png
+Writing image: /Storage/bacterjobs/2549/035.png
+Writing image: /Storage/bacterjobs/2549/036.png
+Writing image: /Storage/bacterjobs/2549/037.png
+Writing image: /Storage/bacterjobs/2549/038.png
+Writing image: /Storage/bacterjobs/2549/039.png
+Writing image: /Storage/bacterjobs/2549/040.png
+Writing image: /Storage/bacterjobs/2549/041.png
+Writing image: /Storage/bacterjobs/2549/042.png
+Writing image: /Storage/bacterjobs/2549/043.png
+Writing image: /Storage/bacterjobs/2549/044.png
+Writing image: /Storage/bacterjobs/2549/045.png
+Writing image: /Storage/bacterjobs/2549/046.png
+Writing image: /Storage/bacterjobs/2549/047.png
+Writing image: /Storage/bacterjobs/2549/048.png
+Writing image: /Storage/bacterjobs/2549/049.png
+Writing image: /Storage/bacterjobs/2549/050.png
+Writing image: /Storage/bacterjobs/2549/051.png
+Writing image: /Storage/bacterjobs/2549/052.png
+Writing image: /Storage/bacterjobs/2549/053.png
+Writing image: /Storage/bacterjobs/2549/054.png
+Writing image: /Storage/bacterjobs/2549/055.png
+Writing image: /Storage/bacterjobs/2549/056.png
+Writing image: /Storage/bacterjobs/2549/057.png
+Writing image: /Storage/bacterjobs/2549/058.png
+Writing image: /Storage/bacterjobs/2549/059.png
+Writing image: /Storage/bacterjobs/2549/060.png
+Writing image: /Storage/bacterjobs/2549/061.png
+Writing image: /Storage/bacterjobs/2549/062.png
+Writing image: /Storage/bacterjobs/2549/063.png

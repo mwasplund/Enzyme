@@ -1,0 +1,165 @@
+
+DATE: Fri Jul  8 13:10:30 CDT 2011
+
+ GRAPE Run Parameters
+---------------------------------------------------------
+          JOB_ID: 2560 
+        Job_Name: 3G37 
+   PDB file name: 3G37.pdb
+ PDB file source: uploaded from PDB
+---------------------------------------------------------
+
+
+ PDB Structure Information
+--------------------------
+ 
+ TITLE: CRYO-EM STRUCTURE OF ACTIN FILAMENT IN THE PRESENCE OF PHOSPHATE
+ 
+ CHAIN INFO:
+            Chain O: has MOLECULE name: ACTIN, ALPHA SKELETAL MUSCLE with SYNONYM name of: ALPHA-ACTIN-1
+            Chain P: has MOLECULE name: ACTIN, ALPHA SKELETAL MUSCLE with SYNONYM name of: ALPHA-ACTIN-1
+            Chain Q: has MOLECULE name: ACTIN, ALPHA SKELETAL MUSCLE with SYNONYM name of: ALPHA-ACTIN-1
+            Chain R: has MOLECULE name: ACTIN, ALPHA SKELETAL MUSCLE with SYNONYM name of: ALPHA-ACTIN-1
+            Chain S: has MOLECULE name: ACTIN, ALPHA SKELETAL MUSCLE with SYNONYM name of: ALPHA-ACTIN-1
+            Chain T: has MOLECULE name: ACTIN, ALPHA SKELETAL MUSCLE with SYNONYM name of: ALPHA-ACTIN-1
+            Chain U: has MOLECULE name: ACTIN, ALPHA SKELETAL MUSCLE with SYNONYM name of: ALPHA-ACTIN-1
+            Chain V: has MOLECULE name: ACTIN, ALPHA SKELETAL MUSCLE with SYNONYM name of: ALPHA-ACTIN-1
+            Chain W: has MOLECULE name: ACTIN, ALPHA SKELETAL MUSCLE with SYNONYM name of: ALPHA-ACTIN-1
+            Chain X: has MOLECULE name: ACTIN, ALPHA SKELETAL MUSCLE with SYNONYM name of: ALPHA-ACTIN-1
+            Chain Y: has MOLECULE name: ACTIN, ALPHA SKELETAL MUSCLE with SYNONYM name of: ALPHA-ACTIN-1
+            Chain Z: has MOLECULE name: ACTIN, ALPHA SKELETAL MUSCLE with SYNONYM name of: ALPHA-ACTIN-1
+            HetAtm ACE-O0: has MOLECULE name: ACETYL GROUP
+            HetAtm ACE-P0: has MOLECULE name: ACETYL GROUP
+            HetAtm ACE-Q0: has MOLECULE name: ACETYL GROUP
+            HetAtm ACE-R0: has MOLECULE name: ACETYL GROUP
+            HetAtm ACE-S0: has MOLECULE name: ACETYL GROUP
+            HetAtm ACE-T0: has MOLECULE name: ACETYL GROUP
+            HetAtm ACE-U0: has MOLECULE name: ACETYL GROUP
+            HetAtm ACE-V0: has MOLECULE name: ACETYL GROUP
+            HetAtm ACE-W0: has MOLECULE name: ACETYL GROUP
+            HetAtm ACE-X0: has MOLECULE name: ACETYL GROUP
+            HetAtm ACE-Y0: has MOLECULE name: ACETYL GROUP
+            HetAtm ACE-Z0: has MOLECULE name: ACETYL GROUP
+            HetAtm ADP-O800: has MOLECULE name: ADENOSINE-5'-DIPHOSPHATE
+            HetAtm PO4-P801: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-O802: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-O803: has MOLECULE name: PHOSPHATE ION
+            HetAtm MG-O900: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-O901: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-O902: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-O903: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-O904: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-O905: has MOLECULE name: MAGNESIUM ION
+            HetAtm ADP-P800: has MOLECULE name: ADENOSINE-5'-DIPHOSPHATE
+            HetAtm PO4-O801: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-P802: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-P803: has MOLECULE name: PHOSPHATE ION
+            HetAtm MG-P900: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-P901: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-P902: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-P904: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-P905: has MOLECULE name: MAGNESIUM ION
+            HetAtm ADP-Q800: has MOLECULE name: ADENOSINE-5'-DIPHOSPHATE
+            HetAtm PO4-R801: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-Q802: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-Q803: has MOLECULE name: PHOSPHATE ION
+            HetAtm MG-Q900: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-Q901: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-Q902: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-Q903: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-Q376: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-Q904: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-Q905: has MOLECULE name: MAGNESIUM ION
+            HetAtm ADP-R800: has MOLECULE name: ADENOSINE-5'-DIPHOSPHATE
+            HetAtm PO4-Q801: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-R802: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-R803: has MOLECULE name: PHOSPHATE ION
+            HetAtm MG-R900: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-R901: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-R902: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-R903: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-R904: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-R905: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-T905: has MOLECULE name: MAGNESIUM ION
+            HetAtm ADP-S800: has MOLECULE name: ADENOSINE-5'-DIPHOSPHATE
+            HetAtm PO4-T801: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-T376: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-S802: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-S803: has MOLECULE name: PHOSPHATE ION
+            HetAtm MG-S900: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-S901: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-S902: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-S903: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-S904: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-S905: has MOLECULE name: MAGNESIUM ION
+            HetAtm ADP-T800: has MOLECULE name: ADENOSINE-5'-DIPHOSPHATE
+            HetAtm PO4-S801: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-T802: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-T803: has MOLECULE name: PHOSPHATE ION
+            HetAtm MG-T900: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-T901: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-T902: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-T903: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-T904: has MOLECULE name: MAGNESIUM ION
+            HetAtm ADP-U800: has MOLECULE name: ADENOSINE-5'-DIPHOSPHATE
+            HetAtm PO4-U802: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-U803: has MOLECULE name: PHOSPHATE ION
+            HetAtm MG-U900: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-U901: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-W902: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-U902: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-U903: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-U904: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-U905: has MOLECULE name: MAGNESIUM ION
+            HetAtm ADP-V800: has MOLECULE name: ADENOSINE-5'-DIPHOSPHATE
+            HetAtm PO4-U801: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-V802: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-V803: has MOLECULE name: PHOSPHATE ION
+            HetAtm MG-V900: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-V901: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-X902: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-V902: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-V903: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-V904: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-V905: has MOLECULE name: MAGNESIUM ION
+            HetAtm ADP-W800: has MOLECULE name: ADENOSINE-5'-DIPHOSPHATE
+            HetAtm PO4-X801: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-W802: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-W803: has MOLECULE name: PHOSPHATE ION
+            HetAtm MG-W900: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-W901: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-Y902: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-W903: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-W904: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-W905: has MOLECULE name: MAGNESIUM ION
+            HetAtm ADP-X800: has MOLECULE name: ADENOSINE-5'-DIPHOSPHATE
+            HetAtm PO4-W801: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-X802: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-X803: has MOLECULE name: PHOSPHATE ION
+            HetAtm MG-X900: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-X901: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-Z902: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-X903: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-X904: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-X905: has MOLECULE name: MAGNESIUM ION
+            HetAtm ADP-Y800: has MOLECULE name: ADENOSINE-5'-DIPHOSPHATE
+            HetAtm PO4-Z801: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-Y802: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-Y803: has MOLECULE name: PHOSPHATE ION
+            HetAtm MG-Y900: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-Y901: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-Y903: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-Y904: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-Y905: has MOLECULE name: MAGNESIUM ION
+            HetAtm ADP-Z800: has MOLECULE name: ADENOSINE-5'-DIPHOSPHATE
+            HetAtm PO4-Y801: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-Z802: has MOLECULE name: PHOSPHATE ION
+            HetAtm PO4-Z803: has MOLECULE name: PHOSPHATE ION
+            HetAtm MG-Z900: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-Z901: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-Z903: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-Z904: has MOLECULE name: MAGNESIUM ION
+            HetAtm MG-Z905: has MOLECULE name: MAGNESIUM ION
+ 
+ 
+  error: problem running MolSurfAbstract

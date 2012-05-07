@@ -1,0 +1,1 @@
+xgrid -h localhost -out /Storage/bacterjobs/2489 -so /Storage/bacterjobs/2489/2489.out -se /Storage/bacterjobs/2489/2489.xgrid.err -job run /bin/sh /usr/local/grape/grape.sh /usr/local/grape /Storage/bacterjobs/2489 /Storage/bacterjobs/2489/2489.pdb 1BSL.pdb 2489 NONE

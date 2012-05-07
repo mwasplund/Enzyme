@@ -1,0 +1,339 @@
+Finding vertex to triangle maps... Done.
+Finding across-edge maps... Done.
+Building triangle strips... Done.
+  11094 strips (Avg. length 6.6)
+Computing bounding box... Done.
+  x = -4.524 .. 41.949, y = -13.217 .. 58.715, z = 0.402 .. 59.554
+Computing bounding sphere... Done.
+  center = (18.5652, 22.4001, 24.4813), radius = 36.8504
+Computing point areas... Done.
+Computing curvatures... Done.
+Computing dcurv... Done.
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+
+Warning: Missing either "hbondwhatif" or "usage" functions in hbondwhatif.py!
+This extension will not be included.
+
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 MSE A  -10  UNP  P0A6V8              MODIFIED RESIDUE>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 GLY A   -9  UNP  P0A6V8              CLONING ARTIFACT>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 SER A   -8  UNP  P0A6V8              CLONING ARTIFACT>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 SER A   -7  UNP  P0A6V8              CLONING ARTIFACT>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 HIS A   -6  UNP  P0A6V8              EXPRESSION TAG>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 HIS A   -5  UNP  P0A6V8              EXPRESSION TAG>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 HIS A   -4  UNP  P0A6V8              EXPRESSION TAG>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 HIS A   -3  UNP  P0A6V8              EXPRESSION TAG>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 HIS A   -2  UNP  P0A6V8              EXPRESSION TAG>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 HIS A   -1  UNP  P0A6V8              EXPRESSION TAG>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 GLY A   11  UNP  P0A6V8              CLONING ARTIFACT>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 SER A    1  UNP  P0A6V8              CLONING ARTIFACT>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 MSE B  -10  UNP  P0A6V8              MODIFIED RESIDUE>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 GLY B   -9  UNP  P0A6V8              CLONING ARTIFACT>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 SER B   -8  UNP  P0A6V8              CLONING ARTIFACT>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 SER B   -7  UNP  P0A6V8              CLONING ARTIFACT>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 HIS B   -6  UNP  P0A6V8              EXPRESSION TAG>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 HIS B   -5  UNP  P0A6V8              EXPRESSION TAG>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 HIS B   -4  UNP  P0A6V8              EXPRESSION TAG>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 HIS B   -3  UNP  P0A6V8              EXPRESSION TAG>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 HIS B   -2  UNP  P0A6V8              EXPRESSION TAG>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 HIS B   -1  UNP  P0A6V8              EXPRESSION TAG>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 GLY B   11  UNP  P0A6V8              CLONING ARTIFACT>
+Error parsing line: invalid literal for int() with base 10: ''
+<SEQADV 1Q18 SER B    1  UNP  P0A6V8              CLONING ARTIFACT>
+Warning: multiple occupancies found: CB in GLU A 42
+Warning: multiple occupancies found: CG in GLU A 42
+Warning: multiple occupancies found: CD in GLU A 42
+Warning: multiple occupancies found: OE1 in GLU A 42
+Warning: multiple occupancies found: OE2 in GLU A 42
+Warning: multiple occupancies found: SG in CYS A 65
+Warning: multiple occupancies found: N in ILE A 97
+Warning: multiple occupancies found: CA in ILE A 97
+Warning: multiple occupancies found: C in ILE A 97
+Warning: multiple occupancies found: O in ILE A 97
+Warning: multiple occupancies found: CB in ILE A 97
+Warning: multiple occupancies found: CG1 in ILE A 97
+Warning: multiple occupancies found: CG2 in ILE A 97
+Warning: multiple occupancies found: CD1 in ILE A 97
+Warning: multiple occupancies found: CB in LYS B 128
+Warning: multiple occupancies found: CG in LYS B 128
+Warning: multiple occupancies found: CD in LYS B 128
+Warning: multiple occupancies found: CE in LYS B 128
+Warning: multiple occupancies found: NZ in LYS B 128
+Warning: multiple occupancies found: CB in ARG B 243
+Warning: multiple occupancies found: CG in ARG B 243
+Warning: multiple occupancies found: CD in ARG B 243
+Warning: multiple occupancies found: NE in ARG B 243
+Warning: multiple occupancies found: CZ in ARG B 243
+Warning: multiple occupancies found: NH1 in ARG B 243
+Warning: multiple occupancies found: NH2 in ARG B 243
+Warning: multiple occupancies found: CB in THR B 254
+Warning: multiple occupancies found: OG1 in THR B 254
+Warning: multiple occupancies found: CG2 in THR B 254
+Warning: The 'energy' print keyword is deprecated.
+         Use elecEnergy for electrostatics energy calcs.
+
+Finding vertex neighbors... Done.
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex to triangle maps... Done.
+Computing normals... Done.
+Computing curvatures... Done.
+Computing normals... Done.
+Finding vertex to triangle maps... Done.
+Finding across-edge maps... Done.
+Building triangle strips... Done.
+  9050 strips (Avg. length 7.3)
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex to triangle maps... Done.
+Computing normals... Done.
+Computing curvatures... Done.
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Computing normals... Done.
+Finding vertex to triangle maps... Done.
+Finding across-edge maps... Done.
+Building triangle strips... Done.
+  6780 strips (Avg. length 7.6)
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex to triangle maps... Done.
+Computing normals... Done.
+Computing curvatures... Done.
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Computing normals... Done.
+Finding vertex to triangle maps... Done.
+Finding across-edge maps... Done.
+Building triangle strips... Done.
+  5479 strips (Avg. length 7.4)
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Computing normals... Done.
+Computing curvatures... Done.
+Computing dcurv... Done.
+Computing bounding box... Done.
+  x = -2.53868 .. 40.9084, y = -9.07375 .. 57.3588, z = 1.95785 .. 54.7832
+Computing bounding sphere... Done.
+  center = (21.8719, 23.4149, 22.6892), radius = 34.0906
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Finding vertex to triangle maps... Done.
+Finding across-edge maps... Done.
+Building triangle strips... Done.
+  11577 strips (Avg. length 6.5)
+Computing bounding box... Done.
+  x = -9.705 .. 38.892, y = -9.269 .. 60.372, z = 25.323 .. 88.288
+Computing bounding sphere... Done.
+  center = (14.0161, 24.9031, 61.4255), radius = 36.8765
+Computing point areas... Done.
+Computing curvatures... Done.
+Computing dcurv... Done.
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Finding vertex neighbors... Done.
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex to triangle maps... Done.
+Computing normals... Done.
+Computing curvatures... Done.
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Computing normals... Done.
+Finding vertex to triangle maps... Done.
+Finding across-edge maps... Done.
+Building triangle strips... Done.
+  8881 strips (Avg. length 7.4)
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex to triangle maps... Done.
+Computing normals... Done.
+Computing curvatures... Done.
+Computing normals... Done.
+Finding vertex to triangle maps... Done.
+Finding across-edge maps... Done.
+Building triangle strips... Done.
+  6872 strips (Avg. length 7.4)
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Finding vertex to triangle maps... Done.
+Computing normals... Done.
+Computing curvatures... Done.
+Computing normals... Done.
+Finding vertex to triangle maps... Done.
+Finding across-edge maps... Done.
+Building triangle strips... Done.
+  5375 strips (Avg. length 7.5)
+Finding vertex neighbors... Done.
+Computing point areas... Done.
+Computing normals... Done.
+Computing curvatures... Done.
+Computing dcurv... Done.
+Computing bounding box... Done.
+  x = -6.1866 .. 36.0028, y = -5.86331 .. 58.9372, z = 29.0827 .. 84.9373
+Computing bounding sphere... Done.
+  center = (12.6798, 26.0566, 61.697), radius = 33.4605
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Warning: called MathVec3D::normalize on the zero vector
+Writing /Storage/bacterjobs/2549/decal-2549_00_0_A.face_abstracted.ply... Done.
+Writing /Storage/bacterjobs/2549/decal-2549_00_0_A.face.ply... Done.
+Writing /Storage/bacterjobs/2549/decal-2549_01_319_B.face_abstracted.ply... Done.
+Writing /Storage/bacterjobs/2549/decal-2549_01_319_B.face.ply... Done.

@@ -1,0 +1,1 @@
+/usr/local/grape/grape.sh: line 46: 92203 Bus error               GRAPHICS_TOOLS=/usr/local/grape/Release ./MolSurfAbstract $PDBFILE $JOBD > $JOBD/MolSurfAbstract.log

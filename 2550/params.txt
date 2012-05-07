@@ -1,0 +1,21 @@
+
+DATE: Fri Jun 24 12:01:37 CDT 2011
+
+ GRAPE Run Parameters
+---------------------------------------------------------
+          JOB_ID: 2550 
+        Job_Name:  
+   PDB file name: 1JWL.pdb
+ PDB file source: uploaded from user's computer
+---------------------------------------------------------
+
+
+ PDB Structure Information
+--------------------------
+ 
+ TITLE: (No title information found in PDB file.)
+ 
+ CHAIN INFO:
+            Chain A: does not have an associated MOL_ID record in PDB file header.
+            Chain B: does not have an associated MOL_ID record in PDB file header.
+ 

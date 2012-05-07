@@ -1,0 +1,1 @@
+xgrid -h localhost -p NeverGuess -out /Storage/bacterjobs/2584 -so /Storage/bacterjobs/2584/2584.out -se /Storage/bacterjobs/2584/2584.xgrid.err -job run /bin/sh /usr/local/grape/grape.sh /usr/local/grape /Storage/bacterjobs/2584 /Storage/bacterjobs/2584/2584.pdb 1E7K_b_r.pdb 2584 NONE

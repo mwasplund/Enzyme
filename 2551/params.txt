@@ -1,0 +1,21 @@
+
+DATE: Fri Jun 24 13:46:18 CDT 2011
+
+ GRAPE Run Parameters
+---------------------------------------------------------
+          JOB_ID: 2551 
+        Job_Name: 3GBG 
+   PDB file name: 3GBG.pdb
+ PDB file source: uploaded from PDB
+---------------------------------------------------------
+
+
+ PDB Structure Information
+--------------------------
+ 
+ TITLE: CRYSTAL STRUCTURE OF TOXT FROM VIBRIO CHOLERAE O395
+ 
+ CHAIN INFO:
+            Chain A: has MOLECULE name: TCP PILUS VIRULENCE REGULATORY PROTEIN
+            HetAtm PAM-A5975: has MOLECULE name: PALMITOLEIC ACID
+ 

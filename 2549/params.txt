@@ -1,0 +1,21 @@
+
+DATE: Fri Jun 24 10:02:57 CDT 2011
+
+ GRAPE Run Parameters
+---------------------------------------------------------
+          JOB_ID: 2549 
+        Job_Name: 1Q18 
+   PDB file name: 1Q18.pdb
+ PDB file source: uploaded from PDB
+---------------------------------------------------------
+
+
+ PDB Structure Information
+--------------------------
+ 
+ TITLE: CRYSTAL STRUCTURE OF E.COLI GLUCOKINASE (GLK)
+ 
+ CHAIN INFO:
+            Chain A: has MOLECULE name: GLUCOKINASE with SYNONYM name of: GLUCOSE KINASE
+            Chain B: has MOLECULE name: GLUCOKINASE with SYNONYM name of: GLUCOSE KINASE
+ 

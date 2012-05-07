@@ -1,0 +1,26 @@
+
+DATE: Tue Aug  2 09:51:01 CDT 2011
+
+ GRAPE Run Parameters
+---------------------------------------------------------
+          JOB_ID: 2576 
+        Job_Name: 1IND 
+   PDB file name: 1IND.pdb
+ PDB file source: uploaded from PDB
+---------------------------------------------------------
+
+
+ PDB Structure Information
+--------------------------
+ 
+ TITLE: HOW THE ANTI-(METAL CHELATE) ANTIBODY CHA255 IS SPECIFIC
+           FOR THE METAL ION OF ITS ANTIGEN: X-RAY STRUCTURES FOR TWO
+           FAB'(SLASH)HAPTEN COMPLEXES WITH DIFFERENT METALS IN THE
+           CHELATE
+ 
+ CHAIN INFO:
+            Chain L: has MOLECULE name: IGG1-LAMBDA CHA255 FAB (LIGHT CHAIN)
+            Chain H: has MOLECULE name: IGG1-LAMBDA CHA255 FAB (HEAVY CHAIN)
+            HetAtm IN-H800: has MOLECULE name: INDIUM (III) ION
+            HetAtm EOT-H801: has MOLECULE name: [(1-[(BIS-CARBOXYMETHYL-AMINO)-METHYL]-2-{4-[3-(2-HYDROXY-ETHYL)-THIOUREIDO]-PHENY}-ETHYL)-CARBOXYMETHYL-AMINO]-ACETIC ACID
+ 
