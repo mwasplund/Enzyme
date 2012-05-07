@@ -24,20 +24,71 @@
 <script src="ModelLoader.js"></script>
 
 <script>
-	var StickersVisible = true;
-	function ToggleStickersVisible()
+	var HBondsStickersVisible = false;
+	function ToggleHBondsStickersVisible()
 	{
-		if(StickersVisible)
+		if(HBondsStickersVisible)
 		{
-			$("#ToggleStickers").removeClass("visible");
-			$("#ToggleStickers").addClass("invisible");
-			StickersVisible = false;
+			$("#ToggleHBondsStickers").removeClass("visible");
+			$("#ToggleHBondsStickers").addClass("invisible");
+			HBondsStickersVisible = false;
 		}
 		else
 		{
-			$("#ToggleStickers").removeClass("invisible");
-			$("#ToggleStickers").addClass("visible");
-			StickersVisible = true;
+			$("#ToggleHBondsStickers").removeClass("invisible");
+			$("#ToggleHBondsStickers").addClass("visible");
+			HBondsStickersVisible = true;
+		}
+	}
+
+	var DetectedPocketsStickersVisible = false;
+	function ToggleDetectedPocketsStickersVisible()
+	{
+		if(DetectedPocketsStickersVisible)
+		{
+			$("#ToggleDetectedPocketsStickers").removeClass("visible");
+			$("#ToggleDetectedPocketsStickers").addClass("invisible");
+			DetectedPocketsStickersVisible = false;
+		}
+		else
+		{
+			$("#ToggleDetectedPocketsStickers").removeClass("invisible");
+			$("#ToggleDetectedPocketsStickers").addClass("visible");
+			DetectedPocketsStickersVisible = true;
+		}
+	}
+
+	var InterfacesStickersVisible = false;
+	function ToggleInterfacesStickersVisible()
+	{
+		if(InterfacesStickersVisible)
+		{
+			$("#ToggleInterfacesStickers").removeClass("visible");
+			$("#ToggleInterfacesStickers").addClass("invisible");
+			InterfacesStickersVisible = false;
+		}
+		else
+		{
+			$("#ToggleInterfacesStickers").removeClass("invisible");
+			$("#ToggleInterfacesStickers").addClass("visible");
+			InterfacesStickersVisible = true;
+		}
+	}
+
+	var PeakBowlStickersVisible = true;
+	function TogglePeakBowlStickersVisible()
+	{
+		if(PeakBowlStickersVisible)
+		{
+			$("#TogglePeakBowlStickers").removeClass("visible");
+			$("#TogglePeakBowlStickers").addClass("invisible");
+			PeakBowlStickersVisible = false;
+		}
+		else
+		{
+			$("#TogglePeakBowlStickers").removeClass("invisible");
+			$("#TogglePeakBowlStickers").addClass("visible");
+			PeakBowlStickersVisible = true;
 		}
 	}
 
@@ -228,13 +279,16 @@
 				</div>
 			</div>
 			<div id="Selector" style="display:inline-block; vertical-align: top;">
-				<div class="toggle invisible" title="Hydrogen bond stickers are placed on the surface in areas that are close to one or more atoms that could form an external hydrogen bond.">
+				<div class="toggle invisible" id="ToggleHBondsStickers" onclick="ToggleHBondsStickersVisible();"
+				title="Hydrogen bond stickers are placed on the surface in areas that are close to one or more atoms that could form an external hydrogen bond.">
 				H-Bonds</div>
-				<div class="toggle invisible" title="Detected Pockets indicate regions of the surface that resemble binding pockets, according to a variant of the Ligsite pocket detector.">
+				<div class="toggle invisible" id="ToggleDetectedPocketsStickers" onclick="ToggleDetectedPocketsStickersVisible();"
+				title="Detected Pockets indicate regions of the surface that resemble binding pockets, according to a variant of the Ligsite pocket detector.">
 				Detected Pockets</div>
-				<div class="toggle invisible" title="Interfaces indicate regions of the surface in close proximity to another chain.">
+				<div class="toggle invisible" id="ToggleInterfacesStickers" onclick="ToggleInterfacesStickersVisible();"
+				title="Interfaces indicate regions of the surface in close proximity to another chain.">
 				Interferences</div>
-				<div class="toggle visible" id="ToggleStickers" onclick="ToggleStickersVisible();"
+				<div class="toggle visible" id="TogglePeakBowlStickers" onclick="TogglePeakBowlStickersVisible();"
 				 title="peak/bowl stickers display as an 'X' or 'O', respectively, points where significant peaks or bumps in the original solvent excluded surface were removed.">
 				 Peaks/Bowls</div>
 				<h3>Surface Data</h3>
