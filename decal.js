@@ -10,7 +10,7 @@
 }
 
 
-var ply_decal = function(raw_decal, vertices, indices, image)
+var ply_decal = function(raw_decal, vertices, indices, image, filename)
 {
 	
 	this.TriangleIndices = [];
@@ -83,33 +83,46 @@ var ply_decal = function(raw_decal, vertices, indices, image)
 	this.UVBuffer.itemSize = 2;
 	this.UVBuffer.numItems = this.UV.length/2;
 
-
-	// Download the texture image
-	this.Texture = gl.createTexture();
-	this.Texture.image = new Image();
-	var Texture = this.Texture;
-	this.Texture.image.onload = function()
+	// Check the Texture store
+	this.Texture = null;
+	for(var i = 0; i < ply_decal.textureCache.length; i++)
 	{
-		checkGLError();
-		gl.bindTexture(gl.TEXTURE_2D, Texture);
-		checkGLError();
-		//gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
-		checkGLError();
-		gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, Texture.image);
-		//gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.NEAREST);
-		// gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.NEAREST);
-		checkGLError();
-		gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
-		gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR_MIPMAP_NEAREST);
-		gl.generateMipmap(gl.TEXTURE_2D);
-		checkGLError();
-		gl.bindTexture(gl.TEXTURE_2D, null);
-		//Debug.Trace("Image Loaded: " + Texture.image.src);
-		checkGLError();		
+		if(ply_decal.textureCache[i].filename == filename)
+		{
+			this.Texture = ply_decal.textureCache[i];
+			break;
+		}
 	}
-	this.Texture.image.src = "data:image/png;base64," + base64Encode(image);
 	
-	//$("#test_image").attr("src", "data:image/png;base64," + base64Encode(image));
+	if(this.Texture == null)
+	{
+		// Download the texture image
+		this.Texture = gl.createTexture();
+		this.Texture.image = new Image();
+		var Texture = this.Texture;
+		this.Texture.image.onload = function()
+		{
+			checkGLError();
+			gl.bindTexture(gl.TEXTURE_2D, Texture);
+			checkGLError();
+			//gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
+			checkGLError();
+			gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, Texture.image);
+			//gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.NEAREST);
+			// gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.NEAREST);
+			checkGLError();
+			gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+			gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR_MIPMAP_NEAREST);
+			gl.generateMipmap(gl.TEXTURE_2D);
+			checkGLError();
+			gl.bindTexture(gl.TEXTURE_2D, null);
+			//Debug.Trace("Image Loaded: " + Texture.image.src);
+			checkGLError();		
+		}
+		this.Texture.image.src = "data:image/png;base64," + base64Encode(image);
+		this.Texture.filename = filename;
+		ply_decal.textureCache.push(this.Texture);
+	}
 	
 	this.draw = function(i_ShaderProgram)
 	{		
@@ -126,4 +139,6 @@ var ply_decal = function(raw_decal, vertices, indices, image)
 	}
 }
 
+
+ply_decal.textureCache = [];
 

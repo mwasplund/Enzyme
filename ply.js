@@ -62,7 +62,7 @@ ply.file = function(zip, filename, i_AmbientOcclusion, i_DecalLists)
 			decallist.type = raw_decallist.type;
 			
 			for(var k = 0; k < raw_decallist.length; k++)
-				decallist.push(new ply_decal(raw_decallist[k], this.vertices, this.indices, this.zip.getFile(raw_decallist[k].texfilename).Data));
+				decallist.push(new ply_decal(raw_decallist[k], this.vertices, this.indices, this.zip.getFile(raw_decallist[k].texfilename).Data, raw_decallist[k].texfilename));
 						
 			this.decallists.push(decallist);
 		}
