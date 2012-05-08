@@ -6,8 +6,9 @@
 <link href="master.css" rel="stylesheet" type="text/css">
 <link rel="icon" href="content/images/fav.ico" />
 
-<script src="js-unzip.js"></script>
-<script src="js-inflate.js"></script>
+<script src="Helpers.js"></script>
+<script src="BinaryReader.js"></script>
+<script src="Zip.js"></script>
 <script src="jquery.js"></script>
 <script src="surfacedata.js"></script>
 <script src="chainsurface.js"></script>
@@ -21,9 +22,9 @@
 <script src="Debug.js"></script>
 <script src="Helper.js"></script>
 <script src="glMatrix.js"></script>
-<script src="ModelLoader.js"></script>
 
 <script>
+
 	var HBondsStickersVisible = false;
 	function ToggleHBondsStickersVisible()
 	{
@@ -133,7 +134,11 @@
 		window.addEventListener("resize", OnResize, false);
 		OnResize();
 		
-		Surface = new surfacedata("2487/decal-2487/", "decal-2487.xml", SurfaceLoaded);
+		var urlVars = getUrlVars();
+		var id = urlVars["id"];
+		
+		Surface = new surfacedata(id);
+		Surface.load(SurfaceLoaded);
 		
 		// Load the shaders
 		gl.loadShaders(["Enzyme", "Decal"], ""); 
@@ -291,9 +296,11 @@
 				<div class="toggle visible" id="TogglePeakBowlStickers" onclick="TogglePeakBowlStickersVisible();"
 				 title="peak/bowl stickers display as an 'X' or 'O', respectively, points where significant peaks or bumps in the original solvent excluded surface were removed.">
 				 Peaks/Bowls</div>
+				<img alt="test image" id="test_image"/>
 				<h3>Surface Data</h3>
 				<ul id="SurfaceData">
 				</ul>
+				
 			</div>
 		</div>
 	</div>

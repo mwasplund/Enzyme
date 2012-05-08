@@ -1,53 +1,43 @@
-﻿function surfacedata(i_Path, i_Filename, i_Callback)
+﻿function surfacedata(id, i_Callback)
 {
-	this.path = i_Path;
-	this.filename = i_Filename;
-	this.callback = i_Callback;
+	this.path = id + "/";
+	this.id = id;
+	this.filename = id + "_uncompressed.zip";
+	this.zip = new Zip(this.path + this.filename);
+	
+	this.load = function(success, failure)
+	{
+		var sd = this;
+		sd.zip.load(
+		function()
+		{
+			var file = DataViewToString(sd.zip.getFile("decal-" + sd.id + ".xml").Data);
+			var xml = StringtoXML(file);
+			for(var i = 0; i < xml.childNodes.length; i++)
+			{
+				var node = xml.childNodes[i];
+				if(node instanceof Element && node.nodeName == "surfacedata")
+				{
+					sd.parseSurfaceData(node);
+				}
+				else if(node instanceof Text)
+				{
+					// Ignore Text
+				}
+				else
+				{
+					throw 2;
+				}
+			}
+			
+			if(success != null)
+				success();
+		},
+		failure
+		);
+	}
+	
 
-	var xhr = new XMLHttpRequest();
-	var file = this;
-	xhr.onreadystatechange = function () 
-	{
-		if (xhr.readyState == xhr.DONE) 
-		{
-			if ((xhr.status == 200 || xhr.status == 0) && xhr.responseXML) // MWA - for some reason local tests return 0 on ready 
-			{
-				file.parseFile(xhr.responseXML); // MWA - should seperate
-				if(file.callback != null)
-					file.callback();
-			} 
-			else 
-			{
-				throw 1;
-			}
-		}
-	}
-	
-	// Open the request for the provided url
-	xhr.open("GET", i_Path + i_Filename, true);	
-	xhr.send();
-	
-	this.parseFile = function(xml)
-	{
-		for(var i = 0; i < xml.childNodes.length; i++)
-		{
-			var node = xml.childNodes[i];
-			if(node instanceof Element && node.nodeName == "surfacedata")
-			{
-				this.parseSurfaceData(node);
-			}
-			else if(node instanceof Text)
-			{
-				// Ignore Text
-			}
-			else
-			{
-				throw 2;
-			}
-		}
-	}
-	
-	
 	this.chainsurfaces = [];
 	this.parseSurfaceData = function(xml)
 	{
@@ -73,10 +63,24 @@
 					
 					// load the mesh files
 					if(cs.abstract_surfacefilename != "")
-						cs.abstract_surfacefile = new ply.file(this.path, cs.abstract_surfacefilename, cs.abstract_ambient_occlusion, cs.decallists);
-					
+					{
+						cs.abstract_surfacefile = new ply.file(
+							this.zip, 
+							cs.abstract_surfacefilename, 
+							cs.abstract_ambient_occlusion, 
+							cs.decallists
+							);
+						cs.abstract_surfacefile.parseFile();
+					}
 					if(cs.orig_surfacefilename != "")
-						cs.orig_surfacefile = new ply.file(this.path, cs.orig_surfacefilename, cs.orig_ambient_occlusion);
+					{
+						cs.orig_surfacefile = new ply.file(
+							this.zip, 
+							cs.orig_surfacefilename, 
+							cs.orig_ambient_occlusion
+							);
+						cs.orig_surfacefile.parseFile();
+					}
 					
 					this.chainsurfaces.push(cs);
 				}

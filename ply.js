@@ -1,45 +1,39 @@
 ﻿var ply = {};
-ply.file = function(i_Path, i_Filename, i_AmbientOcclusion, i_DecalLists)
+ply.file = function(zip, filename, i_AmbientOcclusion, i_DecalLists)
 {
-	this.path =  i_Path;
-	this.filename = i_Filename;
+	this.zip = zip;
+	this.file = zip.getFile(filename).Data;
+	this.filename = filename;
 	this.ambientocclusion = i_AmbientOcclusion;
 	if(i_DecalLists != null)
 		this.raw_decallists = i_DecalLists;
 	else
 		this.raw_decallists = [];
 		
-	var xhr = new XMLHttpRequest();
-	var file = this;
-	file.response = null;
-	xhr.onreadystatechange = function () 
+		
+	/******************************************************/
+	/* nextLabel.
+	/*
+	/* return the next label
+	/******************************************************/
+	this.nextLabel = function(reader)
 	{
-		if (xhr.readyState == xhr.DONE) 
+		var l = "";
+		var c = reader.ReadChar();
+		while(reader.index < reader.length && c != "\n")
 		{
-			if ((xhr.status == 200 || xhr.status == 0) && xhr.response) // MWA - for some reason local tests return 0 on ready 
-			{
-				// The 'response' property returns an ArrayBuffer
-				file.file = new ply.FileContainer(xhr.response);
-				file.parseFile(); // MWA - should seperate
-			} 
-			else 
-			{
-				throw 1;
-			}
+			l += c;
+			c = reader.ReadChar();
 		}
+			
+		return l;
 	}
-	
-	// Open the request for the provided url
-	xhr.open("GET", i_Path + i_Filename, true);
-	
-	// Set the responseType to 'arraybuffer' for ArrayBuffer response
-	xhr.responseType = "arraybuffer";
-	
-	xhr.send();
-  
-	file.parseFile = function()
+
+	  
+	this.parseFile = function()
 	{
-		var l = this.file.nextLabel();
+		var reader = new BinaryReader(this.file);
+		var l = this.nextLabel(reader);
 		
 		while(l != "end_header")
 		{
@@ -47,17 +41,17 @@ ply.file = function(i_Path, i_Filename, i_AmbientOcclusion, i_DecalLists)
 			{
 				this.size = parseInt(l.substr(15), 10);
 			}
-			l = this.file.nextLabel();
+			l = this.nextLabel(reader);
 		}
 			
 		this.vertices = [];
 		while(this.vertices.length / 3 < this.size)
-			this.vertices.push(this.file.nextFloat32());
+			this.vertices.push(reader.ReadSingle());
 			
-		var indicesLength = this.file.nextInt32()
+		var indicesLength = reader.ReadInt32()
 		this.indices = [];
 		for(var i = 0; i < indicesLength; i++)
-			this.indices.push(this.file.nextInt32());
+			this.indices.push(reader.ReadInt32());
 		
 		// Consturct the textures
 		this.decallists = [];
@@ -68,7 +62,7 @@ ply.file = function(i_Path, i_Filename, i_AmbientOcclusion, i_DecalLists)
 			decallist.type = raw_decallist.type;
 			
 			for(var k = 0; k < raw_decallist.length; k++)
-				decallist.push(new ply_decal(raw_decallist[k], this.vertices, this.indices, this.path));
+				decallist.push(new ply_decal(raw_decallist[k], this.vertices, this.indices, this.zip.getFile(raw_decallist[k].texfilename).Data));
 						
 			this.decallists.push(decallist);
 		}
@@ -109,7 +103,7 @@ ply.file = function(i_Path, i_Filename, i_AmbientOcclusion, i_DecalLists)
 		}
 	}
 	
-	file.draw = function(i_EnzymeShaderProgram, i_DecalShaderProgram)
+	this.draw = function(i_EnzymeShaderProgram, i_DecalShaderProgram)
 	{
 		gl.useProgram(i_EnzymeShaderProgram);
 		setMatrixUniforms(i_EnzymeShaderProgram);
@@ -163,7 +157,7 @@ ply.file = function(i_Path, i_Filename, i_AmbientOcclusion, i_DecalLists)
 		gl.disable(gl.POLYGON_OFFSET_FILL);
 	}
 	
-	return file;
+	return this;
 }
 
 ply.Mesh = function()
@@ -172,19 +166,6 @@ ply.Mesh = function()
 	this.AmbientOcclusion = [];
 }
 
-/******************************************************/
-/* FileContainer
-/******************************************************/
-/*
-/* A Container for parsing out the needed data from
-/* the binary file.
-/******************************************************/
-ply.FileContainer = function(i_File)
-{
-	this.reader  = new DataView(i_File);
-	this.length = this.reader.byteLength;
-	this.index = 0;
-	
 	/******************************************************/
 	/* nextLabel.
 	/*
@@ -202,42 +183,4 @@ ply.FileContainer = function(i_File)
 			
 		return l;
 	}
-	
-	/******************************************************/
-	/* nextInt32
-	/*
-	/* calulates and returns the next four bytes as a little
-	/* endian 32 bit signed integer.
-	/******************************************************/
-	this.nextInt32 = function()
-	{
-		var i = this.reader.getInt32(this.index, true);
-		this.index += 4;
-		return i;
-	}
 
-	
-	/******************************************************/
-	/* nextInt8.
-	/*
-	/* return the next byte as an integer representation
-	/******************************************************/
-	this.nextInt8 = function()
-	{
-		return this.reader.getInt8(this.index++);
-	}
-
-
-	/******************************************************/
-	/* nextFloat32
-	/*
-	/* calulates and returns the next four bytes as a little
-	/* endian 32 bit double 
-	/******************************************************/
-	this.nextFloat32 = function()
-	{
-		var f = this.reader.getFloat32(this.index, true);
-		this.index += 4;
-		return f;
-	}
-}

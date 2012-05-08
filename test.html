@@ -1,31 +1,22 @@
 ﻿<html>
+<head>
+<script language="JavaScript"><!--
+var image1 = '#define x_width 16\n#define x_height 16\nstatic char x_bits[] = {\n' +
+' 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55, 0x55};\n';
+
+var image2 = '#define x_width 16\n#define x_height 16\nstatic char x_bits[] = {\n' +
+' 0x00, 0x00, 0xff, 0xff, 0x00, 0x00, 0xff, 0xff, 0x00, 0x00, 0xff, 0xff, 0x00, 0x00, 0xff, 0xff, 0x00, 0x00, 0xff, 0xff, 0x00, 0x00, 0xff, 0xff, 0x00, 0x00, 0xff, 0xff, 0x00, 0x00, 0xff, 0xff};\n';
+//--></script>
+</head>
+
 <body>
-<script language="JavaScript">
-function function3() {
-   myX.innerHTML = window.event.offsetX;
-   myY.innerHTML = window.event.offsetY; 
-} 
-function function1() {
-   myDiv.setCapture();
-}
-function function2() {
-   myDiv.releaseCapture();
-}
-</script>
-<p>
-    <b>X Coordinate:</b> 
-    <span id="myX">0</span>
-</p>
-<p>
-    <b>Y Coordinate:</b> 
-    <span id="myY">0</span>
-</p>
-<div id="myDiv" 
-     onmousemove="function3();" 
-     onclick="function2();" 
-     style="border:solid; width:500;height:200;">
-     Click inside the box to disable mouse capture outside the box
-</div>
-<button onclick="function1()">Set capture</button>
+
+<img name="myImage" src="javascript:image1" width="16" height="16">
+
+<form>
+<input type="button" onClick="if (document.images) myImage.src='javascript:image1'" value="Show Image 1">
+<input type="button" onClick="if (document.images) myImage.src='javascript:image2'" value="Show Image 2">
+</form>
+
 </body>
 </html>
